@@ -49,6 +49,12 @@ LITRES_EDITIONS = {
     446730: ("povarennaya-kniga-anarhista-podzemelya-70208305", "Поваренная книга анархиста Подземелья", "9785222420287"),
     446722: ("vrata-dikih-bogov-70208311", "Врата Диких Богов", "9785222420294"),
 }
+RULIT_TRANSLATIONS = {
+    818989: ("oko-nevesty-bedlama-download-1148010", "Око Невесты Бедлама", "Динниман"),
+    1464466: ("etot-neotvratimyj-krah-download-1151434", "Этот неотвратимый крах", "Динниман"),
+    1817542: ("parad-uzhasov-download-1154379", "Парад ужасов", "Динниман"),
+    436502: ("korotkoe-prebyvanie-v-adu-download-1137434", "Короткое пребывание в аду", "Пек"),
+}
 CATALOGUE_ERRORS = (OSError, HTTPException, ValueError, KeyError, TypeError)
 
 
@@ -316,6 +322,27 @@ def boys_and_books_description(url):
     return description if russian_text(description) else None
 
 
+def rulit_translation(book_id):
+    slug, title, surname = RULIT_TRANSLATIONS[book_id]
+    url = f"https://www.rulit.me/books/{slug}.html"
+    try:
+        page = catalogue_html(url)
+    except (OSError, HTTPException):
+        return None
+    headings = re.findall(r"<h2\b[^>]*>(.*?)</h2>", page, re.I | re.S)
+    if not any(compact(plain_description(value)) == compact(title) for value in headings):
+        return None
+    author = re.search(r'Автор:\s*<a\b[^>]*>(.*?)</a>', page, re.I | re.S)
+    if not author or surname.casefold() not in plain_description(author[1]).casefold().split():
+        return None
+    if not re.search(r'Язык:\s*<span\b[^>]*>русский\s*</span>', page, re.I):
+        return None
+    kind = "fan" if re.search(r'/genre/fan-translation["\']\s+class="post-cat"', page) else "unofficial"
+    annotation = re.search(r'<div class="annotation">\s*<h4>Аннотация</h4>(.*?)</div>', page, re.S)
+    description = plain_description(annotation[1]) if annotation else None
+    return {"title": title, "kind": kind, "url": url, "description": description}
+
+
 def cover_dimensions(url):
     if urlparse(url).hostname not in {"assets.hardcover.app", "fantlab.ru"}:
         return 0, 0
@@ -465,10 +492,18 @@ def card(book, previous=None):
         localized_cover = better_cover(previous_cover or localized_cover, [localized_cover, *alternatives])
     if status == "unconfirmed":
         description = None
+    translation = None
+    if not localized_title and book["id"] in RULIT_TRANSLATIONS:
+        translation = rulit_translation(book["id"])
+        if not translation and previous.get("translation_kind") and previous.get("translation_url"):
+            translation = {"title": previous["title"], "kind": previous["translation_kind"],
+                           "url": previous["translation_url"], "description": previous.get("description")}
+        if translation and russian_text(translation["description"]):
+            description, description_source = translation["description"], "RuLit"
     return {
         "id": book["id"],
         "url": "https://hardcover.app/books/" + book["slug"],
-        "title": localized_title or book["title"],
+        "title": localized_title or (translation or {}).get("title") or book["title"],
         "original_title": book["title"],
         "authors": list(dict.fromkeys(authors)),
         "published": book.get("release_date"),
@@ -480,6 +515,8 @@ def card(book, previous=None):
         "cover_url": localized_cover or (cover(book) if status != "unconfirmed" else None),
         "russian_cover": bool(localized_cover),
         "edition_status": status,
+        "translation_kind": (translation or {}).get("kind"),
+        "translation_url": (translation or {}).get("url"),
         "edition_source": edition_source,
         "description_source": description_source,
         "description": description,
