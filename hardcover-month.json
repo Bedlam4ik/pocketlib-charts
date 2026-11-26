@@ -34,7 +34,7 @@
     {
       "id": 430559,
       "url": "https://hardcover.app/books/a-court-of-splintered-harmony",
-      "title": null,
+      "title": "A Court of Splintered Harmony",
       "original_title": "A Court of Splintered Harmony",
       "authors": [
         "Sarah J. Maas"
@@ -50,12 +50,12 @@
       ],
       "russian_edition_id": null,
       "russian_isbns": [],
-      "cover_url": null,
+      "cover_url": "https://assets.hardcover.app/edition/30390459/ee9f70bd-d62e-4636-a0b6-ad98746d065a.jpg",
       "russian_cover": false,
-      "edition_status": "unconfirmed",
+      "edition_status": "no_russian_in_catalog",
       "edition_source": null,
       "description_source": null,
-      "description": null,
+      "description": "What was broken will be remade.\n\nDeep in the heart of the continent, Koschei the Deathless is stirring. Though he's been bound to a mountain lake for millennia, the insidious threat of his return now spreads across the Fae territories, attracting powerful allies hell-bent on reclaiming what was once theirs: the human lands.\n\nThe Night Court will not stand idly by while innocents are attacked. But with Prythian still piecing itself together in the wake of the devastating Hybern War, the task of uniting is proving more difficult by the day.\n\nTo make matters worse, those who rule and protect the Night Court are reeling from recent betrayals and revealed truths. The rifts dividing them seem insurmountable.\n\nBut to defeat Koschei's creeping shadow, they must find a way back to each other and resurrect their former alliances. To survive, they must find a way to repair the splintered harmony all around them.",
       "description_language": null,
       "rank": 2
     },
@@ -254,7 +254,7 @@
     {
       "id": 1464466,
       "url": "https://hardcover.app/books/this-inevitable-ruin",
-      "title": null,
+      "title": "This Inevitable Ruin",
       "original_title": "This Inevitable Ruin",
       "authors": [
         "Matt Dinniman"
@@ -267,12 +267,12 @@
       ],
       "russian_edition_id": null,
       "russian_isbns": [],
-      "cover_url": null,
+      "cover_url": "https://assets.hardcover.app/edition/32042174/54ee7e48-38e1-4303-824a-7da6156f5bfe.png",
       "russian_cover": false,
-      "edition_status": "unconfirmed",
+      "edition_status": "no_russian_in_catalog",
       "edition_source": null,
       "description_source": null,
-      "description": null,
+      "description": "They call it Faction Wars.\nThe ninth floor.\n\nNine armies, each led by rich and powerful aliens from across the galaxy. Each team has one objective: to capture and hold the castle at the very center of the battlefield. Strategy, alliances, pitched battles, and, of course, betrayal... It all makes for great fun and even greater television.\n\nAfter all, none of these powerful aliens really die when they’re playing war.\n\nExcept this time. This time, winner takes all. Those who fall, stay in the ground.\n\nAs the AI continues its rapid decline, Carl and company take advantage of the chaos. For the first time ever, the crawlers are fighting back. They are now one of the nine teams. And this season, there’s a tenth army on the playing field. The NPCs, who are normally used as nothing but cannon fodder, have become fully self-aware and formed a team of their own.\n\nFor Donut and Katia, the stakes are even higher. Only one of them will be allowed to leave this level.\n\nIf they all want to survive, they’re going to need a little help from a veteran or two.\n\nThis is it.\nThis is what they’ve been fighting toward.\nThis is war.\n\nThis inevitable ruin.",
       "description_language": null,
       "rank": 10
     },
@@ -395,9 +395,9 @@
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
-      "description_source": null,
-      "description": null,
-      "description_language": null,
+      "description_source": "Лабиринт",
+      "description": "Все началось с того, что старый хряк Главарь призвал домашний скот восстать против хозяев-эксплуататоров и взять управление фермой в свои лапы. Заманчивая идея, которая была с энтузиазмом подхвачена и с успехом реализована. Отныне все животные равны и трудятся на благо друг друга... Вот только надолго ли?\nОстрая, пропитанная мудростью притча британского писателя Джорджа Оруэлла (1903-1950). Великолепные образы, хлесткий язык, тонкая сатира... Блестящая интерпретация того, как \"всеобщие свобода, равенство, братство\" могут исподволь и незаметно перерасти 6 тоталитарный режим и беспредел правящей верхушки.",
+      "description_language": "ru",
       "rank": 14
     },
     {
@@ -486,9 +486,9 @@
       "russian_cover": false,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
-      "description_source": null,
-      "description": null,
-      "description_language": null,
+      "description_source": "Лабиринт",
+      "description": "Эти парень и девушка знакомы с детства и еще могут полюбить друг друга, но им придется стать врагами… \nПо жребию они должны  участвовать в страшных \"Голодных играх\", где выживает только один — сильнейший. \nПока в жестоком квесте остаются хотя бы какие-то участники, Китнисс и Пит могут защищать друг друга и сражаться вместе. Но рано или поздно кому-то из них придется пожертвовать жизнью ради любимого… \nТаков закон \"Голодных игр\". \nЗакон, который не нарушался еще никогда!",
+      "description_language": "ru",
       "rank": 17
     },
     {
@@ -761,7 +761,7 @@
     {
       "id": 2189587,
       "url": "https://hardcover.app/books/the-fires-of-december",
-      "title": null,
+      "title": "The Fires of December",
       "original_title": "The Fires of December",
       "authors": [
         "Brandon Sanderson"
@@ -775,12 +775,12 @@
       ],
       "russian_edition_id": null,
       "russian_isbns": [],
-      "cover_url": null,
+      "cover_url": "https://assets.hardcover.app/edition/32409522/5562a0b7-5a80-4b2e-b8a2-cc8f4780b904.png",
       "russian_cover": false,
-      "edition_status": "unconfirmed",
+      "edition_status": "no_russian_in_catalog",
       "edition_source": null,
       "description_source": null,
-      "description": null,
+      "description": "In the next Cosmere standalone novel, Hoid has an epic tale to share: In a forgotten land sustained by colorful rivers of demon blood, a young woman named December learns a devastating plague is on its way. But who will believe her? Against impossible odds, she sets sail up the River Violet to warn the king's court, determination—and wisdom beyond her years—burning in her eyes. Along the way she’ll navigate incredulous royal officials, twisted court intrigue, and a roguish count with only her wits and her new friends: a talkative priestess and a fledgling fashion designer.",
       "description_language": null,
       "rank": 27
     },

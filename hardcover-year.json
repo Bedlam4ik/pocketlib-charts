@@ -226,7 +226,7 @@
     {
       "id": 1464466,
       "url": "https://hardcover.app/books/this-inevitable-ruin",
-      "title": null,
+      "title": "This Inevitable Ruin",
       "original_title": "This Inevitable Ruin",
       "authors": [
         "Matt Dinniman"
@@ -239,12 +239,12 @@
       ],
       "russian_edition_id": null,
       "russian_isbns": [],
-      "cover_url": null,
+      "cover_url": "https://assets.hardcover.app/edition/32042174/54ee7e48-38e1-4303-824a-7da6156f5bfe.png",
       "russian_cover": false,
-      "edition_status": "unconfirmed",
+      "edition_status": "no_russian_in_catalog",
       "edition_source": null,
       "description_source": null,
-      "description": null,
+      "description": "They call it Faction Wars.\nThe ninth floor.\n\nNine armies, each led by rich and powerful aliens from across the galaxy. Each team has one objective: to capture and hold the castle at the very center of the battlefield. Strategy, alliances, pitched battles, and, of course, betrayal... It all makes for great fun and even greater television.\n\nAfter all, none of these powerful aliens really die when they’re playing war.\n\nExcept this time. This time, winner takes all. Those who fall, stay in the ground.\n\nAs the AI continues its rapid decline, Carl and company take advantage of the chaos. For the first time ever, the crawlers are fighting back. They are now one of the nine teams. And this season, there’s a tenth army on the playing field. The NPCs, who are normally used as nothing but cannon fodder, have become fully self-aware and formed a team of their own.\n\nFor Donut and Katia, the stakes are even higher. Only one of them will be allowed to leave this level.\n\nIf they all want to survive, they’re going to need a little help from a veteran or two.\n\nThis is it.\nThis is what they’ve been fighting toward.\nThis is war.\n\nThis inevitable ruin.",
       "description_language": null,
       "rank": 9
     },
@@ -403,7 +403,7 @@
     {
       "id": 1941363,
       "url": "https://hardcover.app/books/yesteryear-2026",
-      "title": null,
+      "title": "Yesteryear",
       "original_title": "Yesteryear",
       "authors": [
         "Caro Claire Burke"
@@ -419,12 +419,12 @@
       ],
       "russian_edition_id": null,
       "russian_isbns": [],
-      "cover_url": null,
+      "cover_url": "https://assets.hardcover.app/edition/32720645/91d910bf-e696-4366-aa09-14f0a6a6cea9.jpg",
       "russian_cover": false,
-      "edition_status": "unconfirmed",
+      "edition_status": "no_russian_in_catalog",
       "edition_source": null,
       "description_source": null,
-      "description": null,
+      "description": "Natalie lives a traditional lifestyle. Her charming farmhouse is rustic, her husband a handsome cowboy, her six children each more delightful than the last. So what if there are nannies and producers behind the scenes, her kitchen hiding industrial-grade fridges and ovens, her husband the heir to a political dynasty? What Natalie’s followers—all 8 million of them—don’t know won’t hurt them. And The Angry Women? The privileged, Ivy League, coastal elite haters who call her an antifeminist iconoclast? They’re sick with jealousy. Because Natalie isn’t simply living the good life, she’s living the ideal—and just so happens to be building an empire from it.\n\nUntil one morning she wakes up in a life that isn’t hers. Her home, her husband, her children—they’re all familiar, but something’s off. Her kitchen is warmed by a sputtering fire rather than electricity, her children are dirty and strange, and her soft-handed husband is suddenly a competent farmer. Just yesterday Natalie was curating photos of homemade jam for her Instagram, and now she’s expected to haul firewood and handwash clothes until her fingers bleed. Has she become the unwitting star of a ruthless reality show? Could it really be time travel? Is she being tested by God? By Satan? When Natalie suffers a brutal injury in the woods, she realizes two things: This is not her beautiful life, and she must escape by any means possible.\n\nA gripping, electrifying novel that is as darkly funny as it is frightening, Yesteryear is a gimlet-eyed look at tradition, fame, faith, and the grand performance of womanhood.",
       "description_language": null,
       "rank": 15
     },
@@ -545,9 +545,9 @@
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
-      "description_source": null,
-      "description": null,
-      "description_language": null,
+      "description_source": "Лабиринт",
+      "description": "Все началось с того, что старый хряк Главарь призвал домашний скот восстать против хозяев-эксплуататоров и взять управление фермой в свои лапы. Заманчивая идея, которая была с энтузиазмом подхвачена и с успехом реализована. Отныне все животные равны и трудятся на благо друг друга... Вот только надолго ли?\nОстрая, пропитанная мудростью притча британского писателя Джорджа Оруэлла (1903-1950). Великолепные образы, хлесткий язык, тонкая сатира... Блестящая интерпретация того, как \"всеобщие свобода, равенство, братство\" могут исподволь и незаметно перерасти 6 тоталитарный режим и беспредел правящей верхушки.",
+      "description_language": "ru",
       "rank": 19
     },
     {
@@ -590,7 +590,7 @@
         "James Islington"
       ],
       "published": "2025-01-01",
-      "rating": 4.139606396063961,
+      "rating": 4.138991389913899,
       "rating_count": 813,
       "isbns": [
         "9781911231431",
@@ -986,9 +986,9 @@
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
-      "description_source": null,
-      "description": null,
-      "description_language": null,
+      "description_source": "Лабиринт",
+      "description": "Могла ли знать девятнадцатилетняя Фейра, что огромный волк, убитый девушкой на охоте, - на самом деле преображенный фэйри. Расплата не заставила себя ждать. Она должна или заплатить жизнью, или переселиться за стену - волшебную невидимую преграду, отделяющую владения смертных от Притиании, королевства фэйри. Фейра выбирает второе. Тамлин, владелец замка, куда девушка попадает, не простой фэйри, он - верховный правитель Двора весны, одного из могущественных Дворов, на которые поделено королевство. Однажды Фейра узнает тайну: на Двор весны и на Тамлина, ее покровителя, злые силы наложили заклятье, снять которое способна только смертная девушка…",
+      "description_language": "ru",
       "rank": 34
     },
     {
@@ -1113,7 +1113,7 @@
     {
       "id": 1989398,
       "url": "https://hardcover.app/books/platform-decay",
-      "title": null,
+      "title": "Platform Decay",
       "original_title": "Platform Decay",
       "authors": [
         "Martha Wells"
@@ -1129,12 +1129,12 @@
       ],
       "russian_edition_id": null,
       "russian_isbns": [],
-      "cover_url": null,
+      "cover_url": "https://assets.hardcover.app/edition/32156003/e38e4f2d-41b3-44e2-a847-513056d1c43e.jpg",
       "russian_cover": false,
-      "edition_status": "unconfirmed",
+      "edition_status": "no_russian_in_catalog",
       "edition_source": null,
       "description_source": null,
-      "description": null,
+      "description": "After volunteering to run a rescue mission, Murderbot realizes that it will have to spend significant time with a bunch of humans it doesn't know.\n\nIncluding human children. Ugh.\n\nThis may well call for... eye contact!\n\n(Emotion check: Oh, for f—)",
       "description_language": null,
       "rank": 39
     },
@@ -1221,9 +1221,9 @@
       "russian_cover": false,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
-      "description_source": null,
-      "description": null,
-      "description_language": null,
+      "description_source": "Лабиринт",
+      "description": "Эти парень и девушка знакомы с детства и еще могут полюбить друг друга, но им придется стать врагами… \nПо жребию они должны  участвовать в страшных \"Голодных играх\", где выживает только один — сильнейший. \nПока в жестоком квесте остаются хотя бы какие-то участники, Китнисс и Пит могут защищать друг друга и сражаться вместе. Но рано или поздно кому-то из них придется пожертвовать жизнью ради любимого… \nТаков закон \"Голодных игр\". \nЗакон, который не нарушался еще никогда!",
+      "description_language": "ru",
       "rank": 42
     },
     {
@@ -1312,9 +1312,9 @@
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
-      "description_source": null,
-      "description": null,
-      "description_language": null,
+      "description_source": "Лабиринт",
+      "description": "Боб Йоханссон - инженер и фанат вселенной \"Звездного пути\" - заключает договор с криокомпанией, которая обязуется сохранить его мозг после смерти и подарить новую жизнь, когда наука достигнет достаточного прогресса. Но Боб и предположить не мог, в какой переделке окажется, очнувшись через 117 лет. \nАмерикой управляет религия, криокомпания обанкротилась и продала своих замороженных \"клиентов\" на аукционе. Теперь Боб - \"репликант\", копия, оцифрованная личность, не имеющая тела.\nЧтобы не стать \"мозгом мусоровоза\" Боб на полную использует чувство юмора, знания и изобретательность. Боба должны загрузить в межзвездный исследовательский корабль. Его цель - космос!",
+      "description_language": "ru",
       "rank": 45
     },
     {
@@ -1343,9 +1343,9 @@
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
-      "description_source": null,
-      "description": null,
-      "description_language": null,
+      "description_source": "Лабиринт",
+      "description": "Франц Кафка - один из крупнейших писателей ХХ века, самых читаемых и самых загадочных, \"непостижимый мастер и повелитель царства немецкого языка\" (Г. Гессе). Его произведения поначалу публиковались ничтожными тиражами, которые к тому же расходились с трудом. Ныне они расходятся по свету миллионами экземпляров, но по-прежнему остается справедливым замечание Брехта о том, что в творчестве Кафки \"ко всему нужен ключ, как в тайнописи\". Он создал неповторимую художественную вселенную, завораживающую собственной уникальностью, вселенную, где герои переживают странные приключения, мучаясь в поисках ответа на свои призрачные вопросы. Предлагаем вниманию читателей собрание лучших рассказов Кафки, каждый из которых является бесспорным шедевром на все времена.",
+      "description_language": "ru",
       "rank": 46
     },
     {
@@ -1464,9 +1464,9 @@
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
-      "description_source": null,
-      "description": null,
-      "description_language": null,
+      "description_source": "Лабиринт",
+      "description": "Десять лет назад планеты Солнечной системы были ввергнуты в хаос войны между высшими и низшими кастами Сообщества, разделенного на цвета. Но раскол в Сообществе гораздо глубже кастовых противоречий. Дэрроу, бывший шахтер-проходчик, а ныне лорд-император республики, сталкивается с предательством в тот момент, когда его чествуют как победителя. Сенат выдвигает ему серьезное обвинение, сильные союзники отступаются от него. Увенчанного лаврами полководца ждет арест, а возможно, и нечто худшее. Неужели его предал кто-то из близких соратников или друзей? Кто пытается манипулировать им? Дэрроу слишком дорога его свобода, и он решается на крайне рискованный поступок, который может повлечь за собой многие жертвы. Но на войне все средства хороши. Впервые на русском!\n\nНЕЗАКОННОЕ ПОТРЕБЛЕНИЕ НАРКОТИЧЕСКИХ СРЕДСТВ, ПСИХОТРОПНЫХ ВЕЩЕСТВ, ИХ АНАЛОГОВ ПРИЧИНЯЕТ ВРЕД ЗДОРОВЬЮ, ИХ НЕЗАКОННЫЙ ОБОРОТ ЗАПРЕЩЁН И ВЛЕЧЁТ УСТАНОВЛЕННУЮ ЗАКОНОДАТЕЛЬСТВОМ ОТВЕТСТВЕННОСТЬ",
+      "description_language": "ru",
       "rank": 50
     },
     {
@@ -1495,9 +1495,9 @@
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
-      "description_source": null,
-      "description": null,
-      "description_language": null,
+      "description_source": "Лабиринт",
+      "description": "В книгу включены произведения Ф. М. Достоевского, созданные в самом начале его творческого пути: дебютный роман «Бедные люди», который в одночасье сделал автора знаменитым, а также повести «Белые ночи» и «Неточка Незванова».  Эти произведения написаны до «катастрофы» 1849 года, когда молодого писателя за участие в кружке Петрашевского сослали на каторжные работы Сибирь, где он провел около десяти лет. В ранних произведениях Достоевского еще с трудом угадывается автор «Записок из подполья», «Преступления и наказания» и «Братьев Карамазовых», однако уже в них был явлен талант мощного и оригинального писателя, заслужившего восторженные отзывы критиков и успех у читателей, произведения которого исполнены сострадания и глубокого сочувствия к растоптанным, смешным, но не утратившим человеческого достоинства людям.",
+      "description_language": "ru",
       "rank": 51
     },
     {
@@ -1557,9 +1557,9 @@
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
-      "description_source": null,
-      "description": null,
-      "description_language": null,
+      "description_source": "Лабиринт",
+      "description": "Вы скептик и реалист? Вы уверены, что всё на свете имеет рациональное объяснение? Не спешите ответить утвердительно, если ещё не прочитали роман Рэя Брэдбери \"451° по Фаренгейту\".\nКаждая страница этой книги заставит вас снова и снова спрашивать: действительно ли это антиутопия, вымысел, плод авторской фантазии? Миниатюрные наушники, летящие на бешеной скорости автомобили, бессмысленные реалити-шоу, назойливая реклама, работа на износ, пригоршни антидепрессантов… Повседневные детали современного мира были описаны семь десятилетий назад с такой точностью, что вы невольно поверите в существование машины времени и начнете искать в каждой строке указатель поворота, который поможет вырваться из безумной рутины. И будет новый мир, и новая жизнь, и новые книги встанут на полки библиотек, и старые слова обретут новый смысл.\nИ всё-таки - как Брэдбери узнал?..",
+      "description_language": "ru",
       "rank": 53
     },
     {
@@ -1678,9 +1678,9 @@
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
-      "description_source": null,
-      "description": null,
-      "description_language": null,
+      "description_source": "Лабиринт",
+      "description": "Первый роман цикла \"Воспоминания о прошлом Земли\".\nВ те времена, когда Китай переживал последствия жестокой \"культурной революции\", в ходе секретного военного проекта в космос были посланы сигналы, чтобы установить контакт с инопланетным разумом. Один из сигналов подхватила цивилизация, находящаяся на краю гибели, и теперь пришельцы готовятся вторгнуться на Землю. Узнав об этом, люди разделились на тех, кто готов отдать наш порочный мир под управление высшего разума, и тех, кто до последнего будет бороться против этого вторжения.\nБлестящий научно-фантастический роман \"Задача трех тел\" самого популярного китайского писателя Лю Цысиня обрел широкое мировое признание и стал первой переводной книгой, номинированной на самые престижные литературные премии в области фантастики: \"Хьюго\", \"Небьюлу\", \"Локус\", \"Прометей\" и другие. По циклу снят сериал китайского производства \"Задача трех тел\", а также готовится экранизация от Netflix. \nПонравится всем поклонникам Айзека Азимова, Джеймса Кори, Артура Кларка, Питера Уоттса, Энди Вейера.",
+      "description_language": "ru",
       "rank": 57
     },
     {
@@ -1807,7 +1807,7 @@
     {
       "id": 482996,
       "url": "https://hardcover.app/books/between-two-fires-2012",
-      "title": null,
+      "title": "Between Two Fires",
       "original_title": "Between Two Fires",
       "authors": [
         "Christopher Buehlman"
@@ -1821,12 +1821,12 @@
       ],
       "russian_edition_id": null,
       "russian_isbns": [],
-      "cover_url": null,
+      "cover_url": "https://assets.hardcover.app/editions/30423309/5478029573138530.jpg",
       "russian_cover": false,
-      "edition_status": "unconfirmed",
+      "edition_status": "no_russian_in_catalog",
       "edition_source": null,
       "description_source": null,
-      "description": null,
+      "description": "Thomas, a disgraced knight, has found a young girl alone in a dead Norman village. An orphan of the Black Death, and an almost unnerving picture of innocence, she tells Thomas that plague is only part of a larger cataclysm—that the fallen angels under Lucifer are rising in a second war on heaven, and that the world of men has fallen behind the lines of conflict.\n\nIs it delirium or is it faith? She believes she has seen the angels of God. She believes the righteous dead speak to her in dreams. And now she has convinced the faithless Thomas to shepherd her across a depraved landscape to Avignon. There, she tells Thomas, she will fulfill her mission to confront the evil that has devastated the earth, and to restore to this betrayed, murderous knight the nobility and hope of salvation he long abandoned.\n\nAs hell unleashes its wrath, and as the true nature of the girl is revealed, Thomas will find himself on a macabre battleground of angels and demons, saints, and the risen dead, and in the midst of a desperate struggle for nothing less than the soul of man.",
       "description_language": null,
       "rank": 62
     },
@@ -1895,7 +1895,7 @@
     {
       "id": 1123366,
       "url": "https://hardcover.app/books/katabasis-2025",
-      "title": null,
+      "title": "Katabasis",
       "original_title": "Katabasis",
       "authors": [
         "R.F. Kuang"
@@ -1911,12 +1911,12 @@
       ],
       "russian_edition_id": null,
       "russian_isbns": [],
-      "cover_url": null,
+      "cover_url": "https://assets.hardcover.app/editions/31147378/6272729711218434.jpg",
       "russian_cover": false,
-      "edition_status": "unconfirmed",
+      "edition_status": "no_russian_in_catalog",
       "edition_source": null,
       "description_source": null,
-      "description": null,
+      "description": "Dante’s Inferno meets Susanna Clarke’s Piranesi in this all-new dark academia fantasy from R. F. Kuang, the #1 New York Times bestselling author of Babel and Yellowface, in which two graduate students must put aside their rivalry and journey to Hell to save their professor’s soul—perhaps at the cost of their own. \n\nKatabasis, noun, Ancient Greek:\n\nThe story of a hero’s descent to the underworld\n\nAlice Law has only ever had one goal: to become one of the brightest minds in the field of Magick. She has sacrificed everything to make that a reality: her pride, her health, her love life, and most definitely her sanity. All to work with Professor Jacob Grimes at Cambridge, the greatest magician in the world.\n\nThat is, until he dies in a magical accident that could possibly be her fault.\n\nGrimes is now in Hell, and she’s going in after him. Because his recommendation could hold her very future in his now incorporeal hands and even death is not going to stop the pursuit of her dreams….\n\nNor will the fact that her rival, Peter Murdoch, has come to the very same conclusion.\n\nWith nothing but the tales of Orpheus and Dante to guide them, enough chalk to draw the Pentagrams necessary for their spells, and the burning desire to make all the academic trauma mean anything, they set off across Hell to save a man they don’t even like.\n\nBut Hell is not like the storybooks say, Magick isn’t always the answer, and there’s something in Alice and Peter’s past that could forge them into the perfect allies…or lead to their doom.",
       "description_language": null,
       "rank": 65
     },
@@ -2005,9 +2005,9 @@
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
-      "description_source": null,
-      "description": null,
-      "description_language": null,
+      "description_source": "Лабиринт",
+      "description": "\"Автостопом по Галактике\", стартовав в качестве радиопостановки на Би-би-си, имел грандиозный успех. Одноименный роман в 1984 году возглавил список английских бестселлеров, а сам Адамс стал самым молодым писателем, получившим награду \"Золотая ручка\", вручаемую за 1 млн. проданных книг.\nТелепостановка 1982 года упрочила успех серии книг про \"Автостоп\", а полнометражный фильм 2005 года при бюджете в $50 млн. дважды \"отбил\" расходы на экранизацию и был номинирован на 7 премий. \nПопулярность сатирической \"трилогии в пяти частях\" выплеснулась в музыкальную и компьютерную индустрию. Так, группы Radiohead, Coldplay, NOFX используют цитаты из романа Адамса, а Level 42 названа в честь главной сюжетной линии романа.",
+      "description_language": "ru",
       "rank": 68
     },
     {
@@ -2125,9 +2125,9 @@
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
-      "description_source": null,
-      "description": null,
-      "description_language": null,
+      "description_source": "Лабиринт",
+      "description": "Доктор Аврана Керн проводит эксперимент по наделению животных разумом. Терраформированная планета должна стать домом для обезьян, с которыми спустя века Керн мечтает говорить как с равными. Но по Земле и ее колониям прокатывается война. Эксперимент и его наблюдатель отрезаны от всех. Через две тысячи лет на сигнал бедствия Керн прилетает корабль-ковчег с остатками человечества. Мир Керн его последняя надежда. Кажется, пропасть непонимания между последними людьми и экспериментальным видом непреодолима, ведь разум обрели не обезьяны, а совсем другой вид.",
+      "description_language": "ru",
       "rank": 72
     },
     {
@@ -2468,8 +2468,8 @@
         "John Green"
       ],
       "published": "2025-03-18",
-      "rating": 4.330508474576272,
-      "rating_count": 708,
+      "rating": 4.329337094499294,
+      "rating_count": 709,
       "isbns": [
         "9780525426059",
         "0525426051",
@@ -2541,9 +2541,9 @@
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
-      "description_source": null,
-      "description": null,
-      "description_language": null,
+      "description_source": "Лабиринт",
+      "description": "\"Пространство\" признано лучшим научно-фантастическим циклом десятилетия!\nСуммарный тираж в мире превысил семь миллионов экземпляров!\nОдноименный телесериал выдержал целых шесть сезонов!\nСовершая рутинный рейс из колец Сатурна к карликовой планете Церера, космический грузовоз \"Кентербери\" ловит сигнал бедствия. Его капитан с горсткой подчиненных садится в челнок и летит на выручку. Но на борту попавшего в катастрофу корабля спасатели не обнаружат ни единой живой души. Зато они станут обладателями тайны - настолько опасной, что их дальнейшее путешествие превратится в гонку на выживание.\nВ 2015 году на американском телеканале \"Syfy\" начался показ сериала \"Пространство\" по мотивам цикла фантастических романов Дэниела Абрахама и Тая Френка, писавших под псевдонимом Джеймс С. А. Кори. Сериал, продолжавшийся шесть сезонов, был награжден премией \"Сатурн\" и дважды - премией \"Хьюго\". Суммарный тираж цикла романов \"Пространство\" достиг семи миллионов экземпляров.\n\nНЕЗАКОННОЕ ПОТРЕБЛЕНИЕ НАРКОТИЧЕСКИХ СРЕДСТВ, ПСИХОТРОПНЫХ ВЕЩЕСТВ, ИХ АНАЛОГОВ ПРИЧИНЯЕТ ВРЕД ЗДОРОВЬЮ, ИХ НЕЗАКОННЫЙ ОБОРОТ ЗАПРЕЩЁН И ВЛЕЧЁТ УСТАНОВЛЕННУЮ ЗАКОНОДАТЕЛЬСТВОМ ОТВЕТСТВЕННОСТЬ",
+      "description_language": "ru",
       "rank": 86
     },
     {
@@ -2572,9 +2572,9 @@
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
-      "description_source": null,
-      "description": null,
-      "description_language": null,
+      "description_source": "Лабиринт",
+      "description": "Имя героя романа английской писательницы Мэри Шелли \"Франкенштейн, или Современный Прометей\" давно стал нарицательным, как и история учёного, увлечённого поиском возможности оживления мёртвой материи. В своих опытах Франкенштейн добивается успеха, однако это не приносит счастья ни ему, ни окружающим. Роман Мэри Шелли, опубликованный впервые в 1818 году, вошёл в золотой фонд мировой фантастики.",
+      "description_language": "ru",
       "rank": 87
     },
     {
@@ -2807,9 +2807,9 @@
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
-      "description_source": null,
-      "description": null,
-      "description_language": null,
+      "description_source": "Лабиринт",
+      "description": "\"Алхимик\" - самый известный роман бразильского писателя Пауло Коэльо, любимая книга миллионов людей во всем мире. В юности люди не боятся мечтать, все кажется им возможным. Но проходит время, и таинственная сила принимается им внушать, что их желания неосуществимы. \n\"Добиться воплощения своей Судьбы - вот единственная подлинная обязанность человека…\", - утверждает Пауло Коэльо. \nЭтот, ставший культовым, роман-притча способен изменить жизнь своих читателей.",
+      "description_language": "ru",
       "rank": 95
     },
     {
