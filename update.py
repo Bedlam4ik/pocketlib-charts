@@ -7,7 +7,7 @@ import os
 import sys
 from pathlib import Path
 from urllib.error import HTTPError, URLError
-from urllib.parse import urlencode
+from urllib.parse import urlencode, urlparse
 from urllib.request import Request, urlopen
 
 
@@ -23,6 +23,20 @@ query Books($ids: [Int!]!, $russian: Int!) {
   }
 }
 """
+
+# Cross-catalogue links verified against the work or publisher, keyed by Hardcover work ID.
+FANTLAB_WORKS = {356467: 9633, 498097: 731357}
+FANTLAB_COVERS = {356467: 327417}
+PUBLISHED_RUSSIAN_EDITIONS = {
+    524963: ("Переломный момент", "https://heatedrivalry.kz/product/moment"),
+    524964: ("Заклятые соперники", "https://heatedrivalry.kz/product/soperniki"),
+}
+PUBLISHER_EDITIONS = {
+    385491: ("Азбука", "https://azbooka.ru/books/ubiytsa-voyn", "9785389201804"),
+    386401: ("АСТ", "https://ast.ru/book/grozovoy-pereval-852785/", "9785171272951"),
+    469783: ("АСТ", "https://ast.ru/book/prestuplenie-i-nakazanie-034017/", "9785170619276"),
+}
+CATALOGUE_ERRORS = (URLError, TimeoutError, ValueError, KeyError, TypeError)
 
 
 def graphql(query, variables=None):
@@ -73,6 +87,15 @@ def compact(value):
     return "".join(char for char in (value or "").casefold() if char.isalnum())
 
 
+def author_key(value):
+    return tuple(sorted(re.findall(r"[^\W_]+", value.casefold()))) if isinstance(value, str) else ()
+
+
+def isbn_keys(values):
+    keys = list(dict.fromkeys(re.sub(r"[-\s]", "", value.upper()) for value in values))
+    return [key for key in keys if re.fullmatch(r"[0-9]{13}|[0-9]{9}[0-9X]", key)]
+
+
 def catalogue_json(host, path, query=None):
     url = host + path + ("?" + urlencode(query) if query else "")
     request = Request(url, headers={"User-Agent": "PocketLib Hardcover Feed", "Accept": "application/json"})
@@ -82,24 +105,33 @@ def catalogue_json(host, path, query=None):
 
 def find_fantlab_work(book, original_isbns, authors):
     host = "https://api.fantlab.ru"
-    names = {compact(author) for author in authors}
+    names = {author_key(author) for author in authors}
+    known_id = FANTLAB_WORKS.get(book.get("id"))
+    if known_id:
+        try:
+            work = catalogue_json(host, f"/work/{known_id}/extended")
+            if str(work.get("work_id")) == str(known_id):
+                return work
+        except CATALOGUE_ERRORS:
+            pass
     candidates = catalogue_json(host, "/search-works", {"q": book["title"], "onlymatches": "1"})
     if not isinstance(candidates, list):
         return None
     verified = []
     for row in candidates[:12]:
-        if compact(row.get("name")) != compact(book["title"]):
-            continue
-        if compact(row.get("all_autor_name")) not in names:
+        if author_key(row.get("all_autor_name") or "") not in names:
             continue
         work_id = int(row["doc"])
         work = catalogue_json(host, f"/work/{work_id}/extended")
-        if compact(work.get("work_name_orig") or work.get("work_name")) != compact(book["title"]):
+        titles = [work.get("work_name_orig"), work.get("work_name"), *(work.get("work_name_alts") or [])]
+        catalogued_isbns = set(isbn_keys((work.get("editions_info") or {}).get("isbn_list", "").split("||")))
+        matches_isbn = bool(set(original_isbns) & catalogued_isbns)
+        if not matches_isbn and compact(book["title"]) not in {compact(title) for title in titles}:
             continue
-        if not any(compact(author.get("name_orig")) in names for author in work.get("authors") or []):
+        if not any(names & {author_key(author.get(field) or "") for field in ("name_orig", "name", "real_name", "pseudoname")}
+                   for author in work.get("authors") or []):
             continue
-        catalogued_isbns = set((work.get("editions_info") or {}).get("isbn_list", "").split("||"))
-        verified.append((bool(set(original_isbns) & catalogued_isbns), work))
+        verified.append((matches_isbn, work))
     exact_isbn = [work for matches_isbn, work in verified if matches_isbn]
     if len(exact_isbn) == 1:
         return exact_isbn[0]
@@ -109,41 +141,53 @@ def find_fantlab_work(book, original_isbns, authors):
 def fantlab_russian_edition(work):
     if not work:
         return None
-    titles = [
+    titles = list(dict.fromkeys(
         entry["title"]
         for group in work.get("translations") or [] if group.get("lang_code") == "ru"
         for translation in group.get("translations") or []
         for entry in translation.get("titles") or []
         if entry.get("count", 0) and russian_text(entry.get("title"))
-    ]
+    ))
     if not titles:
         return None
     title = titles[0]
+    title_keys = {compact(value) for value in titles}
     editions = [
         row for group in (work.get("editions_blocks") or {}).values()
         for row in group.get("list") or []
-        if row.get("lang_code") == "ru" and compact(row.get("name")) == compact(title)
+        if row.get("lang_code") == "ru" and compact(row.get("name")) in title_keys
     ]
-    edition = editions[0] if editions else None
-    numbers = []
-    image = None
-    if edition:
-        numbers = [re.sub(r"[^0-9X]", "", value.upper()) for value in edition.get("isbn", "").split(",")]
-        numbers = [number for number in numbers if len(number) in (10, 13)]
-        if edition.get("pic_num"):
-            image = f'https://fantlab.ru/images/editions/big/{int(edition["edition_id"])}'
+    edition = next((row for row in editions if compact(row.get("name")) == compact(title)), None)
+    numbers = isbn_keys(((edition or {}).get("isbn") or "").split(","))
+    image = fantlab_cover(edition)
     description = work.get("work_description")
-    return {"title": title, "isbns": numbers, "cover": image,
+    return {"title": title, "isbns": numbers, "cover": image, "editions": editions,
             "description": description if russian_text(description) else None}
 
 
-def open_library_russian_edition(original_isbns):
-    if not original_isbns:
-        return None, False
+def fantlab_cover(edition):
+    if edition and edition.get("pic_num") and str(edition.get("edition_id")).isdigit():
+        return f'https://fantlab.ru/images/editions/big/{edition["edition_id"]}'
+    return None
+
+
+def open_library_russian_edition(original_isbns, title, authors):
     host = "https://openlibrary.org"
-    result = catalogue_json(host, "/search.json",
-                            {"q": "isbn:(" + " OR ".join(original_isbns) + ")", "fields": "key", "limit": "2"})
-    works = result.get("docs") or []
+    works = []
+    if original_isbns:
+        result = catalogue_json(host, "/search.json",
+                                {"q": "isbn:(" + " OR ".join(original_isbns) + ")", "fields": "key", "limit": "2"})
+        works = result.get("docs") or []
+    isbn_verified = len(works) == 1
+    if not isbn_verified and authors:
+        result = catalogue_json(host, "/search.json", {
+            "title": title, "author": authors[0],
+            "fields": "key,title,author_name", "limit": "12",
+        })
+        names = {author_key(author) for author in authors}
+        works = [row for row in result.get("docs") or []
+                 if compact(row.get("title")) == compact(title)
+                 and {author_key(name) for name in row.get("author_name") or []} == names]
     if len(works) != 1:
         return None, False
     work_key = works[0].get("key", "")
@@ -160,7 +204,7 @@ def open_library_russian_edition(original_isbns):
             title = edition.get("title")
             if "rus" in edition.get("language", []) and russian_text(title):
                 return {"title": title, "isbns": edition.get("isbn") or []}, True
-    return None, not result.get("docs")
+    return None, isbn_verified and not result.get("docs")
 
 
 def open_library_description(russian_isbns):
@@ -177,8 +221,8 @@ def open_library_description(russian_isbns):
     return None
 
 
-def labirint_html(path):
-    request = Request("https://www.labirint.ru" + path, headers={"User-Agent": "PocketLib Hardcover Feed"})
+def catalogue_html(url):
+    request = Request(url, headers={"User-Agent": "PocketLib Hardcover Feed"})
     with urlopen(request, timeout=7) as response:
         return response.read(4 << 20).decode("utf-8", errors="replace")
 
@@ -186,10 +230,10 @@ def labirint_html(path):
 def labirint_description(russian_isbns):
     for isbn in russian_isbns:
         try:
-            search = labirint_html(f"/search/{isbn}/")
+            search = catalogue_html(f"https://www.labirint.ru/search/{isbn}/")
             links = re.findall(r'<a\s+href="(/books/\d+/)"\s+class="product-card__img"', search)
             for path in list(dict.fromkeys(links))[:3]:
-                page = labirint_html(path)
+                page = catalogue_html("https://www.labirint.ru" + path)
                 identifiers = re.findall(r'<meta\b[^>]*itemprop="isbn"\s+content="([0-9Xx-]+)"', page)
                 if isbn not in {value.replace("-", "").upper() for value in identifiers}:
                     continue
@@ -198,8 +242,7 @@ def labirint_description(russian_isbns):
                     page, re.DOTALL,
                 )
                 if annotation:
-                    description = re.sub(r'<br\s*/?>|</p>', '\n', annotation[1], flags=re.IGNORECASE)
-                    description = unescape(re.sub(r'<[^>]+>', '', description)).strip()
+                    description = plain_description(annotation[1])
                     if russian_text(description):
                         return description
         except (URLError, TimeoutError):
@@ -207,10 +250,95 @@ def labirint_description(russian_isbns):
     return None
 
 
-def card(book):
+def plain_description(value):
+    value = re.sub(r"<br\s*/?>|</p>", "\n", unescape(value), flags=re.IGNORECASE)
+    return unescape(re.sub(r"<[^>]+>", "", value)).strip()
+
+
+def publisher_description(book_id):
+    edition = PUBLISHER_EDITIONS.get(book_id)
+    if not edition:
+        return None, None
+    source, url, isbn = edition
+    try:
+        page = catalogue_html(url)
+    except (URLError, TimeoutError):
+        return None, None
+    page_isbns = re.findall(r"(?:[0-9][- ]?){12}[0-9]", page)
+    if isbn not in isbn_keys(page_isbns):
+        return None, None
+    if source == "Азбука":
+        match = re.search(r'<div\b[^>]*itemprop="description"[^>]*>(.*?)</div>', page, re.I | re.S)
+    else:
+        match = re.search(r'<meta\s+property="og:description"\s+content="([^"]+)"', page, re.I)
+    description = plain_description(match[1]) if match else ""
+    return (description, source) if russian_text(description) else (None, None)
+
+
+def boys_and_books_description(url):
+    try:
+        page = catalogue_html(url)
+    except (URLError, TimeoutError):
+        return None
+    match = re.search(r'<div class="product__description-content static-text">\s*(<p>.*?)</div>', page, re.I | re.S)
+    description = plain_description(match[1]) if match else ""
+    return description if russian_text(description) else None
+
+
+def cover_dimensions(url):
+    if urlparse(url).hostname not in {"assets.hardcover.app", "fantlab.ru"}:
+        return 0, 0
+    request = Request(url, headers={"User-Agent": "PocketLib Hardcover Feed", "Range": "bytes=0-65535"})
+    try:
+        with urlopen(request, timeout=4) as response:
+            data = response.read(65536)
+    except OSError:
+        return 0, 0
+    if data.startswith(b"\x89PNG\r\n\x1a\n") and len(data) >= 24:
+        return int.from_bytes(data[16:20], "big"), int.from_bytes(data[20:24], "big")
+    if len(data) >= 30 and data[:4] == b"RIFF" and data[8:16] == b"WEBPVP8X":
+        return int.from_bytes(data[24:27], "little") + 1, int.from_bytes(data[27:30], "little") + 1
+    if not data.startswith(b"\xff\xd8"):
+        return 0, 0
+    offset = 2
+    while offset + 9 < len(data) and data[offset] == 255:
+        marker = data[offset + 1]
+        if marker == 255:
+            offset += 1
+            continue
+        if marker in (192, 193, 194, 195, 197, 198, 199, 201, 202, 203, 205, 206, 207):
+            return int.from_bytes(data[offset+7:offset+9], "big"), int.from_bytes(data[offset+5:offset+7], "big")
+        length = int.from_bytes(data[offset+2:offset+4], "big")
+        if marker in (217, 218) or length < 2:
+            break
+        offset += 2 + length
+    return 0, 0
+
+
+def better_cover(current, alternatives):
+    def resolution(url):
+        width, height = cover_dimensions(url)
+        if not (0 < width <= 6000 and 0 < height <= 6000 and width * height <= 12000000):
+            return 0
+        return min(width * 3, height * 2)
+
+    score = resolution(current) if current else 0
+    if score >= 1296:
+        return current
+    for url in list(dict.fromkeys(url for url in alternatives if url and url != current))[:5]:
+        candidate = resolution(url)
+        # An unreadable current size is not evidence that a small replacement is better.
+        if candidate > score and (not current or score or candidate >= 1296):
+            current, score = url, candidate
+        if score >= 1296:
+            break
+    return current
+
+
+def card(book, previous=None):
     authors = book_authors(book)
-    original_isbns = list(dict.fromkeys(isbns(book.get("default_physical_edition")) +
-                                       isbns(book.get("default_ebook_edition"))))
+    original_isbns = isbn_keys(isbns(book.get("default_physical_edition")) +
+                              isbns(book.get("default_ebook_edition")))
     edition = next(
         (row for row in book["editions"] if russian_text(row.get("title"))), None
     )
@@ -234,39 +362,68 @@ def card(book):
                 description, description_source = match["description"], "Фантлаб"
         elif work and not localized_title:
             fantlab_checked = bool((work.get("editions_info") or {}).get("isbn_list"))
-    except (URLError, TimeoutError, ValueError, KeyError, TypeError):
+    except CATALOGUE_ERRORS:
         pass
     try:
         if not localized_title:
-            library, checked = open_library_russian_edition(original_isbns)
+            library, checked = open_library_russian_edition(original_isbns, book["title"], authors)
             if library:
                 localized_title, localized_isbns = library["title"], library["isbns"]
                 status, edition_source = "russian_found", "Open Library"
             elif checked and fantlab_checked:
                 status = "no_russian_in_catalog"
-    except (URLError, TimeoutError, ValueError, KeyError, TypeError):
+    except CATALOGUE_ERRORS:
         pass
+    publisher_edition = PUBLISHED_RUSSIAN_EDITIONS.get(book["id"])
+    if publisher_edition and not localized_title:
+        localized_title = publisher_edition[0]
+        status, edition_source = "russian_found", "Boys&Books"
+    previous = previous or {}
+    if previous.get("edition_status") == "russian_found":
+        if not localized_title:
+            localized_title = previous["title"]
+            edition_source, status = previous.get("edition_source"), "russian_found"
+        if not localized_isbns and compact(localized_title) == compact(previous.get("title")):
+            localized_isbns = previous.get("russian_isbns") or []
+        if not description_source and previous.get("description_language") == "ru":
+            description, description_source = previous.get("description"), previous.get("description_source")
+    russian_editions = [row for row in book["editions"] if russian_text(row.get("title"))]
+    other_editions = (match or {}).get("editions") or []
     if localized_title and not description_source:
-        # Only look up ISBNs that belong to confirmed Russian editions of this work.
-        russian_editions = [row for row in book["editions"] if russian_text(row.get("title"))]
         numbers = localized_isbns + [isbn for row in russian_editions for isbn in isbns(row)]
-        if match:
-            numbers += match["isbns"]
-        numbers = list(dict.fromkeys(re.sub(r'[-\s]', '', value.upper()) for value in numbers))
-        numbers = [isbn for isbn in numbers if re.fullmatch(r'\d{13}|\d{9}[\dX]', isbn)]
-        if numbers:
+        numbers += [isbn for row in other_editions for isbn in (row.get("isbn") or "").split(",")]
+        numbers = isbn_keys(numbers)[:16]
+        if publisher_edition:
+            description_from_publisher, publisher = boys_and_books_description(publisher_edition[1]), "Boys&Books"
+        else:
+            description_from_publisher, publisher = publisher_description(book["id"])
+        if description_from_publisher:
+            description, description_source = description_from_publisher, publisher
+        elif numbers:
             try:
                 found = open_library_description(numbers)
-            except (URLError, TimeoutError, ValueError, KeyError, TypeError):
+            except CATALOGUE_ERRORS:
                 found = None
             if found:
                 description, description_source = found, "Open Library"
             else:
-                found = labirint_description(numbers)
+                found = labirint_description(numbers[:8])
                 if found:
                     description, description_source = found, "Лабиринт"
     if status == "russian_found" and not description_source:
         description = None
+    if localized_title:
+        previous_cover = previous.get("cover_url") if previous.get("russian_cover") else None
+        other_editions = sorted(other_editions, key=lambda row: (
+            not bool(set(isbn_keys((row.get("isbn") or "").split(","))) & set(isbn_keys(localized_isbns))),
+            compact(row.get("name")) != compact(localized_title),
+        ))
+        preferred_cover = FANTLAB_COVERS.get(book["id"])
+        alternatives = [cover(row) for row in russian_editions]
+        if preferred_cover:
+            alternatives.insert(0, f"https://fantlab.ru/images/editions/big/{preferred_cover}")
+        alternatives.extend(fantlab_cover(row) for row in other_editions)
+        localized_cover = better_cover(previous_cover or localized_cover, [localized_cover, *alternatives])
     if status == "unconfirmed":
         description = None
     return {
@@ -279,7 +436,7 @@ def card(book):
         "rating": book.get("rating"),
         "rating_count": book.get("ratings_count"),
         "isbns": original_isbns,
-        "russian_edition_id": edition["id"] if edition else None,
+        "russian_edition_id": edition["id"] if edition else previous.get("russian_edition_id"),
         "russian_isbns": localized_isbns,
         "cover_url": localized_cover or (cover(book) if status != "unconfirmed" else None),
         "russian_cover": bool(localized_cover),
@@ -315,8 +472,14 @@ def main():
            not books[book_id].get("slug") for book_id in ids):
         raise ValueError("Hardcover returned incomplete book records")
 
+    previous = {}
+    for period in ("year", "month"):
+        path = Path(f"hardcover-{period}.json")
+        if path.exists():
+            for row in json.loads(path.read_text(encoding="utf-8"))["books"]:
+                previous[row["id"]] = row
     with ThreadPoolExecutor(max_workers=4) as workers:
-        cards = dict(zip(ids, workers.map(card, (books[book_id] for book_id in ids))))
+        cards = dict(zip(ids, workers.map(card, (books[book_id] for book_id in ids), map(previous.get, ids))))
 
     for period in ("month", "year"):
         data = {
