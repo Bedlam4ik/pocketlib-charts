@@ -1,5 +1,6 @@
 """Publish ordered Hardcover charts suitable for PocketLib."""
 from concurrent.futures import ThreadPoolExecutor
+from html import unescape
 import json
 import re
 import os
@@ -163,16 +164,46 @@ def open_library_russian_edition(original_isbns):
 
 
 def open_library_description(russian_isbns):
-    for isbn in russian_isbns[:1]:
-        key = f"ISBN:{isbn}"
-        response = catalogue_json("https://openlibrary.org", "/api/books",
-                                  {"bibkeys": key, "jscmd": "details", "format": "json"})
+    keys = [f"ISBN:{isbn}" for isbn in russian_isbns]
+    response = catalogue_json("https://openlibrary.org", "/api/books",
+                              {"bibkeys": ",".join(keys), "jscmd": "details", "format": "json"})
+    for key in keys:
         record = (response.get(key) or {}).get("details") or {}
         description = record.get("description")
         if isinstance(description, dict):
             description = description.get("value")
         if russian_text(description):
             return description
+    return None
+
+
+def labirint_html(path):
+    request = Request("https://www.labirint.ru" + path, headers={"User-Agent": "PocketLib Hardcover Feed"})
+    with urlopen(request, timeout=7) as response:
+        return response.read(4 << 20).decode("utf-8", errors="replace")
+
+
+def labirint_description(russian_isbns):
+    for isbn in russian_isbns:
+        try:
+            search = labirint_html(f"/search/{isbn}/")
+            links = re.findall(r'<a\s+href="(/books/\d+/)"\s+class="product-card__img"', search)
+            for path in list(dict.fromkeys(links))[:3]:
+                page = labirint_html(path)
+                identifiers = re.findall(r'<meta\b[^>]*itemprop="isbn"\s+content="([0-9Xx-]+)"', page)
+                if isbn not in {value.replace("-", "").upper() for value in identifiers}:
+                    continue
+                annotation = re.search(
+                    r'id="annotation".*?<div class="_content_[^"]*">(?:\s*<div[^>]*>)+(.+?)</div>',
+                    page, re.DOTALL,
+                )
+                if annotation:
+                    description = re.sub(r'<br\s*/?>|</p>', '\n', annotation[1], flags=re.IGNORECASE)
+                    description = unescape(re.sub(r'<[^>]+>', '', description)).strip()
+                    if russian_text(description):
+                        return description
+        except (URLError, TimeoutError):
+            continue
     return None
 
 
@@ -191,6 +222,7 @@ def card(book):
     edition_source = "Hardcover" if edition else None
     description_source = "Hardcover" if russian_text(description) else None
     fantlab_checked = False
+    match = None
     try:
         work = find_fantlab_work(book, original_isbns, authors)
         match = fantlab_russian_edition(work)
@@ -212,12 +244,27 @@ def card(book):
                 status, edition_source = "russian_found", "Open Library"
             elif checked and fantlab_checked:
                 status = "no_russian_in_catalog"
-        if localized_isbns and not description_source:
-            found = open_library_description(localized_isbns)
-            if found:
-                description, description_source = found, "Open Library"
     except (URLError, TimeoutError, ValueError, KeyError, TypeError):
         pass
+    if localized_title and not description_source:
+        # Only look up ISBNs that belong to confirmed Russian editions of this work.
+        russian_editions = [row for row in book["editions"] if russian_text(row.get("title"))]
+        numbers = localized_isbns + [isbn for row in russian_editions for isbn in isbns(row)]
+        if match:
+            numbers += match["isbns"]
+        numbers = list(dict.fromkeys(re.sub(r'[-\s]', '', value.upper()) for value in numbers))
+        numbers = [isbn for isbn in numbers if re.fullmatch(r'\d{13}|\d{9}[\dX]', isbn)]
+        if numbers:
+            try:
+                found = open_library_description(numbers)
+            except (URLError, TimeoutError, ValueError, KeyError, TypeError):
+                found = None
+            if found:
+                description, description_source = found, "Open Library"
+            else:
+                found = labirint_description(numbers)
+                if found:
+                    description, description_source = found, "Лабиринт"
     if status == "russian_found" and not description_source:
         description = None
     if status == "unconfirmed":
@@ -291,4 +338,3 @@ if __name__ == "__main__":
         sys.exit(f"Hardcover HTTP {error.code}")
     except (URLError, ValueError, KeyError, TimeoutError) as error:
         sys.exit(f"Hardcover refresh failed: {error}")
-
