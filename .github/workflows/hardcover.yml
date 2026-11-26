@@ -14,8 +14,15 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
+      - name: Set up translation
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install offline translator
+        run: python -m pip install argostranslate==1.11.0
       - name: Build charts
         env:
           HARDCOVER_TOKEN: ${{ secrets.HARDCOVER_TOKEN }}
