@@ -40,8 +40,8 @@
         "Andy Weir"
       ],
       "published": "2021-01-01",
-      "rating": 4.509868772004694,
-      "rating_count": 9373,
+      "rating": 4.509814380200555,
+      "rating_count": 9374,
       "isbns": [
         "9780593135204",
         "0593135202",
@@ -175,7 +175,7 @@
     {
       "id": 818989,
       "url": "https://hardcover.app/books/the-eye-of-the-bedlam-bride",
-      "title": "The Eye of the Bedlam Bride",
+      "title": null,
       "original_title": "The Eye of the Bedlam Bride",
       "authors": [
         "Matt Dinniman"
@@ -189,19 +189,19 @@
       ],
       "russian_edition_id": null,
       "russian_isbns": [],
-      "cover_url": "https://assets.hardcover.app/editions/30829594/3f43c2b5-94bd-4d1b-9e64-35daa4e94b42.jpg",
+      "cover_url": null,
       "russian_cover": false,
-      "edition_status": "no_russian_in_catalog",
+      "edition_status": "unconfirmed",
       "edition_source": null,
       "description_source": null,
-      "description": "A pantheon of forgotten gods. An old grudge between a talk show host, an heiress, and the man they shattered along the way. A rapidly deteriorating AI system. An inconvenient tiara upon the head of a friend.\n\nIt is bedlam on the eighth floor.\nAs management reels from the unexpected conclusion of the seventh level, the surviving crawlers stumble onto the eighth and find themselves scattered. It’s a map based on Earth’s final days before the collapse, where ethereal, intangible ghosts of humanity go about their lives, oblivious of the impending doom. Living amongst these ghosts are monsters based in Earth lore. “Legendary” creatures tied to the geographical location they inhabit.\n\nEach team of crawlers is given a task: find and capture six of these beasts. The captured monsters will be turned into cards. Cards that can be summoned into battle again and again. The stronger, the deadlier, the better.\n\nAt the end of the floor, the bad guys will also have decks, and they will have some of the most powerful cards available. So it’s crucial to assemble the toughest squad possible.\n\nBut, like always, there is a catch. There’s always a catch.\n\nAs Carl and Donut know all too well, just because someone is captured, it doesn’t mean they have been tamed.\n\nHer name is Shi Maria. She’s easily the most powerful monster in their area. If they want to survive, they must capture her. But she is no ordinary beast. She’s intelligent. She was once married to a god, a god who is now missing. Her special attack is known to drive one insane. They call her the Bedlam Bride.\n\n“Beware, beware. Beware the Eye of the Bedlam Bride”",
+      "description": null,
       "description_language": null,
       "rank": 7
     },
     {
       "id": 1817542,
       "url": "https://hardcover.app/books/a-parade-of-horribles",
-      "title": "A Parade of Horribles",
+      "title": null,
       "original_title": "A Parade of Horribles",
       "authors": [
         "Matt Dinniman"
@@ -214,19 +214,19 @@
       ],
       "russian_edition_id": null,
       "russian_isbns": [],
-      "cover_url": "https://assets.hardcover.app/edition/32462067/40a20ed0-0786-4425-b775-0af66472e853.jpg",
+      "cover_url": null,
       "russian_cover": false,
-      "edition_status": "no_russian_in_catalog",
+      "edition_status": "unconfirmed",
       "edition_source": null,
       "description_source": null,
-      "description": "As chaos and mass panic spread outside the dungeon in the wake of Faction Wars, Carl and Donut find themselves on the tenth floor, where they’re forced to compete in a surprisingly normal set of tasks. Well, normal for the dungeon.\n\nRaces. Get from point A to point B, and don’t come in last. After each race, they pick an upgrade for their vehicle and the track gets more challenging. It all seems a little too normal, a little too simple.\n\nIgnore those strange glitches that are occurring with increasing frequency. Don’t listen to those whispers about what’s happening on the mysterious eleventh floor, something the system AI calls A Parade of Horribles. Nobody, not even the showrunners, knows what that means. Just that the AI has ominously dubbed it “a coming-out party for the ages.”\n\nEverything is fine, Crawler. I repeat, everything is fine.\n\nCarl hates that it’s business as usual. The rules of this floor have taken away his agency. That just will not do.\n\nSo Carl is planning a party of his own. It’s a plan so dangerous, so insane, he can’t even consult his friends lest the AI put a stop to it. Because if it goes wrong, it’s not just the end of Carl and Donut. No. The stakes are higher than they’ve ever been.",
+      "description": null,
       "description_language": null,
       "rank": 8
     },
     {
       "id": 1464466,
       "url": "https://hardcover.app/books/this-inevitable-ruin",
-      "title": "This Inevitable Ruin",
+      "title": null,
       "original_title": "This Inevitable Ruin",
       "authors": [
         "Matt Dinniman"
@@ -239,12 +239,12 @@
       ],
       "russian_edition_id": null,
       "russian_isbns": [],
-      "cover_url": "https://assets.hardcover.app/edition/32042174/54ee7e48-38e1-4303-824a-7da6156f5bfe.png",
+      "cover_url": null,
       "russian_cover": false,
-      "edition_status": "no_russian_in_catalog",
+      "edition_status": "unconfirmed",
       "edition_source": null,
       "description_source": null,
-      "description": "They call it Faction Wars.\nThe ninth floor.\n\nNine armies, each led by rich and powerful aliens from across the galaxy. Each team has one objective: to capture and hold the castle at the very center of the battlefield. Strategy, alliances, pitched battles, and, of course, betrayal... It all makes for great fun and even greater television.\n\nAfter all, none of these powerful aliens really die when they’re playing war.\n\nExcept this time. This time, winner takes all. Those who fall, stay in the ground.\n\nAs the AI continues its rapid decline, Carl and company take advantage of the chaos. For the first time ever, the crawlers are fighting back. They are now one of the nine teams. And this season, there’s a tenth army on the playing field. The NPCs, who are normally used as nothing but cannon fodder, have become fully self-aware and formed a team of their own.\n\nFor Donut and Katia, the stakes are even higher. Only one of them will be allowed to leave this level.\n\nIf they all want to survive, they’re going to need a little help from a veteran or two.\n\nThis is it.\nThis is what they’ve been fighting toward.\nThis is war.\n\nThis inevitable ruin.",
+      "description": null,
       "description_language": null,
       "rank": 9
     },
@@ -363,7 +363,7 @@
         "9785389189065",
         "538918906X"
       ],
-      "cover_url": "https://assets.hardcover.app/external_data/689402/e18cfbe385de5d2bc1014aa89add4a5e3b6dde25.jpeg",
+      "cover_url": "https://assets.hardcover.app/edition/31197105/56e420088c861444535309db72c4249ec4017c32.jpeg",
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
@@ -450,7 +450,7 @@
         "9785353003083",
         "535300308X"
       ],
-      "cover_url": "https://assets.hardcover.app/edition/12295826/e51fb38d185340f42f1b3f6eea1b6866991a8818.jpeg",
+      "cover_url": "https://assets.hardcover.app/edition/7487162/cb924446c34da37d80f0702428ddcd76f8849d2c.jpeg",
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
@@ -479,7 +479,7 @@
         "9785699461103",
         "5699461108"
       ],
-      "cover_url": "https://assets.hardcover.app/external_data/61320197/76410b2082495906df31856d10293b1f09dfaad6.jpeg",
+      "cover_url": "https://assets.hardcover.app/edition/31342063/72539182be337136d0c25c56e34c968d5daea1b1.jpeg",
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
@@ -541,7 +541,7 @@
         "9785965000661",
         "5965000669"
       ],
-      "cover_url": "https://assets.hardcover.app/external_data/832967/83c4439ea221a16409cafdfb7b1402232fab49c8.jpeg",
+      "cover_url": "https://assets.hardcover.app/edition/32596598/293d4bcb5128fcf04abf2abdd18cbd8912ac7e65.jpeg",
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
@@ -659,7 +659,7 @@
         "9785845109477",
         "5845109477"
       ],
-      "cover_url": "https://assets.hardcover.app/edition/29904618/1edfd00bb239efda1186b89308b1039b0661ca95.jpeg",
+      "cover_url": "https://assets.hardcover.app/external_data/23351478/e02e057ecd35cf65a8ce243d6af27c523600543d.jpeg",
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
@@ -718,8 +718,8 @@
       ],
       "russian_edition_id": 31342062,
       "russian_isbns": [],
-      "cover_url": "https://assets.hardcover.app/edition/11581188/a697a2121fce4b8f163f227e0cf3c2bd3fd02089.jpeg",
-      "russian_cover": false,
+      "cover_url": "https://assets.hardcover.app/external_data/4023227/57b26f7d5e4881724e22409c49a9f4aaae2857c4.jpeg",
+      "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
       "description_source": "Фантлаб",
@@ -749,7 +749,7 @@
         "9785353104797",
         "535310479X"
       ],
-      "cover_url": "https://assets.hardcover.app/edition/31425485/91813942733e6b404d4fbfdcdf6ed5f182592248.jpeg",
+      "cover_url": "https://assets.hardcover.app/external_data/4195256/62905631ba55c3ffa57d74ab234febb908430bd3.jpeg",
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
@@ -821,7 +821,7 @@
     {
       "id": 524964,
       "url": "https://hardcover.app/books/heated-rivalry",
-      "title": null,
+      "title": "Заклятые соперники",
       "original_title": "Heated Rivalry",
       "authors": [
         "Rachel Reid"
@@ -835,13 +835,13 @@
       ],
       "russian_edition_id": null,
       "russian_isbns": [],
-      "cover_url": null,
+      "cover_url": "https://assets.hardcover.app/edition/32508798/62c09422-138d-42ef-81d9-a9599e2fba5c.jpg",
       "russian_cover": false,
-      "edition_status": "unconfirmed",
-      "edition_source": null,
-      "description_source": null,
-      "description": null,
-      "description_language": null,
+      "edition_status": "russian_found",
+      "edition_source": "Boys&Books",
+      "description_source": "Boys&Books",
+      "description": "Шейн Холландер — образец дисциплины и капитан «Монреаль Вояджерс». Илья Розанов — харизматичный лидер «Бостонских медведей». Их противостояние давно стало легендой лиги: каждый матч превращается в проверку характера, выдержки и мастерства.\n\nГоды конкуренции меняют обоих. За громкими победами и безупречной репутацией стоят непростые решения, а главные испытания продолжаются за пределами катка.",
+      "description_language": "ru",
       "rank": 29
     },
     {
@@ -866,7 +866,7 @@
         "9785170928323",
         "5170928327"
       ],
-      "cover_url": "https://assets.hardcover.app/edition/32761133/14e8d93837307a2591f9992254fcf90837554aa9.jpeg",
+      "cover_url": "https://assets.hardcover.app/edition/30933138/4f8333e23219690c00f27e1124dfb7128e22cc6f.jpeg",
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
@@ -878,7 +878,7 @@
     {
       "id": 498097,
       "url": "https://hardcover.app/books/i-who-have-never-known-men",
-      "title": null,
+      "title": "Я, никогда не знавшая мужчин",
       "original_title": "I Who Have Never Known Men",
       "authors": [
         "Jacqueline Harpman"
@@ -893,14 +893,16 @@
         "1945492627"
       ],
       "russian_edition_id": null,
-      "russian_isbns": [],
-      "cover_url": null,
-      "russian_cover": false,
-      "edition_status": "unconfirmed",
-      "edition_source": null,
-      "description_source": null,
-      "description": null,
-      "description_language": null,
+      "russian_isbns": [
+        "9785751618377"
+      ],
+      "cover_url": "https://fantlab.ru/images/editions/big/375175",
+      "russian_cover": true,
+      "edition_status": "russian_found",
+      "edition_source": "Фантлаб",
+      "description_source": "Фантлаб",
+      "description": "Их сорок запертых в подземном каземате на пустынной планете, они ищут людей, а также объяснение тому, как они здесь оказались. Самая молодая из них - та, от лица которой ведется повествование, - никогда не знала иной жизни. Остальные, хотя и не помнят, каким образом оказались в тюрьме, хранят воспоминание о прежней жизни, в которой были мужья, дети, города. Случается так, что эти сорок женщин выходят на свободу и обнаруживают вокруг себя странный ландшафт, где есть только другие подобные казематы и больше нет живых людей.\r\nИстория рассказана до жути спокойным тоном и не отпускает читателя от первой страницы до последней. Она повествует о трагедии современного мира, который обречен и в котором в то же время не угасла надежда. Страшная, она пронизана искренним гуманизмом и служит своеобразной метафорой современного общества.",
+      "description_language": "ru",
       "rank": 31
     },
     {
@@ -982,7 +984,7 @@
         "9785389115859",
         "5389115856"
       ],
-      "cover_url": "https://assets.hardcover.app/edition/32635579/0e6eb83ea2f9982d6241926a39a38a15836f320f.jpeg",
+      "cover_url": "https://assets.hardcover.app/edition/32924837/2665db6fed31b52c155fca22b21a4528c42cedd8.jpeg",
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
@@ -1113,7 +1115,7 @@
     {
       "id": 1989398,
       "url": "https://hardcover.app/books/platform-decay",
-      "title": "Platform Decay",
+      "title": null,
       "original_title": "Platform Decay",
       "authors": [
         "Martha Wells"
@@ -1129,12 +1131,12 @@
       ],
       "russian_edition_id": null,
       "russian_isbns": [],
-      "cover_url": "https://assets.hardcover.app/edition/32156003/e38e4f2d-41b3-44e2-a847-513056d1c43e.jpg",
+      "cover_url": null,
       "russian_cover": false,
-      "edition_status": "no_russian_in_catalog",
+      "edition_status": "unconfirmed",
       "edition_source": null,
       "description_source": null,
-      "description": "After volunteering to run a rescue mission, Murderbot realizes that it will have to spend significant time with a bunch of humans it doesn't know.\n\nIncluding human children. Ugh.\n\nThis may well call for... eye contact!\n\n(Emotion check: Oh, for f—)",
+      "description": null,
       "description_language": null,
       "rank": 39
     },
@@ -1160,7 +1162,7 @@
         "9785040420520",
         "5040420528"
       ],
-      "cover_url": "https://assets.hardcover.app/external_data/59614203/8881a735bfed27b6fb4190c144be519b16b1c64b.jpeg",
+      "cover_url": "https://assets.hardcover.app/edition/32719593/50578b60c0e357b300cd16b80b1e30441353a150.jpeg",
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
@@ -1206,8 +1208,8 @@
         "Suzanne Collins"
       ],
       "published": "2008-09-14",
-      "rating": 4.135980120203421,
-      "rating_count": 8652,
+      "rating": 4.136022188836241,
+      "rating_count": 8653,
       "isbns": [
         "9780439023481",
         "0439023483"
@@ -1217,8 +1219,8 @@
         "9785271257940",
         "5271257940"
       ],
-      "cover_url": "https://assets.hardcover.app/editions/1589497/2979196565308831-lf%202.jpeg",
-      "russian_cover": false,
+      "cover_url": "https://assets.hardcover.app/edition/31900151/8f98461d08f67379c2385d620be66a909610574c.jpeg",
+      "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
       "description_source": "Лабиринт",
@@ -1248,7 +1250,7 @@
         "9785080000980",
         "5080000988"
       ],
-      "cover_url": "https://assets.hardcover.app/external_data/60521753/1d0a96524372fe75e5291e4ce76e4280eb8b66cb.jpeg",
+      "cover_url": "https://assets.hardcover.app/external_data/26191767/b3907da6866f3e159ab591e32395e27362889c94.jpeg",
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
@@ -1339,7 +1341,7 @@
         "9785389094635",
         "5389094638"
       ],
-      "cover_url": "https://assets.hardcover.app/edition/31148944/66145edf3be09713d0f2242c9dba2cdd7123c098.jpeg",
+      "cover_url": "https://assets.hardcover.app/edition/33405227/1a437a3cda42e12072a08ddb26d7a968ad5f7242.jpeg",
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
@@ -1382,7 +1384,7 @@
     {
       "id": 436502,
       "url": "https://hardcover.app/books/a-short-stay-in-hell",
-      "title": "A Short Stay in Hell",
+      "title": null,
       "original_title": "A Short Stay in Hell",
       "authors": [
         "Steven L. Peck"
@@ -1398,12 +1400,12 @@
       ],
       "russian_edition_id": null,
       "russian_isbns": [],
-      "cover_url": "https://assets.hardcover.app/edition/32076091/1fb38c39-58fb-4af1-8960-5b0ff1b9cbb4.jpg",
+      "cover_url": null,
       "russian_cover": false,
-      "edition_status": "no_russian_in_catalog",
+      "edition_status": "unconfirmed",
       "edition_source": null,
       "description_source": null,
-      "description": "An ordinary family man, geologist, and Mormon, Soren Johansson has always believed he’ll be reunited with his loved ones after death in an eternal hereafter. Then, he dies. Soren wakes to find himself cast by a God he has never heard of into a Hell whose dimensions he can barely grasp: a vast library he can only escape from by finding the book that contains the story of his life.\n\nIn this haunting existential novella, author, philosopher, and ecologist Steven L. Peck explores a subversive vision of eternity, taking the reader on a journey through the afterlife of a world where everything everyone believed in turns out to be wrong.",
+      "description": null,
       "description_language": null,
       "rank": 48
     },
@@ -1491,7 +1493,7 @@
         "9785389138599",
         "5389138597"
       ],
-      "cover_url": "https://assets.hardcover.app/edition/32628751/fb9041678865ff800dae0fa22ee9c498265677c6.jpeg",
+      "cover_url": "https://assets.hardcover.app/book/1121099/f6c83525-e133-4837-9483-be4056cd5f8a.jpg",
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
@@ -1553,7 +1555,7 @@
         "9785699108190",
         "569910819X"
       ],
-      "cover_url": "https://assets.hardcover.app/edition/30081420/448edc3316ecb5d2bd779ba43e711cab6daf2df7.jpeg",
+      "cover_url": "https://assets.hardcover.app/edition/32327969/8efa169627127461d9fff88fa570c32b924958c6.jpeg",
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
@@ -1615,7 +1617,7 @@
         "9785389135628",
         "5389135628"
       ],
-      "cover_url": "https://assets.hardcover.app/external_data/725993/5f7eae2c2adfdc01caf845b8f84ef19a8a36c78b.jpeg",
+      "cover_url": "https://assets.hardcover.app/edition/32275345/f7c214341efbf080b418e8400518a5296984adfc.jpeg",
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
@@ -1661,8 +1663,8 @@
         "Cixin Liu"
       ],
       "published": "2006-05-01",
-      "rating": 4.004981024667932,
-      "rating_count": 4216,
+      "rating": 4.005216978894949,
+      "rating_count": 4217,
       "isbns": [
         "9780765382030",
         "0765382032",
@@ -1686,7 +1688,7 @@
     {
       "id": 524963,
       "url": "https://hardcover.app/books/game-changer-2018",
-      "title": null,
+      "title": "Переломный момент",
       "original_title": "Game Changer",
       "authors": [
         "Rachel Reid"
@@ -1702,13 +1704,13 @@
       ],
       "russian_edition_id": null,
       "russian_isbns": [],
-      "cover_url": null,
+      "cover_url": "https://assets.hardcover.app/edition/30478872/80c27efd73b01e56e2c6405846656be0e608f959.jpeg",
       "russian_cover": false,
-      "edition_status": "unconfirmed",
-      "edition_source": null,
-      "description_source": null,
-      "description": null,
-      "description_language": null,
+      "edition_status": "russian_found",
+      "edition_source": "Boys&Books",
+      "description_source": "Boys&Books",
+      "description": "Скотт Хантер привык держать под контролем игру, карьеру и репутацию. Но полоса неудач заставляет его пересмотреть привычный порядок. Случайное знакомство с Кипом Грейди становится отправной точкой перемен.\n\nЧем ближе плей-офф, тем труднее сохранять прежние правила. История о давлении большого спорта, личном выборе и цене решений.",
+      "description_language": "ru",
       "rank": 58
     },
     {
@@ -1782,8 +1784,8 @@
         "Alex Michaelides"
       ],
       "published": "2019-02-05",
-      "rating": 3.822142857142857,
-      "rating_count": 2800,
+      "rating": 3.8225633702249198,
+      "rating_count": 2801,
       "isbns": [
         "9788858430774",
         "8858430778",
@@ -1795,7 +1797,7 @@
         "9785041053116",
         "5041053111"
       ],
-      "cover_url": "https://assets.hardcover.app/edition/32712908/d1360f27658e59fdfd9a6d74690801c9a36921db.jpeg",
+      "cover_url": "https://assets.hardcover.app/external_data/61249551/5b4cbb510f7659134ac8a07c9d60a35cfbc69c3c.jpeg",
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
@@ -1807,7 +1809,7 @@
     {
       "id": 482996,
       "url": "https://hardcover.app/books/between-two-fires-2012",
-      "title": "Between Two Fires",
+      "title": null,
       "original_title": "Between Two Fires",
       "authors": [
         "Christopher Buehlman"
@@ -1821,12 +1823,12 @@
       ],
       "russian_edition_id": null,
       "russian_isbns": [],
-      "cover_url": "https://assets.hardcover.app/editions/30423309/5478029573138530.jpg",
+      "cover_url": null,
       "russian_cover": false,
-      "edition_status": "no_russian_in_catalog",
+      "edition_status": "unconfirmed",
       "edition_source": null,
       "description_source": null,
-      "description": "Thomas, a disgraced knight, has found a young girl alone in a dead Norman village. An orphan of the Black Death, and an almost unnerving picture of innocence, she tells Thomas that plague is only part of a larger cataclysm—that the fallen angels under Lucifer are rising in a second war on heaven, and that the world of men has fallen behind the lines of conflict.\n\nIs it delirium or is it faith? She believes she has seen the angels of God. She believes the righteous dead speak to her in dreams. And now she has convinced the faithless Thomas to shepherd her across a depraved landscape to Avignon. There, she tells Thomas, she will fulfill her mission to confront the evil that has devastated the earth, and to restore to this betrayed, murderous knight the nobility and hope of salvation he long abandoned.\n\nAs hell unleashes its wrath, and as the true nature of the girl is revealed, Thomas will find himself on a macabre battleground of angels and demons, saints, and the risen dead, and in the midst of a desperate struggle for nothing less than the soul of man.",
+      "description": null,
       "description_language": null,
       "rank": 62
     },
@@ -1856,9 +1858,9 @@
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
-      "description_source": null,
-      "description": null,
-      "description_language": null,
+      "description_source": "АСТ",
+      "description": "«Грозовой перевал» Эмили Бронте — не просто золотая классика мировой литературы, но роман, перевернувший в свое время представления о романтической прозе....",
+      "description_language": "ru",
       "rank": 63
     },
     {
@@ -1883,7 +1885,7 @@
         "9785170671281",
         "5170671288"
       ],
-      "cover_url": "https://assets.hardcover.app/external_data/725967/5fa5ae2044b2973cbf4102dd84671d814cb787b6.jpeg",
+      "cover_url": "https://assets.hardcover.app/edition/32670021/5eb882dc159c19017efbfb73ec0a3abf4240f5d3.jpeg",
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
@@ -1895,7 +1897,7 @@
     {
       "id": 1123366,
       "url": "https://hardcover.app/books/katabasis-2025",
-      "title": "Katabasis",
+      "title": null,
       "original_title": "Katabasis",
       "authors": [
         "R.F. Kuang"
@@ -1911,12 +1913,12 @@
       ],
       "russian_edition_id": null,
       "russian_isbns": [],
-      "cover_url": "https://assets.hardcover.app/editions/31147378/6272729711218434.jpg",
+      "cover_url": null,
       "russian_cover": false,
-      "edition_status": "no_russian_in_catalog",
+      "edition_status": "unconfirmed",
       "edition_source": null,
       "description_source": null,
-      "description": "Dante’s Inferno meets Susanna Clarke’s Piranesi in this all-new dark academia fantasy from R. F. Kuang, the #1 New York Times bestselling author of Babel and Yellowface, in which two graduate students must put aside their rivalry and journey to Hell to save their professor’s soul—perhaps at the cost of their own. \n\nKatabasis, noun, Ancient Greek:\n\nThe story of a hero’s descent to the underworld\n\nAlice Law has only ever had one goal: to become one of the brightest minds in the field of Magick. She has sacrificed everything to make that a reality: her pride, her health, her love life, and most definitely her sanity. All to work with Professor Jacob Grimes at Cambridge, the greatest magician in the world.\n\nThat is, until he dies in a magical accident that could possibly be her fault.\n\nGrimes is now in Hell, and she’s going in after him. Because his recommendation could hold her very future in his now incorporeal hands and even death is not going to stop the pursuit of her dreams….\n\nNor will the fact that her rival, Peter Murdoch, has come to the very same conclusion.\n\nWith nothing but the tales of Orpheus and Dante to guide them, enough chalk to draw the Pentagrams necessary for their spells, and the burning desire to make all the academic trauma mean anything, they set off across Hell to save a man they don’t even like.\n\nBut Hell is not like the storybooks say, Magick isn’t always the answer, and there’s something in Alice and Peter’s past that could forge them into the perfect allies…or lead to their doom.",
+      "description": null,
       "description_language": null,
       "rank": 65
     },
@@ -1970,7 +1972,7 @@
         "9785948490908",
         "5948490904"
       ],
-      "cover_url": "https://assets.hardcover.app/external_data/4473516/d2e446ec1f643cb39f0b5c2cc23b62d8c3b234e9.jpeg",
+      "cover_url": "https://assets.hardcover.app/external_data/4050484/264881ef6d5b66cf48289c5617d803b31f1cb4b4.jpeg",
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
@@ -2001,7 +2003,7 @@
         "9785170125340",
         "5170125348"
       ],
-      "cover_url": "https://assets.hardcover.app/external_data/39795475/f9310edd52ea03f27af79f8af33291b092a7cba8.jpeg",
+      "cover_url": "https://assets.hardcover.app/edition/32924857/e6454155201139f2bf4f381e789548073be1f802.jpeg",
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
@@ -2063,7 +2065,7 @@
         "9785389161412",
         "5389161416"
       ],
-      "cover_url": "https://assets.hardcover.app/external_data/725871/e86d9800b5f992e42df6febe945a5453150c89d5.jpeg",
+      "cover_url": "https://assets.hardcover.app/edition/32658878/8e64dcb03b632838cff3ab592660e720917b0d13.jpeg",
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
@@ -2092,7 +2094,7 @@
         "9785389045316",
         "5389045319"
       ],
-      "cover_url": "https://assets.hardcover.app/edition/31643412/379fb0141345c78504229fff5e7945c4f8f629c3.jpeg",
+      "cover_url": "https://assets.hardcover.app/edition/31792638/0466d0104a27e8dc635f5ec06537104556ea3d4c.jpeg",
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
@@ -2139,8 +2141,8 @@
         "Matt Haig"
       ],
       "published": "2020-08-13",
-      "rating": 3.7926403438087566,
-      "rating_count": 3723,
+      "rating": 3.7926960257787323,
+      "rating_count": 3724,
       "isbns": [
         "9781786892720",
         "1786892723",
@@ -2198,8 +2200,8 @@
         "Madeline Miller"
       ],
       "published": "2011-01-01",
-      "rating": 4.249049429657795,
-      "rating_count": 3156,
+      "rating": 4.249287298067786,
+      "rating_count": 3157,
       "isbns": [
         "9780062060617",
         "0062060619",
@@ -2270,7 +2272,7 @@
         "9785389150140",
         "5389150147"
       ],
-      "cover_url": "https://assets.hardcover.app/external_data/2322932/f6fd801efb75479c7e24f760201c0c54e616f5a6.jpeg",
+      "cover_url": "https://assets.hardcover.app/edition/32713049/3004e8a5513dade2bdcd18a28c6e071ab9a4933a.jpeg",
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
@@ -2419,7 +2421,7 @@
         "9785699103621",
         "5699103627"
       ],
-      "cover_url": "https://assets.hardcover.app/edition/8923898/c21d8ccea39795a330bf42614f54fc92d1f1951d.jpeg",
+      "cover_url": "https://assets.hardcover.app/edition/31792546/d867d96fb95f54eb0bdcb4c774b1681e2abc12e7.jpeg",
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
@@ -2468,8 +2470,8 @@
         "John Green"
       ],
       "published": "2025-03-18",
-      "rating": 4.329337094499294,
-      "rating_count": 709,
+      "rating": 4.327464788732394,
+      "rating_count": 710,
       "isbns": [
         "9780525426059",
         "0525426051",
@@ -2568,7 +2570,7 @@
         "9785446713752",
         "5446713753"
       ],
-      "cover_url": "https://assets.hardcover.app/external_data/4103795/ba078c2252092e9507b0d26e34e3716bae8fb755.jpeg",
+      "cover_url": "https://assets.hardcover.app/external_data/4032496/4fbc332e81b0996825aebf6a140299c75f783dda.png",
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
@@ -2597,7 +2599,7 @@
         "9785389163669",
         "5389163664"
       ],
-      "cover_url": "https://assets.hardcover.app/external_data/2322938/348486459221bf43a822b8e10e5815eb5ed6a85b.jpeg",
+      "cover_url": "https://assets.hardcover.app/edition/32713051/a3ed3ec0d0e46b13cd56f9f30a4c2e4355991d38.jpeg",
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
@@ -2625,7 +2627,7 @@
       ],
       "russian_edition_id": 32635558,
       "russian_isbns": [],
-      "cover_url": "https://assets.hardcover.app/external_data/2322957/c85cf14abe225dadcf6cbb290399c8999095269e.jpeg",
+      "cover_url": "https://fantlab.ru/images/editions/big/500836",
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
@@ -2682,7 +2684,7 @@
         "9785389113664",
         "5389113667"
       ],
-      "cover_url": "https://assets.hardcover.app/external_data/61320300/eb387ca85a91b8dde9a65f67a028169f8bea4ddd.jpeg",
+      "cover_url": "https://fantlab.ru/images/editions/big/190247",
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
@@ -2713,7 +2715,7 @@
         "9785041166878",
         "5041166870"
       ],
-      "cover_url": "https://assets.hardcover.app/edition/32113759/628625ffeb2b035676644f4ba235390cef4693a7.jpeg",
+      "cover_url": "https://assets.hardcover.app/book/440171/8f71e077-9b81-4ac2-9eeb-fc1852573857.jpg",
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
@@ -2803,7 +2805,7 @@
         "9785170502745",
         "5170502745"
       ],
-      "cover_url": "https://assets.hardcover.app/edition/31145035/405cabd752f616ccd18f60d5b56179758335d1fc.jpeg",
+      "cover_url": "https://assets.hardcover.app/edition/24776559/cc3a0f3937cb504e0cf4e68d1e74142b01e44280.jpeg",
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
@@ -2869,9 +2871,9 @@
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
-      "description_source": null,
-      "description": null,
-      "description_language": null,
+      "description_source": "Азбука",
+      "description": "Среди причудливых миров Космера есть один, где правят странные боги — ожившие мертвецы, или возвращенные. Прекрасные и молодые, они бессмертны и не помнят прошлой жизни. Для поддержании жизни им нужен дох — неуловимая субстанция, которая наполняет мир красками и обостряет чувства. Дох есть у каждого человека; боги предпочитают забирать его у детей. Таковы порядки в Халландрене — государстве, погрязшем в роскоши и распутстве. Там правит таинственный Бог-король. Страна много лет не знала войн, но скоро все должно измениться. Кто-то разжигает конфликт, стремясь столкнуть Халландрен с холодным горным Идрисом, что неизбежно повлечет за собой Панвойну. Мир можно спасти, если заключить брак между Богом-королем и идрисской принцессой Вивенной. Но в Халландрен отправляется не она. И вряд ли удастся избежать кровопролития, если не вмешается таинственный и легендарный Убийца Войн.",
+      "description_language": "ru",
       "rank": 97
     },
     {
@@ -2896,7 +2898,7 @@
         "9785389203334",
         "538920333X"
       ],
-      "cover_url": "https://assets.hardcover.app/external_data/2322923/dab65e26d4fef46ca4b3319117f1c0d40e53270f.jpeg",
+      "cover_url": "https://assets.hardcover.app/edition/32713050/6a770871b8bcc6fcc1c9648eb3c8ad44ca63dfeb.jpeg",
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
@@ -2927,13 +2929,13 @@
         "9785170070053",
         "5170070055"
       ],
-      "cover_url": "https://assets.hardcover.app/edition/9352502/e9ee8a62889c0034993de694a1ed2e2b80e0d825.jpeg",
+      "cover_url": "https://assets.hardcover.app/external_data/3647577/30e13c29616c100624b26667f312e4bfbca01950.jpeg",
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
-      "description_source": null,
-      "description": null,
-      "description_language": null,
+      "description_source": "АСТ",
+      "description": "\"Преступление и наказание\" — одно из самых известных произведений Достоевского. \nГениальный роман, главные темы которого: преступление и наказание, жертвенность и любовь, свобода и ...",
+      "description_language": "ru",
       "rank": 99
     },
     {

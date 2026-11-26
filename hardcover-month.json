@@ -34,7 +34,7 @@
     {
       "id": 430559,
       "url": "https://hardcover.app/books/a-court-of-splintered-harmony",
-      "title": "A Court of Splintered Harmony",
+      "title": null,
       "original_title": "A Court of Splintered Harmony",
       "authors": [
         "Sarah J. Maas"
@@ -50,12 +50,12 @@
       ],
       "russian_edition_id": null,
       "russian_isbns": [],
-      "cover_url": "https://assets.hardcover.app/edition/30390459/ee9f70bd-d62e-4636-a0b6-ad98746d065a.jpg",
+      "cover_url": null,
       "russian_cover": false,
-      "edition_status": "no_russian_in_catalog",
+      "edition_status": "unconfirmed",
       "edition_source": null,
       "description_source": null,
-      "description": "What was broken will be remade.\n\nDeep in the heart of the continent, Koschei the Deathless is stirring. Though he's been bound to a mountain lake for millennia, the insidious threat of his return now spreads across the Fae territories, attracting powerful allies hell-bent on reclaiming what was once theirs: the human lands.\n\nThe Night Court will not stand idly by while innocents are attacked. But with Prythian still piecing itself together in the wake of the devastating Hybern War, the task of uniting is proving more difficult by the day.\n\nTo make matters worse, those who rule and protect the Night Court are reeling from recent betrayals and revealed truths. The rifts dividing them seem insurmountable.\n\nBut to defeat Koschei's creeping shadow, they must find a way back to each other and resurrect their former alliances. To survive, they must find a way to repair the splintered harmony all around them.",
+      "description": null,
       "description_language": null,
       "rank": 2
     },
@@ -146,7 +146,7 @@
     {
       "id": 1817542,
       "url": "https://hardcover.app/books/a-parade-of-horribles",
-      "title": "A Parade of Horribles",
+      "title": null,
       "original_title": "A Parade of Horribles",
       "authors": [
         "Matt Dinniman"
@@ -159,12 +159,12 @@
       ],
       "russian_edition_id": null,
       "russian_isbns": [],
-      "cover_url": "https://assets.hardcover.app/edition/32462067/40a20ed0-0786-4425-b775-0af66472e853.jpg",
+      "cover_url": null,
       "russian_cover": false,
-      "edition_status": "no_russian_in_catalog",
+      "edition_status": "unconfirmed",
       "edition_source": null,
       "description_source": null,
-      "description": "As chaos and mass panic spread outside the dungeon in the wake of Faction Wars, Carl and Donut find themselves on the tenth floor, where they’re forced to compete in a surprisingly normal set of tasks. Well, normal for the dungeon.\n\nRaces. Get from point A to point B, and don’t come in last. After each race, they pick an upgrade for their vehicle and the track gets more challenging. It all seems a little too normal, a little too simple.\n\nIgnore those strange glitches that are occurring with increasing frequency. Don’t listen to those whispers about what’s happening on the mysterious eleventh floor, something the system AI calls A Parade of Horribles. Nobody, not even the showrunners, knows what that means. Just that the AI has ominously dubbed it “a coming-out party for the ages.”\n\nEverything is fine, Crawler. I repeat, everything is fine.\n\nCarl hates that it’s business as usual. The rules of this floor have taken away his agency. That just will not do.\n\nSo Carl is planning a party of his own. It’s a plan so dangerous, so insane, he can’t even consult his friends lest the AI put a stop to it. Because if it goes wrong, it’s not just the end of Carl and Donut. No. The stakes are higher than they’ve ever been.",
+      "description": null,
       "description_language": null,
       "rank": 6
     },
@@ -197,7 +197,7 @@
     {
       "id": 818989,
       "url": "https://hardcover.app/books/the-eye-of-the-bedlam-bride",
-      "title": "The Eye of the Bedlam Bride",
+      "title": null,
       "original_title": "The Eye of the Bedlam Bride",
       "authors": [
         "Matt Dinniman"
@@ -211,12 +211,12 @@
       ],
       "russian_edition_id": null,
       "russian_isbns": [],
-      "cover_url": "https://assets.hardcover.app/editions/30829594/3f43c2b5-94bd-4d1b-9e64-35daa4e94b42.jpg",
+      "cover_url": null,
       "russian_cover": false,
-      "edition_status": "no_russian_in_catalog",
+      "edition_status": "unconfirmed",
       "edition_source": null,
       "description_source": null,
-      "description": "A pantheon of forgotten gods. An old grudge between a talk show host, an heiress, and the man they shattered along the way. A rapidly deteriorating AI system. An inconvenient tiara upon the head of a friend.\n\nIt is bedlam on the eighth floor.\nAs management reels from the unexpected conclusion of the seventh level, the surviving crawlers stumble onto the eighth and find themselves scattered. It’s a map based on Earth’s final days before the collapse, where ethereal, intangible ghosts of humanity go about their lives, oblivious of the impending doom. Living amongst these ghosts are monsters based in Earth lore. “Legendary” creatures tied to the geographical location they inhabit.\n\nEach team of crawlers is given a task: find and capture six of these beasts. The captured monsters will be turned into cards. Cards that can be summoned into battle again and again. The stronger, the deadlier, the better.\n\nAt the end of the floor, the bad guys will also have decks, and they will have some of the most powerful cards available. So it’s crucial to assemble the toughest squad possible.\n\nBut, like always, there is a catch. There’s always a catch.\n\nAs Carl and Donut know all too well, just because someone is captured, it doesn’t mean they have been tamed.\n\nHer name is Shi Maria. She’s easily the most powerful monster in their area. If they want to survive, they must capture her. But she is no ordinary beast. She’s intelligent. She was once married to a god, a god who is now missing. Her special attack is known to drive one insane. They call her the Bedlam Bride.\n\n“Beware, beware. Beware the Eye of the Bedlam Bride”",
+      "description": null,
       "description_language": null,
       "rank": 8
     },
@@ -229,8 +229,8 @@
         "Andy Weir"
       ],
       "published": "2021-01-01",
-      "rating": 4.509868772004694,
-      "rating_count": 9373,
+      "rating": 4.509814380200555,
+      "rating_count": 9374,
       "isbns": [
         "9780593135204",
         "0593135202",
@@ -254,7 +254,7 @@
     {
       "id": 1464466,
       "url": "https://hardcover.app/books/this-inevitable-ruin",
-      "title": "This Inevitable Ruin",
+      "title": null,
       "original_title": "This Inevitable Ruin",
       "authors": [
         "Matt Dinniman"
@@ -267,12 +267,12 @@
       ],
       "russian_edition_id": null,
       "russian_isbns": [],
-      "cover_url": "https://assets.hardcover.app/edition/32042174/54ee7e48-38e1-4303-824a-7da6156f5bfe.png",
+      "cover_url": null,
       "russian_cover": false,
-      "edition_status": "no_russian_in_catalog",
+      "edition_status": "unconfirmed",
       "edition_source": null,
       "description_source": null,
-      "description": "They call it Faction Wars.\nThe ninth floor.\n\nNine armies, each led by rich and powerful aliens from across the galaxy. Each team has one objective: to capture and hold the castle at the very center of the battlefield. Strategy, alliances, pitched battles, and, of course, betrayal... It all makes for great fun and even greater television.\n\nAfter all, none of these powerful aliens really die when they’re playing war.\n\nExcept this time. This time, winner takes all. Those who fall, stay in the ground.\n\nAs the AI continues its rapid decline, Carl and company take advantage of the chaos. For the first time ever, the crawlers are fighting back. They are now one of the nine teams. And this season, there’s a tenth army on the playing field. The NPCs, who are normally used as nothing but cannon fodder, have become fully self-aware and formed a team of their own.\n\nFor Donut and Katia, the stakes are even higher. Only one of them will be allowed to leave this level.\n\nIf they all want to survive, they’re going to need a little help from a veteran or two.\n\nThis is it.\nThis is what they’ve been fighting toward.\nThis is war.\n\nThis inevitable ruin.",
+      "description": null,
       "description_language": null,
       "rank": 10
     },
@@ -360,7 +360,7 @@
         "9785353003083",
         "535300308X"
       ],
-      "cover_url": "https://assets.hardcover.app/edition/12295826/e51fb38d185340f42f1b3f6eea1b6866991a8818.jpeg",
+      "cover_url": "https://assets.hardcover.app/edition/7487162/cb924446c34da37d80f0702428ddcd76f8849d2c.jpeg",
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
@@ -391,7 +391,7 @@
         "9785965000661",
         "5965000669"
       ],
-      "cover_url": "https://assets.hardcover.app/external_data/832967/83c4439ea221a16409cafdfb7b1402232fab49c8.jpeg",
+      "cover_url": "https://assets.hardcover.app/edition/32596598/293d4bcb5128fcf04abf2abdd18cbd8912ac7e65.jpeg",
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
@@ -471,8 +471,8 @@
         "Suzanne Collins"
       ],
       "published": "2008-09-14",
-      "rating": 4.135980120203421,
-      "rating_count": 8652,
+      "rating": 4.136022188836241,
+      "rating_count": 8653,
       "isbns": [
         "9780439023481",
         "0439023483"
@@ -482,8 +482,8 @@
         "9785271257940",
         "5271257940"
       ],
-      "cover_url": "https://assets.hardcover.app/editions/1589497/2979196565308831-lf%202.jpeg",
-      "russian_cover": false,
+      "cover_url": "https://assets.hardcover.app/edition/31900151/8f98461d08f67379c2385d620be66a909610574c.jpeg",
+      "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
       "description_source": "Лабиринт",
@@ -511,7 +511,7 @@
         "9785699461103",
         "5699461108"
       ],
-      "cover_url": "https://assets.hardcover.app/external_data/61320197/76410b2082495906df31856d10293b1f09dfaad6.jpeg",
+      "cover_url": "https://assets.hardcover.app/edition/31342063/72539182be337136d0c25c56e34c968d5daea1b1.jpeg",
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
@@ -542,7 +542,7 @@
         "9785845109477",
         "5845109477"
       ],
-      "cover_url": "https://assets.hardcover.app/edition/29904618/1edfd00bb239efda1186b89308b1039b0661ca95.jpeg",
+      "cover_url": "https://assets.hardcover.app/external_data/23351478/e02e057ecd35cf65a8ce243d6af27c523600543d.jpeg",
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
@@ -573,7 +573,7 @@
         "9785389189065",
         "538918906X"
       ],
-      "cover_url": "https://assets.hardcover.app/external_data/689402/e18cfbe385de5d2bc1014aa89add4a5e3b6dde25.jpeg",
+      "cover_url": "https://assets.hardcover.app/edition/31197105/56e420088c861444535309db72c4249ec4017c32.jpeg",
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
@@ -806,7 +806,7 @@
         "9785170671281",
         "5170671288"
       ],
-      "cover_url": "https://assets.hardcover.app/external_data/725967/5fa5ae2044b2973cbf4102dd84671d814cb787b6.jpeg",
+      "cover_url": "https://assets.hardcover.app/edition/32670021/5eb882dc159c19017efbfb73ec0a3abf4240f5d3.jpeg",
       "russian_cover": true,
       "edition_status": "russian_found",
       "edition_source": "Hardcover",
