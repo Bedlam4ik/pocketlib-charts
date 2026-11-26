@@ -1,4 +1,7 @@
 """Publish ordered Hardcover charts suitable for PocketLib."""
+import hashlib
+from functools import lru_cache
+from html.parser import HTMLParser
 import json
 import os
 import sys
@@ -52,7 +55,74 @@ def russian_text(value):
     return bool(value and any("А" <= char <= "я" or char in "Ёё" for char in value))
 
 
-def card(book, rank):
+class DescriptionText(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.parts = []
+
+    def handle_data(self, data):
+        self.parts.append(data)
+
+    def handle_starttag(self, tag, attrs):
+        if tag in {"br", "p", "div", "li"}:
+            self.parts.append("\n")
+
+    def handle_endtag(self, tag):
+        if tag in {"p", "div", "li"}:
+            self.parts.append("\n")
+
+
+@lru_cache(maxsize=1)
+def translator():
+    from argostranslate import package, translate
+
+    package.update_package_index()
+    model = next((model for model in package.get_available_packages()
+                  if model.from_code == "en" and model.to_code == "ru"), None)
+    if model is None:
+        raise ValueError("English-to-Russian translation model was not found")
+    package.install_from_path(model.download())
+    return translate
+
+
+def is_russian(value):
+    cyrillic = sum("А" <= char <= "я" or char in "Ёё" for char in value)
+    letters = sum(char.isalpha() for char in value)
+    return letters > 0 and cyrillic * 2 >= letters
+
+
+def previous_translations():
+    cache = {}
+    for period in ("month", "year"):
+        path = Path(f"hardcover-{period}.json")
+        if not path.is_file():
+            continue
+        for row in json.loads(path.read_text(encoding="utf-8"))["books"]:
+            key = row.get("description_input")
+            if key and row.get("description_source") == "machine_translation" and row["description"]:
+                cache[key] = row["description"]
+    return cache
+
+
+def localized_description(raw, translations):
+    parser = DescriptionText()
+    parser.feed(raw or "")
+    text = "\n".join(line.strip() for line in "".join(parser.parts).splitlines() if line.strip())
+    if not text:
+        return None, None, None
+    if is_russian(text):
+        return text, "hardcover", None
+    key = hashlib.sha256(text.encode()).hexdigest()
+    if key not in translations:
+        print(f"Translating description {len(translations) + 1}", flush=True)
+        result = translator().translate(text, "en", "ru").strip()
+        if not is_russian(result):
+            raise ValueError("Translator returned a description that is not Russian")
+        translations[key] = result
+    return translations[key], "machine_translation", key
+
+
+def card(book, rank, translations):
     contributors = book.get("cached_contributors") or []
     authors = [entry["author"]["name"] for entry in contributors
                if isinstance(entry, dict) and isinstance(entry.get("author"), dict)
@@ -64,7 +134,7 @@ def card(book, rank):
     edition = next(
         (row for row in book["editions"] if russian_text(row.get("title"))), None
     )
-    description = book.get("description")
+    description, description_source, description_input = localized_description(book.get("description"), translations)
     edition_cover = cover(edition)
     return {
         "rank": rank,
@@ -83,7 +153,9 @@ def card(book, rank):
         "cover_url": edition_cover or cover(book),
         "russian_cover": bool(edition_cover),
         "description": description,
-        "description_language": "ru" if russian_text(description) else None,
+        "description_language": "ru" if description else None,
+        "description_source": description_source,
+        "description_input": description_input,
     }
 
 
@@ -111,12 +183,13 @@ def main():
            not books[book_id].get("slug") for book_id in ids):
         raise ValueError("Hardcover returned incomplete book records")
 
+    translations = previous_translations()
     for period in ("month", "year"):
         data = {
             "schema_version": 1,
             "source": "Hardcover",
             "period": period,
-            "books": [card(books[book_id], rank)
+            "books": [card(books[book_id], rank, translations)
                       for rank, book_id in enumerate(lists[period]["ids"], 1)],
         }
         Path(f"hardcover-{period}.json").write_text(
