@@ -1,0 +1,31 @@
+name: Publish Hardcover charts
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/hardcover.yml'
+      - 'update.py'
+  schedule:
+    - cron: '23 3 * * 1,4'
+permissions:
+  contents: write
+concurrency:
+  group: hardcover-feed
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build charts
+        env:
+          HARDCOVER_TOKEN: ${{ secrets.HARDCOVER_TOKEN }}
+        run: python3 update.py
+      - name: Publish charts
+        run: |
+          git add hardcover-month.json hardcover-year.json
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update Hardcover charts"
+          git push
+
