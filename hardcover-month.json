@@ -1,0 +1,791 @@
+{
+  "schema_version": 1,
+  "source": "Hardcover",
+  "period": "month",
+  "books": [
+    {
+      "rank": 1,
+      "id": 446681,
+      "url": "https://hardcover.app/books/dungeon-crawler-carl",
+      "title": "Карл – обходчик подземелий",
+      "original_title": "Dungeon Crawler Carl",
+      "authors": [
+        "Matt Dinniman"
+      ],
+      "published": "2020-09-10",
+      "rating": 4.339098747690413,
+      "rating_count": 4871,
+      "isbns": [
+        "9798217287161"
+      ],
+      "russian_edition_id": 32311896,
+      "russian_isbns": [
+        "9785044523388",
+        "5044523380"
+      ],
+      "cover_url": "https://assets.hardcover.app/external_data/1414857/4bd696a6bc126c9ac2fe6af69e0fd2b4dc0859cd.jpeg",
+      "russian_cover": true,
+      "description": "A man. His ex-girlfriend's cat. A sadistic game show unlike anything in the universe: a dungeon crawl where survival depends on killing your prey in the most entertaining way possible.\n\nIn a flash, every human-erected construction on Earth—from Buckingham Palace to the tiniest of sheds—collapses in a heap, sinking into the ground.\n\nThe buildings and all the people inside have all been atomized and transformed into the dungeon: an 18-level labyrinth filled with traps, monsters, and loot. A dungeon so enormous, it circles the entire globe.\n\nOnly a few dare venture inside. But once you're in, you can't get out. And what's worse, each level has a time limit. You have but days to find a staircase to the next level down, or it's game over. In this game, it's not about your strength or your dexterity. It's about your followers, your views. Your clout. It's about building an audience and killing those goblins with style.\n\nYou can't just survive here. You gotta survive big.\n\nYou gotta fight with vigor, with excitement. You gotta make them stand up and cheer. And if you do have that \"it\" factor, you may just find yourself with a following. That's the only way to truly survive in this game—with the help of the loot boxes dropped upon you by the generous benefactors watching from across the galaxy.\n\nThey call it Dungeon Crawler World. But for Carl, it's anything but a game.",
+      "description_language": null
+    },
+    {
+      "rank": 2,
+      "id": 430559,
+      "url": "https://hardcover.app/books/a-court-of-splintered-harmony",
+      "title": "A Court of Splintered Harmony",
+      "original_title": "A Court of Splintered Harmony",
+      "authors": [
+        "Sarah J. Maas"
+      ],
+      "published": "2026-10-27",
+      "rating": 3.3441176470588236,
+      "rating_count": 170,
+      "isbns": [
+        "9781639739134",
+        "1639739130",
+        "9781639739141",
+        "1639739149"
+      ],
+      "russian_edition_id": null,
+      "russian_isbns": [],
+      "cover_url": "https://assets.hardcover.app/edition/30390459/ee9f70bd-d62e-4636-a0b6-ad98746d065a.jpg",
+      "russian_cover": false,
+      "description": "What was broken will be remade.\n\nDeep in the heart of the continent, Koschei the Deathless is stirring. Though he's been bound to a mountain lake for millennia, the insidious threat of his return now spreads across the Fae territories, attracting powerful allies hell-bent on reclaiming what was once theirs: the human lands.\n\nThe Night Court will not stand idly by while innocents are attacked. But with Prythian still piecing itself together in the wake of the devastating Hybern War, the task of uniting is proving more difficult by the day.\n\nTo make matters worse, those who rule and protect the Night Court are reeling from recent betrayals and revealed truths. The rifts dividing them seem insurmountable.\n\nBut to defeat Koschei's creeping shadow, they must find a way back to each other and resurrect their former alliances. To survive, they must find a way to repair the splintered harmony all around them.",
+      "description_language": null
+    },
+    {
+      "rank": 3,
+      "id": 446680,
+      "url": "https://hardcover.app/books/carls-doomsday-scenario",
+      "title": "Карл – сценарий судного дня",
+      "original_title": "Carl's Doomsday Scenario",
+      "authors": [
+        "Matt Dinniman"
+      ],
+      "published": "2021-01-06",
+      "rating": 4.3711683053788315,
+      "rating_count": 3458,
+      "isbns": [
+        "9780593820278",
+        "0593820274"
+      ],
+      "russian_edition_id": 32376367,
+      "russian_isbns": [
+        "9785044660779",
+        "5044660779"
+      ],
+      "cover_url": "https://assets.hardcover.app/external_data/1618541/80e7e9b4174407b14ce32a341be6a541cb735574.jpeg",
+      "russian_cover": true,
+      "description": "The ratings and views are off the chart. The fans just can't get enough. The dungeon gets more dangerous each day. But in a grinder designed to chew up and spit out crawlers by the millions, Carl and Princess Donut need to work harder than ever just to survive.\n\nThey call it the Over City. A sprawling, once-thriving metropolis devastated by a mysterious calamity. But these streets are far from abandoned. An undead circus trawls the ruins. Murdered prostitutes rain from the sky. An ancient spell is finally ready to reveal its dark purpose.\n\nCarl still has no pants.\n\nThey call it Dungeon Crawler World. For Carl and Donut, it's anything but a game.",
+      "description_language": null
+    },
+    {
+      "rank": 4,
+      "id": 446730,
+      "url": "https://hardcover.app/books/the-dungeon-anarchists-cookbook",
+      "title": "Поваренная книга анархиста Подземелья",
+      "original_title": "The Dungeon Anarchist's Cookbook",
+      "authors": [
+        "Matt Dinniman"
+      ],
+      "published": "2021-03-19",
+      "rating": 4.281969749054658,
+      "rating_count": 2909,
+      "isbns": [],
+      "russian_edition_id": 32376369,
+      "russian_isbns": [
+        "9785222420287",
+        "5222420280"
+      ],
+      "cover_url": "https://assets.hardcover.app/book/446730/fb6d6f68-a5e5-4144-89a8-5b6b45e1cd7a.jpeg",
+      "russian_cover": true,
+      "description": "The top ten list is populated. The sponsorship program is open. The difficulty is ramping up. The first three floors were nothing compared to what Carl and Donut now face.\n\nThe Iron Tangle. An impossibly-complicated subway system built out of the world's subterranean railway systems, all combined and then tied together into a knot. Up is down. Down is up. Close is far. The cars are filled with monsters, the railway stations are less than safe, and the exit is always just a few stops away.\n\nBut there is hope. For the first time, the crawlers are all working together. The loot is better than ever. And the secret to unraveling it all may be hidden in the pages of a seemingly-useless book. Welcome, crawlers. Welcome to the fourth floor of the dungeon.",
+      "description_language": null
+    },
+    {
+      "rank": 5,
+      "id": 446722,
+      "url": "https://hardcover.app/books/the-gate-of-the-feral-gods",
+      "title": "Врата Диких Богов",
+      "original_title": "The Gate of the Feral Gods",
+      "authors": [
+        "Matt Dinniman"
+      ],
+      "published": "2021-01-01",
+      "rating": 4.4185303514377,
+      "rating_count": 2504,
+      "isbns": [
+        "9780593955970",
+        "0593955978"
+      ],
+      "russian_edition_id": 32376371,
+      "russian_isbns": [
+        "9785222420294",
+        "5222420299"
+      ],
+      "cover_url": "https://assets.hardcover.app/book/446722/2889383e-c223-4daa-aa37-3c8ae8599c77.jpg",
+      "russian_cover": true,
+      "description": "New Achievement! Total, Utter Failure.\n\nYou failed a quest less than five minutes after you received it. Now that’s talent.\n\nA floating fortress occupied by warrior gnomes. A castle made of sand. A derelict submarine guarded by malfunctioning machines. A haunted crypt surrounded by lethal traps.\n\nIt was supposed to be easy. One bubble. Four castles. Fifteen days. Capture each one, and the stairwell is unlocked.\n\nHere's the thing. It's never easy. Carl and his team can't go it alone. Not this time. They must rely on the help of the low-level, I-can't-believe-these-idiots-are-still-alive crawlers trapped in the bubble with them. But can they be trusted?\n\nWelcome, Crawler. Welcome to the fifth floor of the dungeon.",
+      "description_language": null
+    },
+    {
+      "rank": 6,
+      "id": 1817542,
+      "url": "https://hardcover.app/books/a-parade-of-horribles",
+      "title": "A Parade of Horribles",
+      "original_title": "A Parade of Horribles",
+      "authors": [
+        "Matt Dinniman"
+      ],
+      "published": "2026-05-11",
+      "rating": 4.413854351687389,
+      "rating_count": 1126,
+      "isbns": [
+        "9798217190065"
+      ],
+      "russian_edition_id": null,
+      "russian_isbns": [],
+      "cover_url": "https://assets.hardcover.app/edition/32462067/40a20ed0-0786-4425-b775-0af66472e853.jpg",
+      "russian_cover": false,
+      "description": "As chaos and mass panic spread outside the dungeon in the wake of Faction Wars, Carl and Donut find themselves on the tenth floor, where they’re forced to compete in a surprisingly normal set of tasks. Well, normal for the dungeon.\n\nRaces. Get from point A to point B, and don’t come in last. After each race, they pick an upgrade for their vehicle and the track gets more challenging. It all seems a little too normal, a little too simple.\n\nIgnore those strange glitches that are occurring with increasing frequency. Don’t listen to those whispers about what’s happening on the mysterious eleventh floor, something the system AI calls A Parade of Horribles. Nobody, not even the showrunners, knows what that means. Just that the AI has ominously dubbed it “a coming-out party for the ages.”\n\nEverything is fine, Crawler. I repeat, everything is fine.\n\nCarl hates that it’s business as usual. The rules of this floor have taken away his agency. That just will not do.\n\nSo Carl is planning a party of his own. It’s a plan so dangerous, so insane, he can’t even consult his friends lest the AI put a stop to it. Because if it goes wrong, it’s not just the end of Carl and Donut. No. The stakes are higher than they’ve ever been.",
+      "description_language": null
+    },
+    {
+      "rank": 7,
+      "id": 637867,
+      "url": "https://hardcover.app/books/the-butchers-masquerade",
+      "title": "Маскарад Мясника",
+      "original_title": "The Butcher's Masquerade",
+      "authors": [
+        "Matt Dinniman"
+      ],
+      "published": "2022-02-28",
+      "rating": 4.550864361702128,
+      "rating_count": 2256,
+      "isbns": [
+        "9780593955994",
+        "0593955994"
+      ],
+      "russian_edition_id": 32376373,
+      "russian_isbns": [],
+      "cover_url": "https://assets.hardcover.app/book/637867/fb6c0249-a428-4ec8-8c8a-8b3d8a5de17c.jpg",
+      "russian_cover": true,
+      "description": "A lush jungle teeming with danger. Savage dinosaurs seeking blood. A fallen princess intent on vengeance. A mysterious, end-of-floor celebration for the top crawlers, dubbed “The Butcher's Masquerade.” \n\nThe sixth floor. The Hunting Grounds. \n\nAs the remaining crawlers battle for their lives, a new, terrible threat looms. Outside tourists are finally allowed to enter the game, and they are here and ready to hunt. Among them is Vrah, a famed and veteran hunter, intent on collecting the biggest trophy of her career. \n\nBut their prey is far from harmless, and this season they are fighting back. \n\nDungeon Crawler Carl and Princess Donut return in book five of the acclaimed litrpg series.",
+      "description_language": null
+    },
+    {
+      "rank": 8,
+      "id": 818989,
+      "url": "https://hardcover.app/books/the-eye-of-the-bedlam-bride",
+      "title": "The Eye of the Bedlam Bride",
+      "original_title": "The Eye of the Bedlam Bride",
+      "authors": [
+        "Matt Dinniman"
+      ],
+      "published": "2023-06-14",
+      "rating": 4.472820512820513,
+      "rating_count": 1950,
+      "isbns": [
+        "9780593956014",
+        "059395601X"
+      ],
+      "russian_edition_id": null,
+      "russian_isbns": [],
+      "cover_url": "https://assets.hardcover.app/editions/30829594/3f43c2b5-94bd-4d1b-9e64-35daa4e94b42.jpg",
+      "russian_cover": false,
+      "description": "A pantheon of forgotten gods. An old grudge between a talk show host, an heiress, and the man they shattered along the way. A rapidly deteriorating AI system. An inconvenient tiara upon the head of a friend.\n\nIt is bedlam on the eighth floor.\nAs management reels from the unexpected conclusion of the seventh level, the surviving crawlers stumble onto the eighth and find themselves scattered. It’s a map based on Earth’s final days before the collapse, where ethereal, intangible ghosts of humanity go about their lives, oblivious of the impending doom. Living amongst these ghosts are monsters based in Earth lore. “Legendary” creatures tied to the geographical location they inhabit.\n\nEach team of crawlers is given a task: find and capture six of these beasts. The captured monsters will be turned into cards. Cards that can be summoned into battle again and again. The stronger, the deadlier, the better.\n\nAt the end of the floor, the bad guys will also have decks, and they will have some of the most powerful cards available. So it’s crucial to assemble the toughest squad possible.\n\nBut, like always, there is a catch. There’s always a catch.\n\nAs Carl and Donut know all too well, just because someone is captured, it doesn’t mean they have been tamed.\n\nHer name is Shi Maria. She’s easily the most powerful monster in their area. If they want to survive, they must capture her. But she is no ordinary beast. She’s intelligent. She was once married to a god, a god who is now missing. Her special attack is known to drive one insane. They call her the Bedlam Bride.\n\n“Beware, beware. Beware the Eye of the Bedlam Bride”",
+      "description_language": null
+    },
+    {
+      "rank": 9,
+      "id": 427578,
+      "url": "https://hardcover.app/books/project-hail-mary",
+      "title": "Проект «Аве Мария»",
+      "original_title": "Project Hail Mary",
+      "authors": [
+        "Andy Weir"
+      ],
+      "published": "2021-01-01",
+      "rating": 4.5101365770379855,
+      "rating_count": 9372,
+      "isbns": [
+        "9780593135204",
+        "0593135202",
+        "9780593135211",
+        "0593135210"
+      ],
+      "russian_edition_id": 31127342,
+      "russian_isbns": [
+        "9785171360085",
+        "5171360081"
+      ],
+      "cover_url": "https://assets.hardcover.app/edition/31127342/6cbbf33c78796189fcf01e54e2446742bf504ac9.jpeg",
+      "russian_cover": true,
+      "description": "Ryland Grace is the sole survivor on a desperate, last-chance mission—and if he fails, humanity and the earth itself will perish.\n\nExcept that right now, he doesn’t know that. He can’t even remember his own name, let alone the nature of his assignment or how to complete it.\n\nAll he knows is that he’s been asleep for a very, very long time. And he’s just been awakened to find himself millions of miles from home, with nothing but two corpses for company.\n\nHis crewmates dead, his memories fuzzily returning, Ryland realizes that an impossible task now confronts him. Hurtling through space on this tiny ship, it’s up to him to puzzle out an impossible scientific mystery—and conquer an extinction-level threat to our species.\n\nAnd with the clock ticking down and the nearest human being light-years away, he’s got to do it all alone.\n\nOr does he? ",
+      "description_language": null
+    },
+    {
+      "rank": 10,
+      "id": 1464466,
+      "url": "https://hardcover.app/books/this-inevitable-ruin",
+      "title": "This Inevitable Ruin",
+      "original_title": "This Inevitable Ruin",
+      "authors": [
+        "Matt Dinniman"
+      ],
+      "published": "2024-10-01",
+      "rating": 4.565836298932385,
+      "rating_count": 1686,
+      "isbns": [
+        "9798217190041"
+      ],
+      "russian_edition_id": null,
+      "russian_isbns": [],
+      "cover_url": "https://assets.hardcover.app/edition/32042174/54ee7e48-38e1-4303-824a-7da6156f5bfe.png",
+      "russian_cover": false,
+      "description": "They call it Faction Wars.\nThe ninth floor.\n\nNine armies, each led by rich and powerful aliens from across the galaxy. Each team has one objective: to capture and hold the castle at the very center of the battlefield. Strategy, alliances, pitched battles, and, of course, betrayal... It all makes for great fun and even greater television.\n\nAfter all, none of these powerful aliens really die when they’re playing war.\n\nExcept this time. This time, winner takes all. Those who fall, stay in the ground.\n\nAs the AI continues its rapid decline, Carl and company take advantage of the chaos. For the first time ever, the crawlers are fighting back. They are now one of the nine teams. And this season, there’s a tenth army on the playing field. The NPCs, who are normally used as nothing but cannon fodder, have become fully self-aware and formed a team of their own.\n\nFor Donut and Katia, the stakes are even higher. Only one of them will be allowed to leave this level.\n\nIf they all want to survive, they’re going to need a little help from a veteran or two.\n\nThis is it.\nThis is what they’ve been fighting toward.\nThis is war.\n\nThis inevitable ruin.",
+      "description_language": null
+    },
+    {
+      "rank": 11,
+      "id": 1389888,
+      "url": "https://hardcover.app/books/sunrise-on-the-reaping",
+      "title": "Рассвет Жатвы",
+      "original_title": "Sunrise on the Reaping",
+      "authors": [
+        "Suzanne Collins"
+      ],
+      "published": "2025-03-18",
+      "rating": 4.318447168709866,
+      "rating_count": 1713,
+      "isbns": [
+        "9781546171461",
+        "1546171460",
+        "9781546171478",
+        "1546171479"
+      ],
+      "russian_edition_id": 33448695,
+      "russian_isbns": [
+        "9785171708788",
+        "5171708789"
+      ],
+      "cover_url": "https://assets.hardcover.app/external_data/4538564/a68bbfe5d045f583f10a8ac93df9b027bda0b994.jpeg",
+      "russian_cover": true,
+      "description": "As the day dawns on the fiftieth annual Hunger Games, fear grips the districts of Panem. This year, in honor of the Quarter Quell, twice as many tributes will be taken from their homes.\n\nBack in District 12, Haymitch Abernathy is trying not to think too hard about his chances. All he cares about is making it through the day and being with the girl he loves.\n\nWhen Haymitch’s name is called, he can feel all his dreams break. He’s torn from his family and his love, shuttled to the Capitol with the three other District 12 tributes: a young friend who’s nearly a sister to him, a compulsive oddsmaker, and the most stuck-up girl in town. As the Games begin, Haymitch understands he’s been set up to fail. But there’s something in him that wants to fight . . . and have that fight reverberate far beyond the deadly arena.",
+      "description_language": null
+    },
+    {
+      "rank": 12,
+      "id": 427473,
+      "url": "https://hardcover.app/books/red-rising",
+      "title": "Алое восстание",
+      "original_title": "Red Rising",
+      "authors": [
+        "Pierce Brown"
+      ],
+      "published": "2014-01-28",
+      "rating": 4.20221752903907,
+      "rating_count": 4735,
+      "isbns": [
+        "9780345539809",
+        "034553980X",
+        "9781444758979",
+        "1444758977"
+      ],
+      "russian_edition_id": 31732156,
+      "russian_isbns": [
+        "9785389082687",
+        "5389082680"
+      ],
+      "cover_url": "https://assets.hardcover.app/edition/31732156/ba96a64a56bf32a2bc149a7ef1b7dd5319bd0694.jpeg",
+      "russian_cover": true,
+      "description": "“I live for you,” I say sadly.\nEo kisses my cheek. “Then you must live for more.”\n\nDarrow is a Red, a member of the lowest caste in the color-coded society of the future. Like his fellow Reds, he works all day, believing that he and his people are making the surface of Mars livable for future generations. Yet he toils willingly, trusting that his blood and sweat will one day result in a better world for his children.\n\nBut Darrow and his kind have been betrayed. Soon he discovers that humanity reached the surface generations ago. Vast cities and lush wilds spread across the planet. Darrow—and Reds like him—are nothing more than slaves to a decadent ruling class.\n\nInspired by a longing for justice, and driven by the memory of lost love, Darrow sacrifices everything to infiltrate the legendary Institute, a proving ground for the dominant Gold caste, where the next generation of humanity’s overlords struggle for power.  He will be forced to compete for his life and the very future of civilization against the best and most brutal of Society’s ruling class. There, he will stop at nothing to bring down his enemies . . . even if it means he has to become one of them to do so.",
+      "description_language": null
+    },
+    {
+      "rank": 13,
+      "id": 328491,
+      "url": "https://hardcover.app/books/harry-potter-and-the-philosophers-stone",
+      "title": "Гарри Поттер и философский камень",
+      "original_title": "Harry Potter and the Philosopher's Stone",
+      "authors": [
+        "J.K. Rowling"
+      ],
+      "published": "1997-06-26",
+      "rating": 4.28045064179518,
+      "rating_count": 10829,
+      "isbns": [
+        "9781408855652",
+        "1408855658",
+        "9781781100486",
+        "1781100489"
+      ],
+      "russian_edition_id": 12295826,
+      "russian_isbns": [
+        "9785353003083",
+        "535300308X"
+      ],
+      "cover_url": "https://assets.hardcover.app/edition/12295826/e51fb38d185340f42f1b3f6eea1b6866991a8818.jpeg",
+      "russian_cover": true,
+      "description": "Harry Potter has never been the star of a Quidditch team, scoring points while riding a broom far above the ground. He knows no spells, has never helped to hatch a dragon, and has never worn a cloak of invisibility.\n\nAll he knows is a miserable life with the Dursleys, his horrible aunt and uncle, and their abominable son, Dudley - a great big swollen spoiled bully. Harry's room is a tiny closet at the foot of the stairs, and he hasn't had a birthday party in eleven years.\n\nBut all that is about to change when a mysterious letter arrives by owl messenger: a letter with an invitation to an incredible place that Harry - and anyone who reads about him - will find unforgettable.\n\nFor it's there that he finds not only friends, aerial sports, and magic in everything from classes to meals, but a great destiny that's been waiting for him... if Harry can survive the encounter.",
+      "description_language": null
+    },
+    {
+      "rank": 14,
+      "id": 356467,
+      "url": "https://hardcover.app/books/animal-farm",
+      "title": "Ферма животных",
+      "original_title": "Animal Farm",
+      "authors": [
+        "George Orwell"
+      ],
+      "published": "1945-08-17",
+      "rating": 4.099058534588621,
+      "rating_count": 7329,
+      "isbns": [
+        "9780141036137",
+        "0141036133",
+        "9789897785962",
+        "9897785965"
+      ],
+      "russian_edition_id": 32144772,
+      "russian_isbns": [
+        "9785965000661",
+        "5965000669"
+      ],
+      "cover_url": "https://assets.hardcover.app/external_data/832967/83c4439ea221a16409cafdfb7b1402232fab49c8.jpeg",
+      "russian_cover": true,
+      "description": "'All animals are equal. But some animals are more equal than others.' Mr Jones of Manor Farm is so lazy and drunken that one day he forgets to feed his livestock. \n\nThe ensuing rebellion under the leadership of the pigs Napoleon and Snowball leads to the animals taking over the farm. \n\nVowing to eliminate the terrible inequities of the farmyard, the renamed Animal Farm is organized to benefit all who walk on four legs. But as time passes, the ideals of the rebellion are corrupted, then forgotten. And something new and unexpected emerges..",
+      "description_language": null
+    },
+    {
+      "rank": 15,
+      "id": 379760,
+      "url": "https://hardcover.app/books/1984",
+      "title": "Красинский сад. Книга третья",
+      "original_title": "1984",
+      "authors": [
+        "George Orwell"
+      ],
+      "published": "1949-06-08",
+      "rating": 4.25160121797564,
+      "rating_count": 9524,
+      "isbns": [
+        "9780141036144",
+        "0141036141",
+        "9780547249643",
+        "0547249640"
+      ],
+      "russian_edition_id": 33199127,
+      "russian_isbns": [
+        "9785041223199",
+        "504122319X"
+      ],
+      "cover_url": "https://assets.hardcover.app/external_data/4147436/2ec999c6cb4eb7f404d5eac8a7562f26677c4745.jpeg",
+      "russian_cover": true,
+      "description": "Winston Smith toes the Party line, rewriting history to satisfy the demands of the Ministry of Truth. With each lie he writes, Winston grows to hate the Party that seeks power for its own sake and persecutes those who dare to commit thoughtcrimes. But as he starts to think for himself, Winston can’t escape the fact that Big Brother is always watching...\n\nA startling and haunting novel, 1984 creates an imaginary world that is completely convincing from start to finish. No one can deny the novel’s hold on the imaginations of whole generations, or the power of its admonitions—a power that seems to grow, not lessen, with the passage of time.",
+      "description_language": null
+    },
+    {
+      "rank": 16,
+      "id": 378044,
+      "url": "https://hardcover.app/books/golden-son",
+      "title": "Золотой Сын",
+      "original_title": "Golden Son",
+      "authors": [
+        "Pierce Brown"
+      ],
+      "published": "2015-01-01",
+      "rating": 4.45773596176822,
+      "rating_count": 3348,
+      "isbns": [
+        "9781399725569",
+        "1399725564",
+        "9780345539823",
+        "0345539826"
+      ],
+      "russian_edition_id": 31732158,
+      "russian_isbns": [
+        "9785389084605",
+        "5389084608"
+      ],
+      "cover_url": "https://assets.hardcover.app/edition/31732158/f4eed1d1a9ed1c1f809b7c56aea2f18d74184000.jpeg",
+      "russian_cover": true,
+      "description": "As a Red, Darrow grew up working the mines deep beneath the surface of Mars, enduring backbreaking labor while dreaming of the better future he was building for his descendants. But the Society he faithfully served was built on lies. Darrow’s kind have been betrayed and denied by their elitist masters, the Golds—and their only path to liberation is revolution. And so Darrow sacrifices himself in the name of the greater good for which Eo, his true love and inspiration, laid down her own life. He becomes a Gold, infiltrating their privileged realm so that he can destroy it from within.\n\nA lamb among wolves in a cruel world, Darrow finds friendship, respect, and even love—but also the wrath of powerful rivals. To wage and win the war that will change humankind’s destiny, Darrow must confront the treachery arrayed against him, overcome his all-too-human desire for retribution—and strive not for violent revolt but a hopeful rebirth. Though the road ahead is fraught with danger and deceit, Darrow must choose to follow Eo’s principles of love and justice to free his people.\n\nHe must live for more.",
+      "description_language": null
+    },
+    {
+      "rank": 17,
+      "id": 88639,
+      "url": "https://hardcover.app/books/the-hunger-games",
+      "title": "Голодные игры",
+      "original_title": "The Hunger Games",
+      "authors": [
+        "Suzanne Collins"
+      ],
+      "published": "2008-09-14",
+      "rating": 4.135980120203421,
+      "rating_count": 8652,
+      "isbns": [
+        "9780439023481",
+        "0439023483"
+      ],
+      "russian_edition_id": 32669473,
+      "russian_isbns": [
+        "9785271257940",
+        "5271257940"
+      ],
+      "cover_url": "https://assets.hardcover.app/editions/1589497/2979196565308831-lf%202.jpeg",
+      "russian_cover": false,
+      "description": "In the ruins of a place once known as North America lies the nation of Panem, a shining Capitol surrounded by twelve outlying districts. The Capitol is harsh and cruel and keeps the districts in line by forcing them all to send one boy and one girl between the ages of twelve and eighteen to participate in the annual Hunger Games, a fight to the death on live TV. \n\nSixteen-year-old Katniss Everdeen regards it as a death sentence when she steps forward to take her sister's place in the Games. But Katniss has been close to dead before-and survival, for her, is second nature. Without really meaning to, she becomes a contender. \n\nBut if she is to win, she will have to start making choices that weigh survival against humanity and life against love.",
+      "description_language": null
+    },
+    {
+      "rank": 18,
+      "id": 369692,
+      "url": "https://hardcover.app/books/mistborn",
+      "title": "Пепел и сталь",
+      "original_title": "Mistborn: The Final Empire",
+      "authors": [
+        "Brandon Sanderson"
+      ],
+      "published": "2006-07-17",
+      "rating": 4.459365456396335,
+      "rating_count": 5894,
+      "isbns": [
+        "9780765311788",
+        "076531178X"
+      ],
+      "russian_edition_id": 31521152,
+      "russian_isbns": [
+        "9785699461103",
+        "5699461108"
+      ],
+      "cover_url": "https://assets.hardcover.app/external_data/61320197/76410b2082495906df31856d10293b1f09dfaad6.jpeg",
+      "russian_cover": true,
+      "description": "For a thousand years the ash fell and no flowers bloomed. For a thousand years the Skaa slaved in misery and lived in fear. For a thousand years the Lord Ruler, the \"Sliver of Infinity,\" reigned with absolute power and ultimate terror, divinely invincible. Then, when hope was so long lost that not even its memory remained, a terribly scarred, heart-broken half-Skaa rediscovered it in the depths of the Lord Ruler's most hellish prison. Kelsier \"snapped\" and found in himself the powers of a Mistborn. A brilliant thief and natural leader, he turned his talents to the ultimate caper, with the Lord Ruler himself as the mark.\n\nKelsier recruited the underworld's elite, the smartest and most trustworthy allomancers, each of whom shares one of his many powers, and all of whom relish a high-stakes challenge. Then Kelsier reveals his ultimate dream, not just the greatest heist in history, but the downfall of the divine despot.\n\nBut even with the best criminal crew ever assembled, Kel's plan looks more like the ultimate long shot, until luck brings a ragged girl named Vin into his life. Like him, she's a half-Skaa orphan, but she's lived a much harsher life. Vin has learned to expect betrayal from everyone she meets. She will have to learn trust if Kel is to help her master powers of which she never dreamed.\n\nBrandon Sanderson, fantasy's newest master tale-spinner and author of the acclaimed debut Elantris, dares to turn a genre on its head by asking a simple question: What if the prophesied hero failed to defeat the Dark Lord? The answer will be found in the Misborn Trilogy, a saga of surprises that begins with the book in your hands. Fantasy will never be the same again.",
+      "description_language": null
+    },
+    {
+      "rank": 19,
+      "id": 429306,
+      "url": "https://hardcover.app/books/harry-potter-and-the-chamber-of-secrets",
+      "title": "Гарри Поттер и тайная комната",
+      "original_title": "Harry Potter and the Chamber of Secrets",
+      "authors": [
+        "J.K. Rowling"
+      ],
+      "published": "1998-07-02",
+      "rating": 4.185676913015042,
+      "rating_count": 7645,
+      "isbns": [
+        "9780439064866",
+        "0439064864",
+        "9781781100226",
+        "1781100225"
+      ],
+      "russian_edition_id": 29904618,
+      "russian_isbns": [
+        "9785845109477",
+        "5845109477"
+      ],
+      "cover_url": "https://assets.hardcover.app/edition/29904618/1edfd00bb239efda1186b89308b1039b0661ca95.jpeg",
+      "russian_cover": true,
+      "description": "The Dursleys were so mean and hideous that summer that all Harry Potter wanted was to get back to the Hogwarts School for Witchcraft and Wizardry. But just as he's packing his bags, Harry receives a warning from a strange, impish creature named Dobby who says that if Harry Potter returns to Hogwarts, disaster will strike.\n\nAnd strike it does. For in Harry's second year at Hogwarts, fresh torments and horrors arise, including an outrageously stuck-up new professor, Gilderoy Lockhart, a spirit named Moaning Myrtle who haunts the girls' bathroom, and the unwanted attentions of Ron Weasley's younger sister, Ginny. But each of these seem minor annoyances when the real trouble begins, and someone, or something, starts turning Hogwarts students to stone. Could it be Draco Malfoy, a more poisonous rival than ever? Could it possibly be Hagrid, whose mysterious past is finally told? Or could it be the one everyone at Hogwarts most suspects: Harry Potter himself?",
+      "description_language": null
+    },
+    {
+      "rank": 20,
+      "id": 175280,
+      "url": "https://hardcover.app/books/piranesi",
+      "title": "Пиранези",
+      "original_title": "Piranesi",
+      "authors": [
+        "Susanna Clarke"
+      ],
+      "published": "2019-04-08",
+      "rating": 4.2235633843488305,
+      "rating_count": 3463,
+      "isbns": [
+        "9781635575637",
+        "163557563X",
+        "9781635575644",
+        "1635575648"
+      ],
+      "russian_edition_id": 32101409,
+      "russian_isbns": [
+        "9785389189065",
+        "538918906X"
+      ],
+      "cover_url": "https://assets.hardcover.app/external_data/689402/e18cfbe385de5d2bc1014aa89add4a5e3b6dde25.jpeg",
+      "russian_cover": true,
+      "description": "Piranesi’s house is no ordinary building: its rooms are infinite, its corridors endless, its walls are lined with thousands upon thousands of statues, each one different from all the others. Within the labyrinth of halls an ocean is imprisoned; waves thunder up staircases, rooms are flooded in an instant. But Piranesi is not afraid; he understands the tides as he understands the pattern of the labyrinth itself. He lives to explore the house.\n\nThere is one other person in the house—a man called The Other, who visits Piranesi twice a week and asks for help with research into A Great and Secret Knowledge. But as Piranesi explores, evidence emerges of another person, and a terrible truth begins to unravel, revealing a world beyond the one Piranesi has always known.",
+      "description_language": null
+    },
+    {
+      "rank": 21,
+      "id": 376219,
+      "url": "https://hardcover.app/books/harry-potter-and-the-prisoner-of-azkaban",
+      "title": "Гарри Поттер и узник Азкабана",
+      "original_title": "Harry Potter and the Prisoner of Azkaban",
+      "authors": [
+        "J.K. Rowling"
+      ],
+      "published": "1999-07-08",
+      "rating": 4.409925984668253,
+      "rating_count": 7566,
+      "isbns": [
+        "9780439655484",
+        "043965548X"
+      ],
+      "russian_edition_id": 14778609,
+      "russian_isbns": [
+        "9785353004325",
+        "5353004329"
+      ],
+      "cover_url": "https://assets.hardcover.app/edition/14778609/8ce5f0d38fd53554b2e693de33785e4017107ac2.jpeg",
+      "russian_cover": true,
+      "description": "For twelve long years, the dread fortress of Azkaban held an infamous prisoner named Sirius Black. Convicted of killing thirteen people with a single curse, he was said to be the heir apparent to the Dark Lord, Voldemort.\n\nNow he has escaped, leaving only two clues as to where he might be headed: Harry Potter's defeat of You-Know-Who was Black's downfall as well. And the Azkaban guards heard Black muttering in his sleep, \"He's at Hogwarts . . . he's at Hogwarts.\"\n\nHarry Potter isn't safe, not even within the walls of his magical school, surrounded by his friends. Because on top of it all, there may well be a traitor in their midst.",
+      "description_language": null
+    },
+    {
+      "rank": 22,
+      "id": 312460,
+      "url": "https://hardcover.app/books/dune",
+      "title": "Дюна",
+      "original_title": "Dune",
+      "authors": [
+        "Frank Herbert"
+      ],
+      "published": "1965-06-01",
+      "rating": 4.335991221653256,
+      "rating_count": 6835,
+      "isbns": [
+        "9780441172719",
+        "3423026189"
+      ],
+      "russian_edition_id": 31019408,
+      "russian_isbns": [
+        "9785170897810",
+        "5170231342"
+      ],
+      "cover_url": "https://assets.hardcover.app/edition/31019408/53513389642e8f107557738a8fba321584e1b298.jpeg",
+      "russian_cover": true,
+      "description": "Set on the desert planet Arrakis, Dune is the story of the boy Paul Atreides, heir to a noble family tasked with ruling an inhospitable world where the only thing of value is the “spice” melange, a drug capable of extending life and enhancing consciousness. Coveted across the known universe, melange is a prize worth killing for...\n\nWhen House Atreides is betrayed, the destruction of Paul’s family will set the boy on a journey toward a destiny greater than he could ever have imagined. And as he evolves into the mysterious man known as Muad’Dib, he will bring to fruition humankind’s most ancient and unattainable dream.",
+      "description_language": null
+    },
+    {
+      "rank": 23,
+      "id": 427456,
+      "url": "https://hardcover.app/books/morning-star",
+      "title": "Утренняя звезда",
+      "original_title": "Morning Star",
+      "authors": [
+        "Pierce Brown"
+      ],
+      "published": "2016-09-27",
+      "rating": 4.444099378881988,
+      "rating_count": 2898,
+      "isbns": [
+        "9780345539847",
+        "0345539842",
+        "9781444759082",
+        "1444759086"
+      ],
+      "russian_edition_id": 31732159,
+      "russian_isbns": [
+        "9785389114418",
+        "5389114418"
+      ],
+      "cover_url": "https://assets.hardcover.app/edition/31732159/fc754ac2f74c90fe51f4dac9cf6cda2c113c00e3.jpeg",
+      "russian_cover": true,
+      "description": "Darrow would have lived in peace, but his enemies brought him war. The Gold overlords demanded his obedience, hanged his wife, and enslaved his people. But Darrow is determined to fight back. Risking everything to transform himself and breach Gold society, Darrow has battled to survive the cutthroat rivalries that breed Society’s mightiest warriors, climbed the ranks, and waited patiently to unleash the revolution that will tear the hierarchy apart from within.\n\nFinally, the time has come.\n\nBut devotion to honor and hunger for vengeance run deep on both sides. Darrow and his comrades-in-arms face powerful enemies without scruple or mercy. Among them are some Darrow once considered friends. To win, Darrow will need to inspire those shackled in darkness to break their chains, unmake the world their cruel masters have built, and claim a destiny too long denied—and too glorious to surrender.",
+      "description_language": null
+    },
+    {
+      "rank": 24,
+      "id": 2769384,
+      "url": "https://hardcover.app/books/threshing-day",
+      "title": "Threshing Day",
+      "original_title": "Threshing Day",
+      "authors": [
+        "Rebecca Yarros"
+      ],
+      "published": "2026-09-29",
+      "rating": 4.212406015037594,
+      "rating_count": 266,
+      "isbns": [
+        "9780349450612",
+        "0349450617",
+        "9781682818527",
+        "1682818527"
+      ],
+      "russian_edition_id": null,
+      "russian_isbns": [],
+      "cover_url": "https://assets.hardcover.app/edition/33089282/bab991f2-9488-40a2-97e5-e01ef962fe90.jpg",
+      "russian_cover": false,
+      "description": "Welcome to Threshing Day, the brutal, high-stakes trial where would-be riders at Basgiath War College fight to earn the bond of a dragon or die trying. Amid ruthless competition and dragon fire, these thirteen cadets must survive a battlefield where desperate rivals will do anything to gain an advantage and dragons decide one’s ultimate fate―and where a single choice can forge a rider…or destroy them.\n\nXaden Riorson, the powerful leader. Rhiannon Matthias, the clever friend. Dain Aetos, the dutiful rule-follower. Liam Mairi, the kindhearted protector. Ridoc Gamlyn, the jokester. Sawyer Henrick, the underdog. Garrick Tavis, the dependable aide. Imogen Cardulo, the impulsive fighter. Bodhi Durran, the second-in-command. Mira Sorrengail, the fearless rider. Brennan Sorrengail, the brilliant tactician. Aaric Graycastle, the restless royal. Sloane Mairi, the determined sister.",
+      "description_language": null
+    },
+    {
+      "rank": 25,
+      "id": 427971,
+      "url": "https://hardcover.app/books/all-systems-red",
+      "title": "Отказ всех систем",
+      "original_title": "All Systems Red",
+      "authors": [
+        "Martha Wells"
+      ],
+      "published": "2017-01-01",
+      "rating": 4.072190766550523,
+      "rating_count": 4592,
+      "isbns": [
+        "9781250214713",
+        "1250214718",
+        "9780765397522",
+        "0765397528"
+      ],
+      "russian_edition_id": 31521127,
+      "russian_isbns": [
+        "9785041052386",
+        "5041052387"
+      ],
+      "cover_url": "https://assets.hardcover.app/edition/31521127/e3f6808118fa360eeddc405c70e14ebe3b66c07f.jpeg",
+      "russian_cover": true,
+      "description": "In a corporate-dominated spacefaring future, planetary missions must be approved and supplied by the Company. Exploratory teams are accompanied by Company-supplied security androids, for their own safety.\n\nBut in a society where contracts are awarded to the lowest bidder, safety isn't a primary concern.\n\nOn a distant planet, a team of scientists are conducting surface tests, shadowed by their Company-supplied 'droid -- a self-aware SecUnit that has hacked its own governor module, and refers to itself (though never out loud) as \"Murderbot.\" Scornful of humans, all it really wants is to be left alone long enough to figure out who it is.\n\nBut when a neighboring mission goes dark, it's up to the scientists and their Murderbot to get to the truth.",
+      "description_language": null
+    },
+    {
+      "rank": 26,
+      "id": 455735,
+      "url": "https://hardcover.app/books/there-is-no-antimemetics-division",
+      "title": "There Is No Antimemetics Division",
+      "original_title": "There Is No Antimemetics Division",
+      "authors": [
+        "qntm"
+      ],
+      "published": "2020-01-01",
+      "rating": 4.019111111111111,
+      "rating_count": 1125,
+      "isbns": [
+        "9780593983751",
+        "0593983750",
+        "9780593983768",
+        "0593983769"
+      ],
+      "russian_edition_id": null,
+      "russian_isbns": [],
+      "cover_url": "https://assets.hardcover.app/external_data/193765/b3af02e08dc537afe1627e9cc6a20131874e056d.jpeg",
+      "russian_cover": false,
+      "description": "They’re all around us, hiding in plain sight.\n\nOne could be in the room with you now, just to your left. You could be seeing it right now—but from this second to the next, you’ll forget that you did. If you managed to jot down a note, the paper would look blank to you afterward.\n\nThese entities can feed on your most cherished memories, the things that make you you—and you’ll never even know anything changed.\n\nThey can turn you into a living ghost—make it so you’re standing next to your spouse, screaming in their ear, and they won’t know you’re there.\n\nThey’re predators equipped with the ultimate camouflage, living black holes for information, able to consume our very memories of their existence.\n\nAnd they aren’t just feeding on us. They’re invading.\n\nBut how do you fight an enemy when you can never even know that you’re at war? How do you contain something you can’t record or remember?\n\nWelcome to the Antimemetics Division.\n\nNo, this is not your first day.",
+      "description_language": null
+    },
+    {
+      "rank": 27,
+      "id": 2189587,
+      "url": "https://hardcover.app/books/the-fires-of-december",
+      "title": "The Fires of December",
+      "original_title": "The Fires of December",
+      "authors": [
+        "Brandon Sanderson"
+      ],
+      "published": "2026-09-15",
+      "rating": 4.197080291970803,
+      "rating_count": 137,
+      "isbns": [
+        "9781938570728",
+        "1938570723"
+      ],
+      "russian_edition_id": null,
+      "russian_isbns": [],
+      "cover_url": "https://assets.hardcover.app/edition/32409522/5562a0b7-5a80-4b2e-b8a2-cc8f4780b904.png",
+      "russian_cover": false,
+      "description": "In the next Cosmere standalone novel, Hoid has an epic tale to share: In a forgotten land sustained by colorful rivers of demon blood, a young woman named December learns a devastating plague is on its way. But who will believe her? Against impossible odds, she sets sail up the River Violet to warn the king's court, determination—and wisdom beyond her years—burning in her eyes. Along the way she’ll navigate incredulous royal officials, twisted court intrigue, and a roguish count with only her wits and her new friends: a talkative priestess and a fledgling fashion designer.",
+      "description_language": null
+    },
+    {
+      "rank": 28,
+      "id": 175780,
+      "url": "https://hardcover.app/books/catching-fire",
+      "title": "И вспыхнет пламя",
+      "original_title": "Catching Fire",
+      "authors": [
+        "Suzanne Collins"
+      ],
+      "published": "2009-09-01",
+      "rating": 4.090433873497125,
+      "rating_count": 5739,
+      "isbns": [
+        "9780439023498",
+        "0439023491",
+        "9780545227247",
+        "0545227240"
+      ],
+      "russian_edition_id": 32113648,
+      "russian_isbns": [
+        "9785170671281",
+        "5170671288"
+      ],
+      "cover_url": "https://assets.hardcover.app/external_data/725967/5fa5ae2044b2973cbf4102dd84671d814cb787b6.jpeg",
+      "russian_cover": true,
+      "description": "The second novel in the worldwide bestselling series by Suzanne Collins, now an acclaimed film series starring Jennifer Lawrence\n\nAgainst all odds, Katniss has won the Hunger Games. She and fellow District 12 tribute Peeta Mellark are miraculously still alive. Katniss should be relieved, happy even. After all, she has returned to her family and her longtime friend, Gale. Yet nothing is the way Katniss wishes it to be. Gale holds her at an icy distance. Peeta has turned his back on her completely. And there are whispers of a rebellion against the Capitol.\n\nMuch to her shock, Katniss has fueled an unrest she's afraid she cannot stop. And what scares her even more is that she's not entirely convinced she should try. As time draws near for Katniss and Peeta to visit the districts on the Capitol's cruel Victory Tour, the stakes are higher than ever. If they can't prove they are lost in their love for each other, the consequences will be horrifying.",
+      "description_language": null
+    },
+    {
+      "rank": 29,
+      "id": 383236,
+      "url": "https://hardcover.app/books/harry-potter-and-the-goblet-of-fire",
+      "title": "Гарри Поттер и Кубок огня",
+      "original_title": "Harry Potter and the Goblet of Fire",
+      "authors": [
+        "J.K. Rowling"
+      ],
+      "published": "2000-07-08",
+      "rating": 4.3746634547258045,
+      "rating_count": 7057,
+      "isbns": [
+        "9780439139595",
+        "0439139597",
+        "9781781100103",
+        "1781100101"
+      ],
+      "russian_edition_id": 19869585,
+      "russian_isbns": [
+        "9785353005797",
+        "5353005791"
+      ],
+      "cover_url": "https://assets.hardcover.app/edition/19869585/2c11d070738d7e691b11b2e17d43a0fcf3a4673c.jpeg",
+      "russian_cover": true,
+      "description": "Harry Potter is midway through his training as a wizard and his coming of age. Harry wants to get away from the pernicious Dursleys and go to the International Quidditch Cup. He wants to find out about the mysterious event that's supposed to take place at Hogwarts this year, an event involving two other rival schools of magic, and a competition that hasn't happened for a hundred years. He wants to be a normal, fourteen-year-old wizard. But unfortunately for Harry Potter, he's not normal - even by wizarding standards. And in his case, different can be deadly.\n\nPaperback edition of the fourth Harry Potter novel.",
+      "description_language": null
+    },
+    {
+      "rank": 30,
+      "id": 428506,
+      "url": "https://hardcover.app/books/harry-potter-and-the-half-blood-prince",
+      "title": "Гарри Поттер и Принц-полукровка",
+      "original_title": "Harry Potter and the Half-Blood Prince",
+      "authors": [
+        "J.K. Rowling"
+      ],
+      "published": "2005-07-16",
+      "rating": 4.388871739465967,
+      "rating_count": 6479,
+      "isbns": [
+        "9780439784542",
+        "0439784549",
+        "9781781100394",
+        "178110039X"
+      ],
+      "russian_edition_id": 23535934,
+      "russian_isbns": [
+        "9785353021872",
+        "5353021878"
+      ],
+      "cover_url": "https://assets.hardcover.app/edition/23535934/d204527bb19d07a5be5b7153bbbe4fae4b4f6bd9.jpeg",
+      "russian_cover": true,
+      "description": "The war against Voldemort is not going well; even the Muggles have been affected. Dumbledore is absent from Hogwarts for long stretches of time, and the Order of the Phoenix has already suffered losses.\n\nAnd yet . . . As with all wars, life goes on. Sixth-year students learn to Apparate. Teenagers flirt and fight and fall in love. Harry receives some extraordinary help in Potions from the mysterious Half-Blood Prince. And with Dumbledore's guidance, he seeks out the full, complex story of the boy who became Lord Voldemort -- and thus finds what may be his only vulnerability.",
+      "description_language": null
+    }
+  ]
+}
