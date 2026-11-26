@@ -1,6 +1,7 @@
 """Publish ordered Hardcover charts suitable for PocketLib."""
 from concurrent.futures import ThreadPoolExecutor
 from html import unescape
+from http.client import HTTPException
 import json
 import re
 import os
@@ -48,7 +49,7 @@ LITRES_EDITIONS = {
     446730: ("povarennaya-kniga-anarhista-podzemelya-70208305", "Поваренная книга анархиста Подземелья", "9785222420287"),
     446722: ("vrata-dikih-bogov-70208311", "Врата Диких Богов", "9785222420294"),
 }
-CATALOGUE_ERRORS = (URLError, TimeoutError, ValueError, KeyError, TypeError)
+CATALOGUE_ERRORS = (OSError, HTTPException, ValueError, KeyError, TypeError)
 
 
 def graphql(query, variables=None):
@@ -257,7 +258,7 @@ def labirint_description(russian_isbns):
                     description = plain_description(annotation[1])
                     if russian_text(description):
                         return description
-        except (URLError, TimeoutError):
+        except (OSError, HTTPException):
             continue
     return None
 
@@ -272,7 +273,7 @@ def publisher_description(book_id):
         slug, title, isbn = LITRES_EDITIONS[book_id]
         try:
             page = catalogue_html(f"https://www.litres.ru/book/mett-dinniman/{slug}/")
-        except (URLError, TimeoutError):
+        except (OSError, HTTPException):
             return None, None
         heading = re.search(r"<h1\b[^>]*>(.*?)</h1>", page, re.I | re.S)
         if not heading or compact(plain_description(heading[1])) != compact(title):
@@ -292,7 +293,7 @@ def publisher_description(book_id):
     source, url, isbn = edition
     try:
         page = catalogue_html(url)
-    except (URLError, TimeoutError):
+    except (OSError, HTTPException):
         return None, None
     page_isbns = re.findall(r"(?:[0-9][- ]?){12}[0-9]", page)
     if isbn not in isbn_keys(page_isbns):
@@ -308,7 +309,7 @@ def publisher_description(book_id):
 def boys_and_books_description(url):
     try:
         page = catalogue_html(url)
-    except (URLError, TimeoutError):
+    except (OSError, HTTPException):
         return None
     match = re.search(r'<div class="product__description-content static-text">\s*(<p>.*?)</div>', page, re.I | re.S)
     description = plain_description(match[1]) if match else ""
@@ -322,7 +323,7 @@ def cover_dimensions(url):
     try:
         with urlopen(request, timeout=4) as response:
             data = response.read(65536)
-    except OSError:
+    except (OSError, HTTPException):
         return 0, 0
     if data.startswith(b"\x89PNG\r\n\x1a\n") and len(data) >= 24:
         return int.from_bytes(data[16:20], "big"), int.from_bytes(data[20:24], "big")
