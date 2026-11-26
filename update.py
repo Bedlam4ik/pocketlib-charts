@@ -25,16 +25,28 @@ query Books($ids: [Int!]!, $russian: Int!) {
 """
 
 # Cross-catalogue links verified against the work or publisher, keyed by Hardcover work ID.
-FANTLAB_WORKS = {356467: 9633, 498097: 731357}
+FANTLAB_WORKS = {356467: 9633, 379760: 9632, 498097: 731357}
 FANTLAB_COVERS = {356467: 327417}
+VERIFIED_COVERS = {
+    # The larger Hardcover image is a Coming Soon placeholder for this work.
+    328491: "https://assets.hardcover.app/edition/12295826/e51fb38d185340f42f1b3f6eea1b6866991a8818.jpeg",
+    379760: "https://fantlab.ru/images/editions/big/315021",
+}
+CORRECTED_EDITIONS = {379760: ("1984", "9785041118655")}
 PUBLISHED_RUSSIAN_EDITIONS = {
     524963: ("Переломный момент", "https://heatedrivalry.kz/product/moment"),
     524964: ("Заклятые соперники", "https://heatedrivalry.kz/product/soperniki"),
 }
 PUBLISHER_EDITIONS = {
+    266084: ("АСТ", "https://ast.ru/book/postoronniy-858196/", "9785171373238"),
     385491: ("Азбука", "https://azbooka.ru/books/ubiytsa-voyn", "9785389201804"),
     386401: ("АСТ", "https://ast.ru/book/grozovoy-pereval-852785/", "9785171272951"),
     469783: ("АСТ", "https://ast.ru/book/prestuplenie-i-nakazanie-034017/", "9785170619276"),
+}
+LITRES_EDITIONS = {
+    446681: ("karl-obhodchik-podzemeliy-67643834", "Карл – обходчик подземелий", None),
+    446730: ("povarennaya-kniga-anarhista-podzemelya-70208305", "Поваренная книга анархиста Подземелья", "9785222420287"),
+    446722: ("vrata-dikih-bogov-70208311", "Врата Диких Богов", "9785222420294"),
 }
 CATALOGUE_ERRORS = (URLError, TimeoutError, ValueError, KeyError, TypeError)
 
@@ -256,6 +268,24 @@ def plain_description(value):
 
 
 def publisher_description(book_id):
+    if book_id in LITRES_EDITIONS:
+        slug, title, isbn = LITRES_EDITIONS[book_id]
+        try:
+            page = catalogue_html(f"https://www.litres.ru/book/mett-dinniman/{slug}/")
+        except (URLError, TimeoutError):
+            return None, None
+        heading = re.search(r"<h1\b[^>]*>(.*?)</h1>", page, re.I | re.S)
+        if not heading or compact(plain_description(heading[1])) != compact(title):
+            return None, None
+        if isbn:
+            identifier = re.search(r'<span\b[^>]*itemprop="isbn"[^>]*>([^<]+)<', page, re.I)
+            if not identifier or isbn not in isbn_keys([identifier[1]]):
+                return None, None
+        elif "мэттдинниман" not in compact(page):
+            return None, None
+        match = re.search(r'<div\b[^>]*data-testid="book-description__wrapper"[^>]*>(.*?)</div>', page, re.I | re.S)
+        description = plain_description(match[1]) if match else ""
+        return (description, "Литрес") if russian_text(description) else (None, None)
     edition = PUBLISHER_EDITIONS.get(book_id)
     if not edition:
         return None, None
@@ -339,9 +369,9 @@ def card(book, previous=None):
     authors = book_authors(book)
     original_isbns = isbn_keys(isbns(book.get("default_physical_edition")) +
                               isbns(book.get("default_ebook_edition")))
-    edition = next(
-        (row for row in book["editions"] if russian_text(row.get("title"))), None
-    )
+    corrected_edition = CORRECTED_EDITIONS.get(book["id"])
+    russian_editions = [] if corrected_edition else [row for row in book["editions"] if russian_text(row.get("title"))]
+    edition = next(iter(russian_editions), None)
     description = book.get("description")
     localized_title = edition["title"] if edition else None
     localized_isbns = isbns(edition)
@@ -351,9 +381,16 @@ def card(book, previous=None):
     description_source = "Hardcover" if russian_text(description) else None
     fantlab_checked = False
     match = None
+    if corrected_edition:
+        # Hardcover associates an unrelated Russian book with this work.
+        localized_title, isbn = corrected_edition
+        localized_isbns = [isbn]
+        status, edition_source = "russian_found", "Фантлаб"
     try:
         work = find_fantlab_work(book, original_isbns, authors)
         match = fantlab_russian_edition(work)
+        if corrected_edition and work and not description_source and russian_text(work.get("work_description")):
+            description, description_source = work["work_description"], "Фантлаб"
         if match:
             if not localized_title:
                 localized_title, localized_isbns, localized_cover = match["title"], match["isbns"], match["cover"]
@@ -378,7 +415,7 @@ def card(book, previous=None):
     if publisher_edition and not localized_title:
         localized_title = publisher_edition[0]
         status, edition_source = "russian_found", "Boys&Books"
-    previous = previous or {}
+    previous = {} if corrected_edition else previous or {}
     if previous.get("edition_status") == "russian_found":
         if not localized_title:
             localized_title = previous["title"]
@@ -387,7 +424,6 @@ def card(book, previous=None):
             localized_isbns = previous.get("russian_isbns") or []
         if not description_source and previous.get("description_language") == "ru":
             description, description_source = previous.get("description"), previous.get("description_source")
-    russian_editions = [row for row in book["editions"] if russian_text(row.get("title"))]
     other_editions = (match or {}).get("editions") or []
     if localized_title and not description_source:
         numbers = localized_isbns + [isbn for row in russian_editions for isbn in isbns(row)]
@@ -412,7 +448,9 @@ def card(book, previous=None):
                     description, description_source = found, "Лабиринт"
     if status == "russian_found" and not description_source:
         description = None
-    if localized_title:
+    if localized_title and book["id"] in VERIFIED_COVERS:
+        localized_cover = VERIFIED_COVERS[book["id"]]
+    elif localized_title:
         previous_cover = previous.get("cover_url") if previous.get("russian_cover") else None
         other_editions = sorted(other_editions, key=lambda row: (
             not bool(set(isbn_keys((row.get("isbn") or "").split(","))) & set(isbn_keys(localized_isbns))),
@@ -429,7 +467,7 @@ def card(book, previous=None):
     return {
         "id": book["id"],
         "url": "https://hardcover.app/books/" + book["slug"],
-        "title": localized_title or (book["title"] if status == "no_russian_in_catalog" else None),
+        "title": localized_title or book["title"],
         "original_title": book["title"],
         "authors": list(dict.fromkeys(authors)),
         "published": book.get("release_date"),
