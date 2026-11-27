@@ -96,10 +96,13 @@ def yandex_reactions(page):
         number = raw.replace(" ", "")
         if not re.fullmatch(r"[0-9]+", number):
             continue
-        labels = {node_text(child).casefold() for child in info[2] if isinstance(child, tuple)}
-        for label, field in (("советую", "recommend"), ("не советую", "do_not_recommend")):
-            if label in labels:
-                reactions.setdefault(field, int(number))
+        for child in info[2]:
+            if not isinstance(child, tuple) or child[0] != "span" or child is counter:
+                continue
+            label = node_text(child)
+            if russian_text(label):
+                reactions.setdefault(label, int(number))
+                break
     return reactions
 
 
@@ -206,7 +209,13 @@ def publish(source, loader):
         if source == "yandex-week" or missing_description and not previous_complete:
             description, reactions = book_metadata(book["url"], source)
         if source == "yandex-week":
-            book["reactions"] = reactions or saved.get("reactions", {})
+            counts = [{"label": label, "count": count} for label, count in reactions.items()]
+            book["reaction_counts"] = counts or saved.get("reaction_counts", [])
+            if reactions:
+                fields = {"Советую": "recommend", "Не советую": "do_not_recommend"}
+                book["reactions"] = {fields[label]: count for label, count in reactions.items() if label in fields}
+            else:
+                book["reactions"] = saved.get("reactions", {})
         if missing_description:
             if previous_complete:
                 book["description"] = previous_description
