@@ -79,19 +79,43 @@ def nyt_title(value):
     return value, value
 
 
-def synopsis(url, source):
+def yandex_reactions(page):
+    def emotion_class(node, part):
+        return any(value.startswith("Emotion-module__") and value.endswith("__" + part)
+                   for value in (node[1].get("class") or "").split())
+
+    reactions = {}
+    for node in nodes(page.nodes):
+        if not emotion_class(node, "emotion"):
+            continue
+        info = next((n for n in nodes(node[2]) if emotion_class(n, "info")), None)
+        if not info:
+            continue
+        counter = next((n for n in nodes(info[2]) if emotion_class(n, "count")), None)
+        raw = node_text(counter)
+        number = raw.replace(" ", "")
+        if not re.fullmatch(r"[0-9]+", number):
+            continue
+        labels = {node_text(child).casefold() for child in info[2] if isinstance(child, tuple)}
+        for label, field in (("советую", "recommend"), ("не советую", "do_not_recommend")):
+            if label in labels:
+                reactions.setdefault(field, int(number))
+    return reactions
+
+
+def book_metadata(url, source):
     try:
         page = Page(catalogue_html(url))
     except CATALOGUE_ERRORS:
-        return ""
+        return "", {}
     if source == "nyt":
         section = next((n for n in nodes(page.nodes) if n[1].get("id") == "descr"), None)
         if section:
-            return node_text(next((n for n in nodes(section[2]) if has_class(n, "bs-prose")), None))
+            return node_text(next((n for n in nodes(section[2]) if has_class(n, "bs-prose")), None)), {}
     else:
         annotation = next((n for n in nodes(page.nodes) if n[1].get("data-test-id") == "EXPANDABLE_TEXT"), None)
-        return node_text(annotation)
-    return ""
+        return node_text(annotation), yandex_reactions(page)
+    return "", {}
 
 
 def nyt_chart():
@@ -174,13 +198,20 @@ def publish(source, loader):
 
     def prepare(book):
         text = book["description"]
-        if not text or text.endswith(("...", "…")):
-            saved = old.get(book["url"], {}).get("description", "")
-            if saved and not saved.endswith(("...", "…")):
-                book["description"] = saved
-            elif description := synopsis(book["url"], source):
-                if len(description) > len(text):
-                    book["description"] = description
+        saved = old.get(book["url"], {})
+        missing_description = not text or text.endswith(("...", "…"))
+        previous_description = saved.get("description", "")
+        previous_complete = previous_description and not previous_description.endswith(("...", "…"))
+        description, reactions = ("", {})
+        if source == "yandex-week" or missing_description and not previous_complete:
+            description, reactions = book_metadata(book["url"], source)
+        if source == "yandex-week":
+            book["reactions"] = reactions or saved.get("reactions", {})
+        if missing_description:
+            if previous_complete:
+                book["description"] = previous_description
+            if len(description) > len(book["description"]):
+                book["description"] = description
 
     with ThreadPoolExecutor(max_workers=5) as workers:
         list(workers.map(prepare, books))
