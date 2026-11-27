@@ -1,10 +1,11 @@
-name: Publish Hardcover charts
+name: Publish book charts
 on:
   workflow_dispatch:
   push:
     paths:
       - '.github/workflows/hardcover.yml'
       - 'update.py'
+      - 'update_other_charts.py'
   schedule:
     - cron: '23 3 * * 1,4'
 permissions:
@@ -16,16 +17,26 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Build charts
+      - name: Build Hardcover charts
+        id: hardcover
+        continue-on-error: true
         env:
           HARDCOVER_TOKEN: ${{ secrets.HARDCOVER_TOKEN }}
         run: python3 update.py
+      - name: Build NYT and Yandex charts
+        id: other
+        continue-on-error: true
+        run: python3 update_other_charts.py
       - name: Publish charts
         run: |
-          git add hardcover-month.json hardcover-year.json
+          for chart in hardcover-month.json hardcover-year.json nyt.json yandex-week.json; do
+            if [ -f "$chart" ]; then git add "$chart"; fi
+          done
           if git diff --cached --quiet; then exit 0; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Update Hardcover charts"
+          git commit -m "Update book charts"
           git push
-
+      - name: Report incomplete refresh
+        if: steps.hardcover.outcome == 'failure' || steps.other.outcome == 'failure'
+        run: exit 1
