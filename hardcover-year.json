@@ -201,9 +201,9 @@
       ],
       "russian_edition_id": null,
       "russian_isbns": [],
-      "cover_url": null,
+      "cover_url": "https://assets.hardcover.app/editions/30829594/3f43c2b5-94bd-4d1b-9e64-35daa4e94b42.jpg",
       "russian_cover": false,
-      "edition_status": "unconfirmed",
+      "edition_status": "no_russian_in_catalog",
       "translation_kind": "unofficial",
       "translation_url": "https://www.rulit.me/books/oko-nevesty-bedlama-download-1148010.html",
       "edition_source": null,
@@ -228,9 +228,9 @@
       ],
       "russian_edition_id": null,
       "russian_isbns": [],
-      "cover_url": null,
+      "cover_url": "https://assets.hardcover.app/edition/32462067/40a20ed0-0786-4425-b775-0af66472e853.jpg",
       "russian_cover": false,
-      "edition_status": "unconfirmed",
+      "edition_status": "no_russian_in_catalog",
       "translation_kind": "unofficial",
       "translation_url": "https://www.rulit.me/books/parad-uzhasov-download-1154379.html",
       "edition_source": null,
@@ -398,6 +398,36 @@
       "rank": 13
     },
     {
+      "id": 1941363,
+      "url": "https://hardcover.app/books/yesteryear-2026",
+      "title": "Yesteryear",
+      "original_title": "Yesteryear",
+      "authors": [
+        "Caro Claire Burke"
+      ],
+      "published": "2026-04-07",
+      "rating": 3.7794292508917957,
+      "rating_count": 841,
+      "isbns": [
+        "9780593804216",
+        "059380421X",
+        "9780593804223",
+        "0593804228"
+      ],
+      "russian_edition_id": null,
+      "russian_isbns": [],
+      "cover_url": "https://assets.hardcover.app/edition/32720645/91d910bf-e696-4366-aa09-14f0a6a6cea9.jpg",
+      "russian_cover": false,
+      "edition_status": "no_russian_in_catalog",
+      "translation_kind": null,
+      "translation_url": null,
+      "edition_source": null,
+      "description_source": null,
+      "description": "Natalie lives a traditional lifestyle. Her charming farmhouse is rustic, her husband a handsome cowboy, her six children each more delightful than the last. So what if there are nannies and producers behind the scenes, her kitchen hiding industrial-grade fridges and ovens, her husband the heir to a political dynasty? What Natalie’s followers—all 8 million of them—don’t know won’t hurt them. And The Angry Women? The privileged, Ivy League, coastal elite haters who call her an antifeminist iconoclast? They’re sick with jealousy. Because Natalie isn’t simply living the good life, she’s living the ideal—and just so happens to be building an empire from it.\n\nUntil one morning she wakes up in a life that isn’t hers. Her home, her husband, her children—they’re all familiar, but something’s off. Her kitchen is warmed by a sputtering fire rather than electricity, her children are dirty and strange, and her soft-handed husband is suddenly a competent farmer. Just yesterday Natalie was curating photos of homemade jam for her Instagram, and now she’s expected to haul firewood and handwash clothes until her fingers bleed. Has she become the unwitting star of a ruthless reality show? Could it really be time travel? Is she being tested by God? By Satan? When Natalie suffers a brutal injury in the woods, she realizes two things: This is not her beautiful life, and she must escape by any means possible.\n\nA gripping, electrifying novel that is as darkly funny as it is frightening, Yesteryear is a gimlet-eyed look at tradition, fame, faith, and the grand performance of womanhood.",
+      "description_language": null,
+      "rank": 14
+    },
+    {
       "id": 455735,
       "url": "https://hardcover.app/books/there-is-no-antimemetics-division",
       "title": "Нет никакого Отдела Антимеметики",
@@ -425,36 +455,6 @@
       "description_source": "Фантлаб",
       "description": "Тема - противоборство вторжению, ради чего и был создан специальный Фонд. Изучая аномалии, происходящие на планете , сотрудники Фонда натолкнулись на информационный негуманоидный Разум, питающийся информацией, носителем которой являлся каждый человек, при этом уничтожая личность, превращая человека в овощ.",
       "description_language": "ru",
-      "rank": 14
-    },
-    {
-      "id": 1941363,
-      "url": "https://hardcover.app/books/yesteryear-2026",
-      "title": "Yesteryear",
-      "original_title": "Yesteryear",
-      "authors": [
-        "Caro Claire Burke"
-      ],
-      "published": "2026-04-07",
-      "rating": 3.7794292508917957,
-      "rating_count": 841,
-      "isbns": [
-        "9780593804216",
-        "059380421X",
-        "9780593804223",
-        "0593804228"
-      ],
-      "russian_edition_id": null,
-      "russian_isbns": [],
-      "cover_url": null,
-      "russian_cover": false,
-      "edition_status": "unconfirmed",
-      "translation_kind": null,
-      "translation_url": null,
-      "edition_source": null,
-      "description_source": null,
-      "description": null,
-      "description_language": null,
       "rank": 15
     },
     {
@@ -874,34 +874,6 @@
       "rank": 28
     },
     {
-      "id": 524964,
-      "url": "https://hardcover.app/books/heated-rivalry",
-      "title": "Заклятые соперники",
-      "original_title": "Heated Rivalry",
-      "authors": [
-        "Rachel Reid"
-      ],
-      "published": "2019-03-25",
-      "rating": 4.106743185078909,
-      "rating_count": 697,
-      "isbns": [
-        "9781335534637",
-        "1335534636"
-      ],
-      "russian_edition_id": null,
-      "russian_isbns": [],
-      "cover_url": "https://assets.hardcover.app/edition/32508798/62c09422-138d-42ef-81d9-a9599e2fba5c.jpg",
-      "russian_cover": false,
-      "edition_status": "russian_found",
-      "translation_kind": null,
-      "translation_url": null,
-      "edition_source": "Boys&Books",
-      "description_source": "Boys&Books",
-      "description": "Шейн Холландер — образец дисциплины и капитан «Монреаль Вояджерс». Илья Розанов — харизматичный лидер «Бостонских медведей». Их противостояние давно стало легендой лиги: каждый матч превращается в проверку характера, выдержки и мастерства.\n\nГоды конкуренции меняют обоих. За громкими победами и безупречной репутацией стоят непростые решения, а главные испытания продолжаются за пределами катка.",
-      "description_language": "ru",
-      "rank": 29
-    },
-    {
       "id": 292354,
       "url": "https://hardcover.app/books/the-martian",
       "title": "Марсианин",
@@ -931,6 +903,34 @@
       "edition_source": "Hardcover",
       "description_source": "Фантлаб",
       "description": "В результате несчастного случая при эвакуации марсианской экспедиции астронавт Марк Уотни, которого другие члены экипажа сочли погибшим, чудом выжил и остался на Марсе. Следующий корабль прилетит через четыре года, и всё это время ему необходимо продержаться в суровых условиях красной планеты. Запасов продовольствия - всего на несколько недель. Марк включает смекалку и логику, использует свои научные познания в биологии, химии, физике с одной только целью - создать условия для жизни, не умереть и дождаться помощи...",
+      "description_language": "ru",
+      "rank": 29
+    },
+    {
+      "id": 524964,
+      "url": "https://hardcover.app/books/heated-rivalry",
+      "title": "Заклятые соперники",
+      "original_title": "Heated Rivalry",
+      "authors": [
+        "Rachel Reid"
+      ],
+      "published": "2019-03-25",
+      "rating": 4.106743185078909,
+      "rating_count": 697,
+      "isbns": [
+        "9781335534637",
+        "1335534636"
+      ],
+      "russian_edition_id": null,
+      "russian_isbns": [],
+      "cover_url": "https://assets.hardcover.app/edition/32508798/62c09422-138d-42ef-81d9-a9599e2fba5c.jpg",
+      "russian_cover": false,
+      "edition_status": "russian_found",
+      "translation_kind": null,
+      "translation_url": null,
+      "edition_source": "Boys&Books",
+      "description_source": "Boys&Books",
+      "description": "Шейн Холландер — образец дисциплины и капитан «Монреаль Вояджерс». Илья Розанов — харизматичный лидер «Бостонских медведей». Их противостояние давно стало легендой лиги: каждый матч превращается в проверку характера, выдержки и мастерства.\n\nГоды конкуренции меняют обоих. За громкими победами и безупречной репутацией стоят непростые решения, а главные испытания продолжаются за пределами катка.",
       "description_language": "ru",
       "rank": 30
     },
@@ -1538,39 +1538,6 @@
       "rank": 49
     },
     {
-      "id": 427678,
-      "url": "https://hardcover.app/books/iron-gold",
-      "title": "Железное золото",
-      "original_title": "Iron Gold",
-      "authors": [
-        "Pierce Brown"
-      ],
-      "published": "2018-01-01",
-      "rating": 4.062364816149964,
-      "rating_count": 1387,
-      "isbns": [
-        "9781473646551",
-        "1473646553",
-        "9780425285923",
-        "0425285928"
-      ],
-      "russian_edition_id": 31732353,
-      "russian_isbns": [
-        "9785389228375",
-        "5389228375"
-      ],
-      "cover_url": "https://assets.hardcover.app/edition/31732353/a2c4f49a1ae6e02b3429b974e7385cc30fd3929c.jpeg",
-      "russian_cover": true,
-      "edition_status": "russian_found",
-      "translation_kind": null,
-      "translation_url": null,
-      "edition_source": "Hardcover",
-      "description_source": "Лабиринт",
-      "description": "Десять лет назад планеты Солнечной системы были ввергнуты в хаос войны между высшими и низшими кастами Сообщества, разделенного на цвета. Но раскол в Сообществе гораздо глубже кастовых противоречий. Дэрроу, бывший шахтер-проходчик, а ныне лорд-император республики, сталкивается с предательством в тот момент, когда его чествуют как победителя. Сенат выдвигает ему серьезное обвинение, сильные союзники отступаются от него. Увенчанного лаврами полководца ждет арест, а возможно, и нечто худшее. Неужели его предал кто-то из близких соратников или друзей? Кто пытается манипулировать им? Дэрроу слишком дорога его свобода, и он решается на крайне рискованный поступок, который может повлечь за собой многие жертвы. Но на войне все средства хороши. Впервые на русском!\n\nНЕЗАКОННОЕ ПОТРЕБЛЕНИЕ НАРКОТИЧЕСКИХ СРЕДСТВ, ПСИХОТРОПНЫХ ВЕЩЕСТВ, ИХ АНАЛОГОВ ПРИЧИНЯЕТ ВРЕД ЗДОРОВЬЮ, ИХ НЕЗАКОННЫЙ ОБОРОТ ЗАПРЕЩЁН И ВЛЕЧЁТ УСТАНОВЛЕННУЮ ЗАКОНОДАТЕЛЬСТВОМ ОТВЕТСТВЕННОСТЬ",
-      "description_language": "ru",
-      "rank": 50
-    },
-    {
       "id": 460562,
       "url": "https://hardcover.app/books/white-nights",
       "title": "Белые ночи",
@@ -1600,6 +1567,39 @@
       "edition_source": "Hardcover",
       "description_source": "Лабиринт",
       "description": "В книгу включены произведения Ф. М. Достоевского, созданные в самом начале его творческого пути: дебютный роман «Бедные люди», который в одночасье сделал автора знаменитым, а также повести «Белые ночи» и «Неточка Незванова».  Эти произведения написаны до «катастрофы» 1849 года, когда молодого писателя за участие в кружке Петрашевского сослали на каторжные работы Сибирь, где он провел около десяти лет. В ранних произведениях Достоевского еще с трудом угадывается автор «Записок из подполья», «Преступления и наказания» и «Братьев Карамазовых», однако уже в них был явлен талант мощного и оригинального писателя, заслужившего восторженные отзывы критиков и успех у читателей, произведения которого исполнены сострадания и глубокого сочувствия к растоптанным, смешным, но не утратившим человеческого достоинства людям.",
+      "description_language": "ru",
+      "rank": 50
+    },
+    {
+      "id": 427678,
+      "url": "https://hardcover.app/books/iron-gold",
+      "title": "Железное золото",
+      "original_title": "Iron Gold",
+      "authors": [
+        "Pierce Brown"
+      ],
+      "published": "2018-01-01",
+      "rating": 4.062364816149964,
+      "rating_count": 1387,
+      "isbns": [
+        "9781473646551",
+        "1473646553",
+        "9780425285923",
+        "0425285928"
+      ],
+      "russian_edition_id": 31732353,
+      "russian_isbns": [
+        "9785389228375",
+        "5389228375"
+      ],
+      "cover_url": "https://assets.hardcover.app/edition/31732353/a2c4f49a1ae6e02b3429b974e7385cc30fd3929c.jpeg",
+      "russian_cover": true,
+      "edition_status": "russian_found",
+      "translation_kind": null,
+      "translation_url": null,
+      "edition_source": "Hardcover",
+      "description_source": "Лабиринт",
+      "description": "Десять лет назад планеты Солнечной системы были ввергнуты в хаос войны между высшими и низшими кастами Сообщества, разделенного на цвета. Но раскол в Сообществе гораздо глубже кастовых противоречий. Дэрроу, бывший шахтер-проходчик, а ныне лорд-император республики, сталкивается с предательством в тот момент, когда его чествуют как победителя. Сенат выдвигает ему серьезное обвинение, сильные союзники отступаются от него. Увенчанного лаврами полководца ждет арест, а возможно, и нечто худшее. Неужели его предал кто-то из близких соратников или друзей? Кто пытается манипулировать им? Дэрроу слишком дорога его свобода, и он решается на крайне рискованный поступок, который может повлечь за собой многие жертвы. Но на войне все средства хороши. Впервые на русском!\n\nНЕЗАКОННОЕ ПОТРЕБЛЕНИЕ НАРКОТИЧЕСКИХ СРЕДСТВ, ПСИХОТРОПНЫХ ВЕЩЕСТВ, ИХ АНАЛОГОВ ПРИЧИНЯЕТ ВРЕД ЗДОРОВЬЮ, ИХ НЕЗАКОННЫЙ ОБОРОТ ЗАПРЕЩЁН И ВЛЕЧЁТ УСТАНОВЛЕННУЮ ЗАКОНОДАТЕЛЬСТВОМ ОТВЕТСТВЕННОСТЬ",
       "description_language": "ru",
       "rank": 51
     },
@@ -1736,36 +1736,6 @@
       "rank": 55
     },
     {
-      "id": 772009,
-      "url": "https://hardcover.app/books/the-tainted-cup",
-      "title": "The Tainted Cup",
-      "original_title": "The Tainted Cup",
-      "authors": [
-        "Robert Jackson Bennett"
-      ],
-      "published": "2024-02-06",
-      "rating": 4.357875116495806,
-      "rating_count": 1073,
-      "isbns": [
-        "9781399725354",
-        "1399725351",
-        "9781984820723",
-        "1984820729"
-      ],
-      "russian_edition_id": null,
-      "russian_isbns": [],
-      "cover_url": null,
-      "russian_cover": false,
-      "edition_status": "unconfirmed",
-      "translation_kind": null,
-      "translation_url": null,
-      "edition_source": null,
-      "description_source": null,
-      "description": null,
-      "description_language": null,
-      "rank": 56
-    },
-    {
       "id": 208339,
       "url": "https://hardcover.app/books/the-three-body-problem",
       "title": "Задача трех тел",
@@ -1796,6 +1766,36 @@
       "description_source": "Лабиринт",
       "description": "Первый роман цикла \"Воспоминания о прошлом Земли\".\nВ те времена, когда Китай переживал последствия жестокой \"культурной революции\", в ходе секретного военного проекта в космос были посланы сигналы, чтобы установить контакт с инопланетным разумом. Один из сигналов подхватила цивилизация, находящаяся на краю гибели, и теперь пришельцы готовятся вторгнуться на Землю. Узнав об этом, люди разделились на тех, кто готов отдать наш порочный мир под управление высшего разума, и тех, кто до последнего будет бороться против этого вторжения.\nБлестящий научно-фантастический роман \"Задача трех тел\" самого популярного китайского писателя Лю Цысиня обрел широкое мировое признание и стал первой переводной книгой, номинированной на самые престижные литературные премии в области фантастики: \"Хьюго\", \"Небьюлу\", \"Локус\", \"Прометей\" и другие. По циклу снят сериал китайского производства \"Задача трех тел\", а также готовится экранизация от Netflix. \nПонравится всем поклонникам Айзека Азимова, Джеймса Кори, Артура Кларка, Питера Уоттса, Энди Вейера.",
       "description_language": "ru",
+      "rank": 56
+    },
+    {
+      "id": 772009,
+      "url": "https://hardcover.app/books/the-tainted-cup",
+      "title": "The Tainted Cup",
+      "original_title": "The Tainted Cup",
+      "authors": [
+        "Robert Jackson Bennett"
+      ],
+      "published": "2024-02-06",
+      "rating": 4.357875116495806,
+      "rating_count": 1073,
+      "isbns": [
+        "9781399725354",
+        "1399725351",
+        "9781984820723",
+        "1984820729"
+      ],
+      "russian_edition_id": null,
+      "russian_isbns": [],
+      "cover_url": null,
+      "russian_cover": false,
+      "edition_status": "unconfirmed",
+      "translation_kind": null,
+      "translation_url": null,
+      "edition_source": null,
+      "description_source": null,
+      "description": null,
+      "description_language": null,
       "rank": 57
     },
     {
@@ -1829,39 +1829,6 @@
       "rank": 58
     },
     {
-      "id": 1197328,
-      "url": "https://hardcover.app/books/onyx-storm",
-      "title": "Ониксовый шторм",
-      "original_title": "Onyx Storm",
-      "authors": [
-        "Rebecca Yarros"
-      ],
-      "published": "2025-01-21",
-      "rating": 3.973381730187538,
-      "rating_count": 1653,
-      "isbns": [
-        "9780349443768",
-        "0349443769",
-        "9781649376947",
-        "1649376944"
-      ],
-      "russian_edition_id": 32116667,
-      "russian_isbns": [
-        "9785353109587",
-        "5353109589"
-      ],
-      "cover_url": "https://fantlab.ru/images/editions/big/430642",
-      "russian_cover": true,
-      "edition_status": "russian_found",
-      "translation_kind": null,
-      "translation_url": null,
-      "edition_source": "Hardcover",
-      "description_source": "Фантлаб",
-      "description": "Спустя полтора года после поступления в военную академию Басгиат у Вайолет Сорренгейл больше нет времени на учебу. И нет времени на сомнения. Идет война на два фронта – с врагами внешними и внутренними, и невозможно предугадать, кому можно довериться без риска для жизни.\r\nВ поисках союзников Вайолет отправляется далеко за пределы Наварры. И это путешествие испытает все ее мужество, ум и удачу. Ведь когда ты борешься за то, что дороже всего на свете, – своих драконов, свою семью, свой дом и своего мужчину – отступать некуда. Даже, если тайна, которую ты хранишь, может разрушить все.\r\nИм нужна армия. Им нужна сила. Им нужна магия. Им нужно то, что может найти только Вайолет, – правда.\r\nНо надвигается шторм... и не каждый сможет пережить его неистовый гнев.",
-      "description_language": "ru",
-      "rank": 59
-    },
-    {
       "id": 428929,
       "url": "https://hardcover.app/books/a-court-of-mist-and-fury",
       "title": "Королевство Гнева и Тумана",
@@ -1891,6 +1858,39 @@
       "edition_source": "Hardcover",
       "description_source": "Фантлаб",
       "description": "Фейра уже не та простая смертная девушка, какой была на землях людей. Здесь, в Притиании, она обрела бессмертие, развила магические способности, ее возлюбленный — верховный правитель Двора весны, и скоро состоится их свадьба. Но когда-то она заключила договор с правителем Двора ночи и обязана неделю каждого месяца проводить в соседних владениях, о которых идет недобрая слава. Между тем владыка Сонного королевства, давний враг Притиании и мира людей, готовит вторжение на их земли. В его руках мощный артефакт, давший когда-то жизнь всему миру и способный оживлять мертвых. Противостоять его силе может лишь Книга дуновений, и Фейра делает все возможное и невозможное, чтобы заполучить Книгу.",
+      "description_language": "ru",
+      "rank": 59
+    },
+    {
+      "id": 1197328,
+      "url": "https://hardcover.app/books/onyx-storm",
+      "title": "Ониксовый шторм",
+      "original_title": "Onyx Storm",
+      "authors": [
+        "Rebecca Yarros"
+      ],
+      "published": "2025-01-21",
+      "rating": 3.973381730187538,
+      "rating_count": 1653,
+      "isbns": [
+        "9780349443768",
+        "0349443769",
+        "9781649376947",
+        "1649376944"
+      ],
+      "russian_edition_id": 32116667,
+      "russian_isbns": [
+        "9785353109587",
+        "5353109589"
+      ],
+      "cover_url": "https://fantlab.ru/images/editions/big/430642",
+      "russian_cover": true,
+      "edition_status": "russian_found",
+      "translation_kind": null,
+      "translation_url": null,
+      "edition_source": "Hardcover",
+      "description_source": "Фантлаб",
+      "description": "Спустя полтора года после поступления в военную академию Басгиат у Вайолет Сорренгейл больше нет времени на учебу. И нет времени на сомнения. Идет война на два фронта – с врагами внешними и внутренними, и невозможно предугадать, кому можно довериться без риска для жизни.\r\nВ поисках союзников Вайолет отправляется далеко за пределы Наварры. И это путешествие испытает все ее мужество, ум и удачу. Ведь когда ты борешься за то, что дороже всего на свете, – своих драконов, свою семью, свой дом и своего мужчину – отступать некуда. Даже, если тайна, которую ты хранишь, может разрушить все.\r\nИм нужна армия. Им нужна сила. Им нужна магия. Им нужно то, что может найти только Вайолет, – правда.\r\nНо надвигается шторм... и не каждый сможет пережить его неистовый гнев.",
       "description_language": "ru",
       "rank": 60
     },
@@ -1989,6 +1989,39 @@
       "rank": 63
     },
     {
+      "id": 427798,
+      "url": "https://hardcover.app/books/the-hitchhikers-guide-to-the-galaxy",
+      "title": "Автостопом по галактике",
+      "original_title": "The Hitchhiker's Guide to the Galaxy",
+      "authors": [
+        "Douglas Adams"
+      ],
+      "published": "1979-10-12",
+      "rating": 4.293607800650054,
+      "rating_count": 6461,
+      "isbns": [
+        "9781529034523",
+        "1529034523",
+        "9780330513081",
+        "0330513087"
+      ],
+      "russian_edition_id": 28410338,
+      "russian_isbns": [
+        "9785170125340",
+        "5170125348"
+      ],
+      "cover_url": "https://assets.hardcover.app/edition/32924857/e6454155201139f2bf4f381e789548073be1f802.jpeg",
+      "russian_cover": true,
+      "edition_status": "russian_found",
+      "translation_kind": null,
+      "translation_url": null,
+      "edition_source": "Hardcover",
+      "description_source": "Лабиринт",
+      "description": "\"Автостопом по Галактике\", стартовав в качестве радиопостановки на Би-би-си, имел грандиозный успех. Одноименный роман в 1984 году возглавил список английских бестселлеров, а сам Адамс стал самым молодым писателем, получившим награду \"Золотая ручка\", вручаемую за 1 млн. проданных книг.\nТелепостановка 1982 года упрочила успех серии книг про \"Автостоп\", а полнометражный фильм 2005 года при бюджете в $50 млн. дважды \"отбил\" расходы на экранизацию и был номинирован на 7 премий. \nПопулярность сатирической \"трилогии в пяти частях\" выплеснулась в музыкальную и компьютерную индустрию. Так, группы Radiohead, Coldplay, NOFX используют цитаты из романа Адамса, а Level 42 названа в честь главной сюжетной линии романа.",
+      "description_language": "ru",
+      "rank": 64
+    },
+    {
       "id": 175780,
       "url": "https://hardcover.app/books/catching-fire",
       "title": "И вспыхнет пламя",
@@ -2019,7 +2052,7 @@
       "description_source": "Фантлаб",
       "description": " Своей победой на 74-х Голодных играх Китнисс и Пит не только заслужили себе жизнь, но и, как считает правящая верхушка в Капитолии, бросили вызов всей системе правления Панема. И теперь главная героиня из простого подростка, против собственной воли, превращается в живой символ неповиновения правящему режиму. Повсюду, почти во всех дистриктах, зреют мятежи и недовольства. А тут ещё поползли слухи, что Дистрикт-13 не был полностью уничтожен 75 лет назад, а сумел частично сохраниться и выйти из повиновения Капитолию.\r\n\r\n Во избежании бунта, администрация Панема, во главе с президентом, решает убрать Китнисс, но убрать необходимо законным способом. И они такой способ находят...",
       "description_language": "ru",
-      "rank": 64
+      "rank": 65
     },
     {
       "id": 1123366,
@@ -2049,7 +2082,7 @@
       "description_source": null,
       "description": "Dante’s Inferno meets Susanna Clarke’s Piranesi in this all-new dark academia fantasy from R. F. Kuang, the #1 New York Times bestselling author of Babel and Yellowface, in which two graduate students must put aside their rivalry and journey to Hell to save their professor’s soul—perhaps at the cost of their own. \n\nKatabasis, noun, Ancient Greek:\n\nThe story of a hero’s descent to the underworld\n\nAlice Law has only ever had one goal: to become one of the brightest minds in the field of Magick. She has sacrificed everything to make that a reality: her pride, her health, her love life, and most definitely her sanity. All to work with Professor Jacob Grimes at Cambridge, the greatest magician in the world.\n\nThat is, until he dies in a magical accident that could possibly be her fault.\n\nGrimes is now in Hell, and she’s going in after him. Because his recommendation could hold her very future in his now incorporeal hands and even death is not going to stop the pursuit of her dreams….\n\nNor will the fact that her rival, Peter Murdoch, has come to the very same conclusion.\n\nWith nothing but the tales of Orpheus and Dante to guide them, enough chalk to draw the Pentagrams necessary for their spells, and the burning desire to make all the academic trauma mean anything, they set off across Hell to save a man they don’t even like.\n\nBut Hell is not like the storybooks say, Magick isn’t always the answer, and there’s something in Alice and Peter’s past that could forge them into the perfect allies…or lead to their doom.",
       "description_language": null,
-      "rank": 65
+      "rank": 66
     },
     {
       "id": 432448,
@@ -2081,7 +2114,7 @@
       "description_source": "Фантлаб",
       "description": "Вернувшись с Майлу, Киллербот обнаруживает, что на него ведётся охота, а доктор Мензах куда-то пропала. По-видимому, она похищена корпорацией «СерКриз». Киллербот решает сделать всё возможное для её освобождения и направляется на станцию Тран-Роллин-Хайфа, где расположена штаб-квартира «СерКриз». Уже по пути он узнаёт, что туда же отправились и другие старые знакомые: Пин-Ли, Ратти и Гуратин. Итак, он на верном пути!",
       "description_language": "ru",
-      "rank": 66
+      "rank": 67
     },
     {
       "id": 139773,
@@ -2111,39 +2144,6 @@
       "edition_source": "Hardcover",
       "description_source": "Фантлаб",
       "description": "Племянник Бильбо Бэггинса, хоббит Фродо, даже и не подозревал, какое на самом деле наследство оставил ему его дядюшка. Однажды теплым весенним утром на пороге дома Фродо появляется волшебник Гэндальф. И привычный мир встает с ног на голову, страшная война из слухов становится частью жизни, а коварные и жуткие слуги Врага готовы на все, лишь бы вернуть потерянное своему господину. Сквозь препятствия и потери отряд Хранителей отправляется в путь.",
-      "description_language": "ru",
-      "rank": 67
-    },
-    {
-      "id": 427798,
-      "url": "https://hardcover.app/books/the-hitchhikers-guide-to-the-galaxy",
-      "title": "Автостопом по галактике",
-      "original_title": "The Hitchhiker's Guide to the Galaxy",
-      "authors": [
-        "Douglas Adams"
-      ],
-      "published": "1979-10-12",
-      "rating": 4.293607800650054,
-      "rating_count": 6461,
-      "isbns": [
-        "9781529034523",
-        "1529034523",
-        "9780330513081",
-        "0330513087"
-      ],
-      "russian_edition_id": 28410338,
-      "russian_isbns": [
-        "9785170125340",
-        "5170125348"
-      ],
-      "cover_url": "https://assets.hardcover.app/edition/32924857/e6454155201139f2bf4f381e789548073be1f802.jpeg",
-      "russian_cover": true,
-      "edition_status": "russian_found",
-      "translation_kind": null,
-      "translation_url": null,
-      "edition_source": "Hardcover",
-      "description_source": "Лабиринт",
-      "description": "\"Автостопом по Галактике\", стартовав в качестве радиопостановки на Би-би-си, имел грандиозный успех. Одноименный роман в 1984 году возглавил список английских бестселлеров, а сам Адамс стал самым молодым писателем, получившим награду \"Золотая ручка\", вручаемую за 1 млн. проданных книг.\nТелепостановка 1982 года упрочила успех серии книг про \"Автостоп\", а полнометражный фильм 2005 года при бюджете в $50 млн. дважды \"отбил\" расходы на экранизацию и был номинирован на 7 премий. \nПопулярность сатирической \"трилогии в пяти частях\" выплеснулась в музыкальную и компьютерную индустрию. Так, группы Radiohead, Coldplay, NOFX используют цитаты из романа Адамса, а Level 42 названа в честь главной сюжетной линии романа.",
       "description_language": "ru",
       "rank": 68
     },
@@ -2214,37 +2214,6 @@
       "rank": 70
     },
     {
-      "id": 39629,
-      "url": "https://hardcover.app/books/throne-of-glass",
-      "title": "Стеклянный трон",
-      "original_title": "Throne of Glass",
-      "authors": [
-        "Sarah J. Maas"
-      ],
-      "published": "2012-08-07",
-      "rating": 3.8747970779220777,
-      "rating_count": 2464,
-      "isbns": [
-        "9781639730940",
-        "163973094X"
-      ],
-      "russian_edition_id": 31643412,
-      "russian_isbns": [
-        "9785389045316",
-        "5389045319"
-      ],
-      "cover_url": "https://assets.hardcover.app/edition/31792638/0466d0104a27e8dc635f5ec06537104556ea3d4c.jpeg",
-      "russian_cover": true,
-      "edition_status": "russian_found",
-      "translation_kind": null,
-      "translation_url": null,
-      "edition_source": "Hardcover",
-      "description_source": "Фантлаб",
-      "description": "Кто бы мог подумать? Ее, великолепного ассасина, взяли в плен и отправили на каторгу. Но путь к свободе еще есть - надо лишь победить на королевском турнире. Вот только не так там будет легко, как казалось бы. Магия, хоть и изгнанная из королевства, не дремлет и может преподнести неожиданные сюрпризы.",
-      "description_language": "ru",
-      "rank": 71
-    },
-    {
       "id": 427553,
       "url": "https://hardcover.app/books/children-of-time",
       "title": "Дети времени",
@@ -2272,6 +2241,37 @@
       "edition_source": "Hardcover",
       "description_source": "Лабиринт",
       "description": "Доктор Аврана Керн проводит эксперимент по наделению животных разумом. Терраформированная планета должна стать домом для обезьян, с которыми спустя века Керн мечтает говорить как с равными. Но по Земле и ее колониям прокатывается война. Эксперимент и его наблюдатель отрезаны от всех. Через две тысячи лет на сигнал бедствия Керн прилетает корабль-ковчег с остатками человечества. Мир Керн его последняя надежда. Кажется, пропасть непонимания между последними людьми и экспериментальным видом непреодолима, ведь разум обрели не обезьяны, а совсем другой вид.",
+      "description_language": "ru",
+      "rank": 71
+    },
+    {
+      "id": 39629,
+      "url": "https://hardcover.app/books/throne-of-glass",
+      "title": "Стеклянный трон",
+      "original_title": "Throne of Glass",
+      "authors": [
+        "Sarah J. Maas"
+      ],
+      "published": "2012-08-07",
+      "rating": 3.8747970779220777,
+      "rating_count": 2464,
+      "isbns": [
+        "9781639730940",
+        "163973094X"
+      ],
+      "russian_edition_id": 31643412,
+      "russian_isbns": [
+        "9785389045316",
+        "5389045319"
+      ],
+      "cover_url": "https://assets.hardcover.app/edition/31792638/0466d0104a27e8dc635f5ec06537104556ea3d4c.jpeg",
+      "russian_cover": true,
+      "edition_status": "russian_found",
+      "translation_kind": null,
+      "translation_url": null,
+      "edition_source": "Hardcover",
+      "description_source": "Фантлаб",
+      "description": "Кто бы мог подумать? Ее, великолепного ассасина, взяли в плен и отправили на каторгу. Но путь к свободе еще есть - надо лишь победить на королевском турнире. Вот только не так там будет легко, как казалось бы. Магия, хоть и изгнанная из королевства, не дремлет и может преподнести неожиданные сюрпризы.",
       "description_language": "ru",
       "rank": 72
     },
@@ -2495,39 +2495,6 @@
       "rank": 79
     },
     {
-      "id": 463683,
-      "url": "https://hardcover.app/books/mockingjay",
-      "title": "Сойка-пересмешница",
-      "original_title": "Mockingjay",
-      "authors": [
-        "Suzanne Collins"
-      ],
-      "published": "2010-08-24",
-      "rating": 3.8288113695090438,
-      "rating_count": 5418,
-      "isbns": [
-        "9780439023511",
-        "0439023513",
-        "9780545317801",
-        "0545317800"
-      ],
-      "russian_edition_id": 31900224,
-      "russian_isbns": [
-        "9785271371103",
-        "5271371107"
-      ],
-      "cover_url": "https://assets.hardcover.app/edition/31900224/14ee8badde55ebfa94c420485a9737899553a9ff.jpeg",
-      "russian_cover": true,
-      "edition_status": "russian_found",
-      "translation_kind": null,
-      "translation_url": null,
-      "edition_source": "Hardcover",
-      "description_source": "Фантлаб",
-      "description": "Неожиданно закончились Триумфальные Голодные игры для главной героини, как, впрочем, и для всего Панема. Китнисс оказалась похищенной повстанцами из Дистрикта-13, слухи о котором оказались правдивы. Вот только Питер, чью жизнь так берегла Китнисс в течении всей игры, стал заложником у правящей верхушки во главе с президентом Панема.\r\n    Один за другим дистрикты оказываются охваченными мятежом против Капитолия. И для сплочения повстанцев им необходим символ, знамя, роль, которого, могла бы сыграть Сойка-пересмешница, в лице Китнисс. И она идёт на этот трудный для неё шаг в обмен на некоторые условия...",
-      "description_language": "ru",
-      "rank": 80
-    },
-    {
       "id": 99422,
       "url": "https://hardcover.app/books/artemis",
       "title": "Артемида",
@@ -2557,6 +2524,39 @@
       "edition_source": "Hardcover",
       "description_source": "Фантлаб",
       "description": "Артемида — единственный город на Луне.\r\n\r\nЛюди здесь занимаются теми же делами, к которым привыкли у себя на родине. Строители и ученые, владельцы небольших лавочек и представители крупного бизнеса — и самым доходным, конечно, является туризм. Десятки тысяч любопытных прибывают на Луну, чтобы пройти по поверхности чужой планеты, поиграть на корте или даже заняться любовью при силе тяжести в 1/6 от земной. В общем, город как город. И жители его подвержены обычным человеческим страстям.\r\n\r\nДевушка-курьер по имени Джаз мечтает когда-нибудь заработать достаточно, чтобы приобрести скафандр и лицензию гида. Водить туристов по поверхности планеты, быть уважаемым членом общества. Но не так-то просто совершить скачок с одной социальной ступени на другую...\r\n\r\nС присущим ему мастерством и вниманием к мельчайшим деталям Энди Вейер, автор великолепного «Марсианина» открывает новую главу бесконечной саги об освоении Солнечной системы!",
+      "description_language": "ru",
+      "rank": 80
+    },
+    {
+      "id": 463683,
+      "url": "https://hardcover.app/books/mockingjay",
+      "title": "Сойка-пересмешница",
+      "original_title": "Mockingjay",
+      "authors": [
+        "Suzanne Collins"
+      ],
+      "published": "2010-08-24",
+      "rating": 3.8288113695090438,
+      "rating_count": 5418,
+      "isbns": [
+        "9780439023511",
+        "0439023513",
+        "9780545317801",
+        "0545317800"
+      ],
+      "russian_edition_id": 31900224,
+      "russian_isbns": [
+        "9785271371103",
+        "5271371107"
+      ],
+      "cover_url": "https://assets.hardcover.app/edition/31900224/14ee8badde55ebfa94c420485a9737899553a9ff.jpeg",
+      "russian_cover": true,
+      "edition_status": "russian_found",
+      "translation_kind": null,
+      "translation_url": null,
+      "edition_source": "Hardcover",
+      "description_source": "Фантлаб",
+      "description": "Неожиданно закончились Триумфальные Голодные игры для главной героини, как, впрочем, и для всего Панема. Китнисс оказалась похищенной повстанцами из Дистрикта-13, слухи о котором оказались правдивы. Вот только Питер, чью жизнь так берегла Китнисс в течении всей игры, стал заложником у правящей верхушки во главе с президентом Панема.\r\n    Один за другим дистрикты оказываются охваченными мятежом против Капитолия. И для сплочения повстанцев им необходим символ, знамя, роль, которого, могла бы сыграть Сойка-пересмешница, в лице Китнисс. И она идёт на этот трудный для неё шаг в обмен на некоторые условия...",
       "description_language": "ru",
       "rank": 81
     },
@@ -2753,6 +2753,36 @@
       "rank": 87
     },
     {
+      "id": 432760,
+      "url": "https://hardcover.app/books/verity",
+      "title": "Тайный дневник Верити",
+      "original_title": "Verity",
+      "authors": [
+        "Colleen Hoover"
+      ],
+      "published": "2018-01-01",
+      "rating": 3.7644628099173554,
+      "rating_count": 1815,
+      "isbns": [
+        "9789896687403",
+        "9896687404",
+        "9781538724743",
+        "153872474X"
+      ],
+      "russian_edition_id": 32635558,
+      "russian_isbns": [],
+      "cover_url": "https://fantlab.ru/images/editions/big/500836",
+      "russian_cover": true,
+      "edition_status": "russian_found",
+      "translation_kind": null,
+      "translation_url": null,
+      "edition_source": "Hardcover",
+      "description_source": "Фантлаб",
+      "description": "Лоуэн Эшли на грани финансового краха. Поэтому она принимает предложение от мужа известной писательницы Верити Кроуфорд стать соавтором ее романа, поскольку та после аварии не встает с кровати и ни на что не реагирует. Среди черновиков новой книги Лоуэн случайно находит незаконченную биографию – ту, которую Верити точно не собиралась обнародовать. Текст пестрит безумием, и в нем есть признание в убийстве. Поначалу Лоуэн не решается рассказать об этом ее мужу Джереми, к которому испытывает симпатию. Но когда Лоуэн начинает подозревать, что Верити симулирует болезнь, а ночью разгуливает по уснувшему дому, она понимает, что найти истину должна во имя собственной безопасности.",
+      "description_language": "ru",
+      "rank": 88
+    },
+    {
       "id": 459744,
       "url": "https://hardcover.app/books/a-court-of-frost-and-starlight",
       "title": "Королевство стужи и звёздного света",
@@ -2780,36 +2810,6 @@
       "edition_source": "Hardcover",
       "description_source": "Фантлаб",
       "description": "Фейра, Рис и их друзья всё ещё заняты восстановлением Двора ночи и сильно изменившегося мира за его пределами. Но наконец близится Зимнее солнцестояние, а вместе с ним и честно заработанная передышка.\r\nНо даже в атмосфере праздника невозможно уберечься от теней прошлого. Управляя своим первым Зимним солнцестоянием в качестве Верховной леди, Фейра обнаруживает, что дорогие ей люди ранены сильнее, чем она предполагала, — эти шрамы чреваты серьезными последствиями для будущего Двора.",
-      "description_language": "ru",
-      "rank": 88
-    },
-    {
-      "id": 432760,
-      "url": "https://hardcover.app/books/verity",
-      "title": "Тайный дневник Верити",
-      "original_title": "Verity",
-      "authors": [
-        "Colleen Hoover"
-      ],
-      "published": "2018-01-01",
-      "rating": 3.7644628099173554,
-      "rating_count": 1815,
-      "isbns": [
-        "9789896687403",
-        "9896687404",
-        "9781538724743",
-        "153872474X"
-      ],
-      "russian_edition_id": 32635558,
-      "russian_isbns": [],
-      "cover_url": "https://fantlab.ru/images/editions/big/500836",
-      "russian_cover": true,
-      "edition_status": "russian_found",
-      "translation_kind": null,
-      "translation_url": null,
-      "edition_source": "Hardcover",
-      "description_source": "Фантлаб",
-      "description": "Лоуэн Эшли на грани финансового краха. Поэтому она принимает предложение от мужа известной писательницы Верити Кроуфорд стать соавтором ее романа, поскольку та после аварии не встает с кровати и ни на что не реагирует. Среди черновиков новой книги Лоуэн случайно находит незаконченную биографию – ту, которую Верити точно не собиралась обнародовать. Текст пестрит безумием, и в нем есть признание в убийстве. Поначалу Лоуэн не решается рассказать об этом ее мужу Джереми, к которому испытывает симпатию. Но когда Лоуэн начинает подозревать, что Верити симулирует болезнь, а ночью разгуливает по уснувшему дому, она понимает, что найти истину должна во имя собственной безопасности.",
       "description_language": "ru",
       "rank": 89
     },
@@ -2926,82 +2926,16 @@
       ],
       "russian_edition_id": null,
       "russian_isbns": [],
-      "cover_url": null,
+      "cover_url": "https://assets.hardcover.app/edition/33089282/bab991f2-9488-40a2-97e5-e01ef962fe90.jpg",
       "russian_cover": false,
-      "edition_status": "unconfirmed",
+      "edition_status": "no_russian_in_catalog",
       "translation_kind": null,
       "translation_url": null,
       "edition_source": null,
       "description_source": null,
-      "description": null,
+      "description": "Welcome to Threshing Day, the brutal, high-stakes trial where would-be riders at Basgiath War College fight to earn the bond of a dragon or die trying. Amid ruthless competition and dragon fire, these thirteen cadets must survive a battlefield where desperate rivals will do anything to gain an advantage and dragons decide one’s ultimate fate―and where a single choice can forge a rider…or destroy them.\n\nXaden Riorson, the powerful leader. Rhiannon Matthias, the clever friend. Dain Aetos, the dutiful rule-follower. Liam Mairi, the kindhearted protector. Ridoc Gamlyn, the jokester. Sawyer Henrick, the underdog. Garrick Tavis, the dependable aide. Imogen Cardulo, the impulsive fighter. Bodhi Durran, the second-in-command. Mira Sorrengail, the fearless rider. Brennan Sorrengail, the brilliant tactician. Aaric Graycastle, the restless royal. Sloane Mairi, the determined sister.",
       "description_language": null,
       "rank": 93
-    },
-    {
-      "id": 283659,
-      "url": "https://hardcover.app/books/crown-of-midnight",
-      "title": "Корона полуночи",
-      "original_title": "Crown of Midnight",
-      "authors": [
-        "Sarah J. Maas"
-      ],
-      "published": "2013-08-15",
-      "rating": 4.155316919853326,
-      "rating_count": 1909,
-      "isbns": [
-        "9781526635211",
-        "1526635216",
-        "9781619630635",
-        "161963063X"
-      ],
-      "russian_edition_id": 32712895,
-      "russian_isbns": [
-        "9785389070707",
-        "5389070704"
-      ],
-      "cover_url": "https://assets.hardcover.app/edition/32712895/f2deafcd9382bbd87cf7cdc2b6ad155e88a31255.jpeg",
-      "russian_cover": true,
-      "edition_status": "russian_found",
-      "translation_kind": null,
-      "translation_url": null,
-      "edition_source": "Hardcover",
-      "description_source": "Фантлаб",
-      "description": "Победив в жестком состязании, Селена Сардотин, самая известная женщина-ассасин в Ардаланском королевстве, получает титул королевской защитницы. Эта должность почетная и опасная, ведь душа короля чернее смолы, а его железная рука не знает пощады. Селене хорошо это известно, но тайная цель, которую она скрывает даже от самых близких друзей и ради которой одержала победу, превыше любой опасности…\r\nПродолжение знаменитой серии о женщине-ассассине Селене Сардотин. ",
-      "description_language": "ru",
-      "rank": 94
-    },
-    {
-      "id": 337236,
-      "url": "https://hardcover.app/books/the-alchemist",
-      "title": "Алхимик",
-      "original_title": "The Alchemist",
-      "authors": [
-        "Paulo Coelho"
-      ],
-      "published": "1988-01-01",
-      "rating": 3.5649317837291563,
-      "rating_count": 3958,
-      "isbns": [
-        "9780060887964",
-        "0060887966",
-        "9780060882693",
-        "0060882697"
-      ],
-      "russian_edition_id": 31145035,
-      "russian_isbns": [
-        "9785170502745",
-        "5170502745"
-      ],
-      "cover_url": "https://assets.hardcover.app/edition/24776559/cc3a0f3937cb504e0cf4e68d1e74142b01e44280.jpeg",
-      "russian_cover": true,
-      "edition_status": "russian_found",
-      "translation_kind": null,
-      "translation_url": null,
-      "edition_source": "Hardcover",
-      "description_source": "Лабиринт",
-      "description": "\"Алхимик\" - самый известный роман бразильского писателя Пауло Коэльо, любимая книга миллионов людей во всем мире. В юности люди не боятся мечтать, все кажется им возможным. Но проходит время, и таинственная сила принимается им внушать, что их желания неосуществимы. \n\"Добиться воплощения своей Судьбы - вот единственная подлинная обязанность человека…\", - утверждает Пауло Коэльо. \nЭтот, ставший культовым, роман-притча способен изменить жизнь своих читателей.",
-      "description_language": "ru",
-      "rank": 95
     },
     {
       "id": 427522,
@@ -3034,40 +2968,40 @@
       "description_source": "Фантлаб",
       "description": "После создания коалиции людей против вражеского вторжения Далинар с Сияющими рыцарями год сражался в затяжной и жестокой войне. Ни одной из сторон пока не удалось склонить чашу весов в свою пользу. Угроза предательства со стороны Таравангиана ставит под удар все стратегические решения Далинара.\r\n\r\nТехнологические открытия ученых во главе с Навани Холин начали менять ход войны, и враг готовит смелую и опасную операцию. Гонка вооружений поставит под удар саму суть идеалов Сияющих и, возможно, раскроет секреты древней башни, некогда бывшей средоточием их силы.\r\n\r\nПока Каладин Благословенный бурей старается смириться со своей новой ролью среди Сияющих рыцарей, ветробегуны сталкиваются с новой проблемой. Все больше смертоносных Сплавленных пробуждается для участия в войне, но почти не находится спренов чести, желающих связать себя узами и тем самым увеличить численность Сияющих. Адолин и Шаллан должны возглавить послов коалиции к спренам чести и убедить их присоединиться к людям против Вражды.",
       "description_language": "ru",
-      "rank": 96
+      "rank": 94
     },
     {
-      "id": 385491,
-      "url": "https://hardcover.app/books/warbreaker",
-      "title": "Убийца войн",
-      "original_title": "Warbreaker",
+      "id": 283659,
+      "url": "https://hardcover.app/books/crown-of-midnight",
+      "title": "Корона полуночи",
+      "original_title": "Crown of Midnight",
       "authors": [
-        "Brandon Sanderson"
+        "Sarah J. Maas"
       ],
-      "published": "2009-06-09",
-      "rating": 4.214817880794702,
-      "rating_count": 2416,
+      "published": "2013-08-15",
+      "rating": 4.155316919853326,
+      "rating_count": 1909,
       "isbns": [
-        "9780765320308",
-        "0765320304",
-        "9781429967945",
-        "1429967943"
+        "9781526635211",
+        "1526635216",
+        "9781619630635",
+        "161963063X"
       ],
-      "russian_edition_id": 31973239,
+      "russian_edition_id": 32712895,
       "russian_isbns": [
-        "9785389132665",
-        "5389132661"
+        "9785389070707",
+        "5389070704"
       ],
-      "cover_url": "https://assets.hardcover.app/external_data/2632203/fb8e1c8a7c9e23ba93b999696aa8c13d36d9d67c.jpeg",
+      "cover_url": "https://assets.hardcover.app/edition/32712895/f2deafcd9382bbd87cf7cdc2b6ad155e88a31255.jpeg",
       "russian_cover": true,
       "edition_status": "russian_found",
       "translation_kind": null,
       "translation_url": null,
       "edition_source": "Hardcover",
-      "description_source": "Азбука",
-      "description": "Среди причудливых миров Космера есть один, где правят странные боги — ожившие мертвецы, или возвращенные. Прекрасные и молодые, они бессмертны и не помнят прошлой жизни. Для поддержании жизни им нужен дох — неуловимая субстанция, которая наполняет мир красками и обостряет чувства. Дох есть у каждого человека; боги предпочитают забирать его у детей. Таковы порядки в Халландрене — государстве, погрязшем в роскоши и распутстве. Там правит таинственный Бог-король. Страна много лет не знала войн, но скоро все должно измениться. Кто-то разжигает конфликт, стремясь столкнуть Халландрен с холодным горным Идрисом, что неизбежно повлечет за собой Панвойну. Мир можно спасти, если заключить брак между Богом-королем и идрисской принцессой Вивенной. Но в Халландрен отправляется не она. И вряд ли удастся избежать кровопролития, если не вмешается таинственный и легендарный Убийца Войн.",
+      "description_source": "Фантлаб",
+      "description": "Победив в жестком состязании, Селена Сардотин, самая известная женщина-ассасин в Ардаланском королевстве, получает титул королевской защитницы. Эта должность почетная и опасная, ведь душа короля чернее смолы, а его железная рука не знает пощады. Селене хорошо это известно, но тайная цель, которую она скрывает даже от самых близких друзей и ради которой одержала победу, превыше любой опасности…\r\nПродолжение знаменитой серии о женщине-ассассине Селене Сардотин. ",
       "description_language": "ru",
-      "rank": 97
+      "rank": 95
     },
     {
       "id": 429046,
@@ -3100,7 +3034,40 @@
       "description_source": "Фантлаб",
       "description": "Неста Аркерон всегда была колючкой, скорой на обиду, неспешной на прощение. С тех пор, как её принудили стать Высшей фэйри в Котле, она бьётся за своё место в этом странном, смертоносном мире. И ей никак не уйти от ужасов войны с Гиберном и всех связанных с ней потерь.\r\n\r\nБольше всех её гнев разжигает Кассиан, израненный в боях воин, чье положение в Рисанде и при Ночном дворе Фейры постоянно держит его вблизи Несты. Но гнев – не единственное, что разжигает Кассиан. Огонь между ними неоспорим, и горит лишь жарче из-за частных столкновений.\r\n\r\nТем временем коварные человеческие королевы, вернувшиеся на Континент во время последней войны, создали новый опасный союз, угрожая хрупкому миру в королевствах. И чтобы остановить их, Кассиану и Несте придётся встретиться лицом к лицу с преследующим их прошлым.\r\n\r\nВ грандиозных декорациях мира, опаленного войной и измученного неопределенностью, Неста и Кассиан сражаются с монстрами внутри и вне себя и ищут поддержку и исцеление в объятиях друг друга.",
       "description_language": "ru",
-      "rank": 98
+      "rank": 96
+    },
+    {
+      "id": 337236,
+      "url": "https://hardcover.app/books/the-alchemist",
+      "title": "Алхимик",
+      "original_title": "The Alchemist",
+      "authors": [
+        "Paulo Coelho"
+      ],
+      "published": "1988-01-01",
+      "rating": 3.5649317837291563,
+      "rating_count": 3958,
+      "isbns": [
+        "9780060887964",
+        "0060887966",
+        "9780060882693",
+        "0060882697"
+      ],
+      "russian_edition_id": 31145035,
+      "russian_isbns": [
+        "9785170502745",
+        "5170502745"
+      ],
+      "cover_url": "https://assets.hardcover.app/edition/24776559/cc3a0f3937cb504e0cf4e68d1e74142b01e44280.jpeg",
+      "russian_cover": true,
+      "edition_status": "russian_found",
+      "translation_kind": null,
+      "translation_url": null,
+      "edition_source": "Hardcover",
+      "description_source": "Лабиринт",
+      "description": "\"Алхимик\" - самый известный роман бразильского писателя Пауло Коэльо, любимая книга миллионов людей во всем мире. В юности люди не боятся мечтать, все кажется им возможным. Но проходит время, и таинственная сила принимается им внушать, что их желания неосуществимы. \n\"Добиться воплощения своей Судьбы - вот единственная подлинная обязанность человека…\", - утверждает Пауло Коэльо. \nЭтот, ставший культовым, роман-притча способен изменить жизнь своих читателей.",
+      "description_language": "ru",
+      "rank": 97
     },
     {
       "id": 469783,
@@ -3132,6 +3099,39 @@
       "edition_source": "Hardcover",
       "description_source": "АСТ",
       "description": "\"Преступление и наказание\" — одно из самых известных произведений Достоевского. \nГениальный роман, главные темы которого: преступление и наказание, жертвенность и любовь, свобода и ...",
+      "description_language": "ru",
+      "rank": 98
+    },
+    {
+      "id": 385491,
+      "url": "https://hardcover.app/books/warbreaker",
+      "title": "Убийца войн",
+      "original_title": "Warbreaker",
+      "authors": [
+        "Brandon Sanderson"
+      ],
+      "published": "2009-06-09",
+      "rating": 4.214817880794702,
+      "rating_count": 2416,
+      "isbns": [
+        "9780765320308",
+        "0765320304",
+        "9781429967945",
+        "1429967943"
+      ],
+      "russian_edition_id": 31973239,
+      "russian_isbns": [
+        "9785389132665",
+        "5389132661"
+      ],
+      "cover_url": "https://assets.hardcover.app/external_data/2632203/fb8e1c8a7c9e23ba93b999696aa8c13d36d9d67c.jpeg",
+      "russian_cover": true,
+      "edition_status": "russian_found",
+      "translation_kind": null,
+      "translation_url": null,
+      "edition_source": "Hardcover",
+      "description_source": "Азбука",
+      "description": "Среди причудливых миров Космера есть один, где правят странные боги — ожившие мертвецы, или возвращенные. Прекрасные и молодые, они бессмертны и не помнят прошлой жизни. Для поддержании жизни им нужен дох — неуловимая субстанция, которая наполняет мир красками и обостряет чувства. Дох есть у каждого человека; боги предпочитают забирать его у детей. Таковы порядки в Халландрене — государстве, погрязшем в роскоши и распутстве. Там правит таинственный Бог-король. Страна много лет не знала войн, но скоро все должно измениться. Кто-то разжигает конфликт, стремясь столкнуть Халландрен с холодным горным Идрисом, что неизбежно повлечет за собой Панвойну. Мир можно спасти, если заключить брак между Богом-королем и идрисской принцессой Вивенной. Но в Халландрен отправляется не она. И вряд ли удастся избежать кровопролития, если не вмешается таинственный и легендарный Убийца Войн.",
       "description_language": "ru",
       "rank": 99
     },

@@ -34,36 +34,6 @@
       "rank": 1
     },
     {
-      "id": 430559,
-      "url": "https://hardcover.app/books/a-court-of-splintered-harmony",
-      "title": "A Court of Splintered Harmony",
-      "original_title": "A Court of Splintered Harmony",
-      "authors": [
-        "Sarah J. Maas"
-      ],
-      "published": "2026-10-27",
-      "rating": 3.3441176470588236,
-      "rating_count": 170,
-      "isbns": [
-        "9781639739134",
-        "1639739130",
-        "9781639739141",
-        "1639739149"
-      ],
-      "russian_edition_id": null,
-      "russian_isbns": [],
-      "cover_url": null,
-      "russian_cover": false,
-      "edition_status": "unconfirmed",
-      "translation_kind": null,
-      "translation_url": null,
-      "edition_source": null,
-      "description_source": null,
-      "description": null,
-      "description_language": null,
-      "rank": 2
-    },
-    {
       "id": 446680,
       "url": "https://hardcover.app/books/carls-doomsday-scenario",
       "title": "Карл – сценарий судного дня",
@@ -92,7 +62,7 @@
       "description_source": "Фантлаб",
       "description": "Обучение завершено. Теперь игра начнется по-настоящему.\r\n\r\nРейтинги и просмотры зашкаливают. Подземелье становится все опаснее. Мясорубка пережевавывает обходчиков миллионами. Карл и его кошка принцесса Пончик делают все возможное, чтобы выжить в новой локации — огромном мегаполисе, по улицам которого шастают жуткие твари.\r\n\r\nОни называют это Миром Обходчиков Подземелий. Для Карла и Пончика это что угодно, только не игра.",
       "description_language": "ru",
-      "rank": 3
+      "rank": 2
     },
     {
       "id": 446730,
@@ -120,6 +90,36 @@
       "description_source": "Литрес",
       "description": "НЕЗАКОННОЕ ПОТРЕБЛЕНИЕ НАРКОТИЧЕСКИХ СРЕДСТВ, ПСИХОТРОПНЫХ ВЕЩЕСТВ, ИХ АНАЛОГОВ ПРИЧИНЯЕТ ВРЕД ЗДОРОВЬЮ, ИХ НЕЗАКОННЫЙ ОБОРОТ ЗАПРЕЩЕН И ВЛЕЧЕТ УСТАНОВЛЕННУЮ ЗАКОНОДАТЕЛЬСТВОМ ОТВЕТСТВЕННОСТЬ\nДобро пожаловать на Оружейную выставку! Список десяти лучших заполнен. Спонсорская программа открыта. Сложность нарастает. Первые три этажа меркнут по сравнению с тем, с чем сейчас столкнулись Карл и Пончик. Железный клубок. Невероятно сложная система метро, построенная из подземных железнодорожных систем мира, объединенных, а затем связанных в узел. Вверх – это вниз. Вниз – вверх. Близко – это далеко. Машины полны монстров, железнодорожные станции небезопасны, а выход всегда находится всего в нескольких остановках. Но есть надежда. Впервые краулеры работают вместе. Лут стал лучше, чем когда-либо. И разгадка всего этого может быть скрыта на страницах, казалось бы, бесполезной книги. Добро пожаловать, краулеры! Добро пожаловать на четвертый этаж Подземелья!",
       "description_language": "ru",
+      "rank": 3
+    },
+    {
+      "id": 430559,
+      "url": "https://hardcover.app/books/a-court-of-splintered-harmony",
+      "title": "A Court of Splintered Harmony",
+      "original_title": "A Court of Splintered Harmony",
+      "authors": [
+        "Sarah J. Maas"
+      ],
+      "published": "2026-10-27",
+      "rating": 3.3441176470588236,
+      "rating_count": 170,
+      "isbns": [
+        "9781639739134",
+        "1639739130",
+        "9781639739141",
+        "1639739149"
+      ],
+      "russian_edition_id": null,
+      "russian_isbns": [],
+      "cover_url": "https://assets.hardcover.app/edition/30390459/ee9f70bd-d62e-4636-a0b6-ad98746d065a.jpg",
+      "russian_cover": false,
+      "edition_status": "no_russian_in_catalog",
+      "translation_kind": null,
+      "translation_url": null,
+      "edition_source": null,
+      "description_source": null,
+      "description": "What was broken will be remade.\n\nDeep in the heart of the continent, Koschei the Deathless is stirring. Though he's been bound to a mountain lake for millennia, the insidious threat of his return now spreads across the Fae territories, attracting powerful allies hell-bent on reclaiming what was once theirs: the human lands.\n\nThe Night Court will not stand idly by while innocents are attacked. But with Prythian still piecing itself together in the wake of the devastating Hybern War, the task of uniting is proving more difficult by the day.\n\nTo make matters worse, those who rule and protect the Night Court are reeling from recent betrayals and revealed truths. The rifts dividing them seem insurmountable.\n\nBut to defeat Koschei's creeping shadow, they must find a way back to each other and resurrect their former alliances. To survive, they must find a way to repair the splintered harmony all around them.",
+      "description_language": null,
       "rank": 4
     },
     {
@@ -169,9 +169,9 @@
       ],
       "russian_edition_id": null,
       "russian_isbns": [],
-      "cover_url": null,
+      "cover_url": "https://assets.hardcover.app/edition/32462067/40a20ed0-0786-4425-b775-0af66472e853.jpg",
       "russian_cover": false,
-      "edition_status": "unconfirmed",
+      "edition_status": "no_russian_in_catalog",
       "translation_kind": "unofficial",
       "translation_url": "https://www.rulit.me/books/parad-uzhasov-download-1154379.html",
       "edition_source": null,
@@ -225,9 +225,9 @@
       ],
       "russian_edition_id": null,
       "russian_isbns": [],
-      "cover_url": null,
+      "cover_url": "https://assets.hardcover.app/editions/30829594/3f43c2b5-94bd-4d1b-9e64-35daa4e94b42.jpg",
       "russian_cover": false,
-      "edition_status": "unconfirmed",
+      "edition_status": "no_russian_in_catalog",
       "translation_kind": "unofficial",
       "translation_url": "https://www.rulit.me/books/oko-nevesty-bedlama-download-1148010.html",
       "edition_source": null,
@@ -363,39 +363,6 @@
       "rank": 12
     },
     {
-      "id": 328491,
-      "url": "https://hardcover.app/books/harry-potter-and-the-philosophers-stone",
-      "title": "Гарри Поттер и философский камень",
-      "original_title": "Harry Potter and the Philosopher's Stone",
-      "authors": [
-        "J.K. Rowling"
-      ],
-      "published": "1997-06-26",
-      "rating": 4.279721247923205,
-      "rating_count": 10834,
-      "isbns": [
-        "9781408855652",
-        "1408855658",
-        "9781781100486",
-        "1781100489"
-      ],
-      "russian_edition_id": 12295826,
-      "russian_isbns": [
-        "9785353003083",
-        "535300308X"
-      ],
-      "cover_url": "https://assets.hardcover.app/edition/12295826/e51fb38d185340f42f1b3f6eea1b6866991a8818.jpeg",
-      "russian_cover": true,
-      "edition_status": "russian_found",
-      "translation_kind": null,
-      "translation_url": null,
-      "edition_source": "Hardcover",
-      "description_source": "Фантлаб",
-      "description": "Жизнь в чулане под лестницей, донашивание одежды за братом, отсутствие родительской заботы - может закончится хорошо. Наградой станут необычная школа и преданные друзья. А ещё - целый мир, где есть волшебное зеркало и философский камень. Но он доступен только бескорыстному человеку. Чтобы узнать, таков ли главный герой книги, необходимо дочитать её до конца.",
-      "description_language": "ru",
-      "rank": 13
-    },
-    {
       "id": 356467,
       "url": "https://hardcover.app/books/animal-farm",
       "title": "Ферма животных",
@@ -426,7 +393,7 @@
       "description_source": "Фантлаб",
       "description": "Ироничная и одновременно печальная история об осквернении идей социализма тиранами, рассказана автором в форме сказки, где в роли людей выступают животные заурядной британской фермы. Каждый зверь и каждая птица - социально-политический типаж, который мы можем встретить и в наше время, несмотря на то, что повествование отражает события в России первой половины ХХ века.\r\n\r\nПовесть легла в основу первого европейского полнометражного мультфильма.",
       "description_language": "ru",
-      "rank": 14
+      "rank": 13
     },
     {
       "id": 379760,
@@ -458,7 +425,71 @@
       "description_source": "Фантлаб",
       "description": "Одна из самых известных антиутопий в мировой литературе, написанная как жесточайшая критика тоталитарного общества.\r\nРоман, давший миру такие понятия как Большой Брат и двоемыслие, мыслепреступление и новояз, с каждым годом становится, увы, всё более и более актуальным.",
       "description_language": "ru",
+      "rank": 14
+    },
+    {
+      "id": 328491,
+      "url": "https://hardcover.app/books/harry-potter-and-the-philosophers-stone",
+      "title": "Гарри Поттер и философский камень",
+      "original_title": "Harry Potter and the Philosopher's Stone",
+      "authors": [
+        "J.K. Rowling"
+      ],
+      "published": "1997-06-26",
+      "rating": 4.279721247923205,
+      "rating_count": 10834,
+      "isbns": [
+        "9781408855652",
+        "1408855658",
+        "9781781100486",
+        "1781100489"
+      ],
+      "russian_edition_id": 12295826,
+      "russian_isbns": [
+        "9785353003083",
+        "535300308X"
+      ],
+      "cover_url": "https://assets.hardcover.app/edition/12295826/e51fb38d185340f42f1b3f6eea1b6866991a8818.jpeg",
+      "russian_cover": true,
+      "edition_status": "russian_found",
+      "translation_kind": null,
+      "translation_url": null,
+      "edition_source": "Hardcover",
+      "description_source": "Фантлаб",
+      "description": "Жизнь в чулане под лестницей, донашивание одежды за братом, отсутствие родительской заботы - может закончится хорошо. Наградой станут необычная школа и преданные друзья. А ещё - целый мир, где есть волшебное зеркало и философский камень. Но он доступен только бескорыстному человеку. Чтобы узнать, таков ли главный герой книги, необходимо дочитать её до конца.",
+      "description_language": "ru",
       "rank": 15
+    },
+    {
+      "id": 88639,
+      "url": "https://hardcover.app/books/the-hunger-games",
+      "title": "Голодные игры",
+      "original_title": "The Hunger Games",
+      "authors": [
+        "Suzanne Collins"
+      ],
+      "published": "2008-09-14",
+      "rating": 4.136300658122619,
+      "rating_count": 8661,
+      "isbns": [
+        "9780439023481",
+        "0439023483"
+      ],
+      "russian_edition_id": 32669473,
+      "russian_isbns": [
+        "9785271257940",
+        "5271257940"
+      ],
+      "cover_url": "https://assets.hardcover.app/edition/31900151/8f98461d08f67379c2385d620be66a909610574c.jpeg",
+      "russian_cover": true,
+      "edition_status": "russian_found",
+      "translation_kind": null,
+      "translation_url": null,
+      "edition_source": "Hardcover",
+      "description_source": "Лабиринт",
+      "description": "Эти парень и девушка знакомы с детства и еще могут полюбить друг друга, но им придется стать врагами… \nПо жребию они должны  участвовать в страшных \"Голодных играх\", где выживает только один — сильнейший. \nПока в жестоком квесте остаются хотя бы какие-то участники, Китнисс и Пит могут защищать друг друга и сражаться вместе. Но рано или поздно кому-то из них придется пожертвовать жизнью ради любимого… \nТаков закон \"Голодных игр\". \nЗакон, который не нарушался еще никогда!",
+      "description_language": "ru",
+      "rank": 16
     },
     {
       "id": 378044,
@@ -490,37 +521,6 @@
       "edition_source": "Hardcover",
       "description_source": "Фантлаб",
       "description": "Подобно горным гномам из легенд, в недрах веками трудится народ, называющий себя кастой алых. Ценой невероятных лишений он добывает гелий-3, надеясь накопить его достаточно, чтобы однажды покинуть марсианские норы, окружить планету оболочкой из воздуха и воды, создать на поверхности условия для человеческого существования. И вдруг выясняется, что Марс уже терраформирован; это сделала каста золотых, причем себя золотые считают господами, алым же отвели роль рабов. Чтобы вызволить угнетенный народ и добиться справедливости, организация Сынов Ареса отправляет наверх молодого шахтера Дэрроу, модифицировав его до такой степени, что по внешним признакам он неотличим от своих элитарных сверстников. Удача сопутствует заговорщикам, еще немного, и можно будет нанести правящей верхушке смертельный удар… Но в шаге от победы Дэрроу совершает роковую ошибку.",
-      "description_language": "ru",
-      "rank": 16
-    },
-    {
-      "id": 88639,
-      "url": "https://hardcover.app/books/the-hunger-games",
-      "title": "Голодные игры",
-      "original_title": "The Hunger Games",
-      "authors": [
-        "Suzanne Collins"
-      ],
-      "published": "2008-09-14",
-      "rating": 4.136300658122619,
-      "rating_count": 8661,
-      "isbns": [
-        "9780439023481",
-        "0439023483"
-      ],
-      "russian_edition_id": 32669473,
-      "russian_isbns": [
-        "9785271257940",
-        "5271257940"
-      ],
-      "cover_url": "https://assets.hardcover.app/edition/31900151/8f98461d08f67379c2385d620be66a909610574c.jpeg",
-      "russian_cover": true,
-      "edition_status": "russian_found",
-      "translation_kind": null,
-      "translation_url": null,
-      "edition_source": "Hardcover",
-      "description_source": "Лабиринт",
-      "description": "Эти парень и девушка знакомы с детства и еще могут полюбить друг друга, но им придется стать врагами… \nПо жребию они должны  участвовать в страшных \"Голодных играх\", где выживает только один — сильнейший. \nПока в жестоком квесте остаются хотя бы какие-то участники, Китнисс и Пит могут защищать друг друга и сражаться вместе. Но рано или поздно кому-то из них придется пожертвовать жизнью ради любимого… \nТаков закон \"Голодных игр\". \nЗакон, который не нарушался еще никогда!",
       "description_language": "ru",
       "rank": 17
     },
@@ -589,6 +589,37 @@
       "rank": 19
     },
     {
+      "id": 376219,
+      "url": "https://hardcover.app/books/harry-potter-and-the-prisoner-of-azkaban",
+      "title": "Гарри Поттер и узник Азкабана",
+      "original_title": "Harry Potter and the Prisoner of Azkaban",
+      "authors": [
+        "J.K. Rowling"
+      ],
+      "published": "1999-07-08",
+      "rating": 4.409445178335535,
+      "rating_count": 7570,
+      "isbns": [
+        "9780439655484",
+        "043965548X"
+      ],
+      "russian_edition_id": 14778609,
+      "russian_isbns": [
+        "9785353004325",
+        "5353004329"
+      ],
+      "cover_url": "https://assets.hardcover.app/edition/14778609/8ce5f0d38fd53554b2e693de33785e4017107ac2.jpeg",
+      "russian_cover": true,
+      "edition_status": "russian_found",
+      "translation_kind": null,
+      "translation_url": null,
+      "edition_source": "Hardcover",
+      "description_source": "Фантлаб",
+      "description": "Гарри взрослеет, и вместе с тем жить в Хогвартсе всё страшнее. Из тюрьмы для волшебников Азкабан сбежал опасный преступник - Сириус Блэк. Мир наполнился слухами, что он ищет и хочет убить одного тринадцатилетнего парня, совсем обычного на первый взгляд. Его имя Гарри Поттер.",
+      "description_language": "ru",
+      "rank": 20
+    },
+    {
       "id": 175280,
       "url": "https://hardcover.app/books/piranesi",
       "title": "Пиранези",
@@ -618,37 +649,6 @@
       "edition_source": "Hardcover",
       "description_source": "Фантлаб",
       "description": "Этот Дом безграничен. Он полон Залов, Вестибюлей и Статуй. Он простирается в бесконечность, и кроме него в Мире нет ничего, ибо Дом - и есть Мир. \r\nВ Доме обитают пятнадцать человек: рассказчик, который помнит о себе только то, что его зовут не Пиранези; Другой, взыскующий Тайного Знания; и Кости Тринадцати Людей, которые жили и умерли здесь неизвестно когда... Но, может быть, когда-нибудь сюда придет и Шестнадцатый?",
-      "description_language": "ru",
-      "rank": 20
-    },
-    {
-      "id": 376219,
-      "url": "https://hardcover.app/books/harry-potter-and-the-prisoner-of-azkaban",
-      "title": "Гарри Поттер и узник Азкабана",
-      "original_title": "Harry Potter and the Prisoner of Azkaban",
-      "authors": [
-        "J.K. Rowling"
-      ],
-      "published": "1999-07-08",
-      "rating": 4.409445178335535,
-      "rating_count": 7570,
-      "isbns": [
-        "9780439655484",
-        "043965548X"
-      ],
-      "russian_edition_id": 14778609,
-      "russian_isbns": [
-        "9785353004325",
-        "5353004329"
-      ],
-      "cover_url": "https://assets.hardcover.app/edition/14778609/8ce5f0d38fd53554b2e693de33785e4017107ac2.jpeg",
-      "russian_cover": true,
-      "edition_status": "russian_found",
-      "translation_kind": null,
-      "translation_url": null,
-      "edition_source": "Hardcover",
-      "description_source": "Фантлаб",
-      "description": "Гарри взрослеет, и вместе с тем жить в Хогвартсе всё страшнее. Из тюрьмы для волшебников Азкабан сбежал опасный преступник - Сириус Блэк. Мир наполнился слухами, что он ищет и хочет убить одного тринадцатилетнего парня, совсем обычного на первый взгляд. Его имя Гарри Поттер.",
       "description_language": "ru",
       "rank": 21
     },
@@ -735,49 +735,16 @@
       ],
       "russian_edition_id": null,
       "russian_isbns": [],
-      "cover_url": null,
+      "cover_url": "https://assets.hardcover.app/edition/33089282/bab991f2-9488-40a2-97e5-e01ef962fe90.jpg",
       "russian_cover": false,
-      "edition_status": "unconfirmed",
+      "edition_status": "no_russian_in_catalog",
       "translation_kind": null,
       "translation_url": null,
       "edition_source": null,
       "description_source": null,
-      "description": null,
+      "description": "Welcome to Threshing Day, the brutal, high-stakes trial where would-be riders at Basgiath War College fight to earn the bond of a dragon or die trying. Amid ruthless competition and dragon fire, these thirteen cadets must survive a battlefield where desperate rivals will do anything to gain an advantage and dragons decide one’s ultimate fate―and where a single choice can forge a rider…or destroy them.\n\nXaden Riorson, the powerful leader. Rhiannon Matthias, the clever friend. Dain Aetos, the dutiful rule-follower. Liam Mairi, the kindhearted protector. Ridoc Gamlyn, the jokester. Sawyer Henrick, the underdog. Garrick Tavis, the dependable aide. Imogen Cardulo, the impulsive fighter. Bodhi Durran, the second-in-command. Mira Sorrengail, the fearless rider. Brennan Sorrengail, the brilliant tactician. Aaric Graycastle, the restless royal. Sloane Mairi, the determined sister.",
       "description_language": null,
       "rank": 24
-    },
-    {
-      "id": 427971,
-      "url": "https://hardcover.app/books/all-systems-red",
-      "title": "Отказ всех систем",
-      "original_title": "All Systems Red",
-      "authors": [
-        "Martha Wells"
-      ],
-      "published": "2017-01-01",
-      "rating": 4.072377013495864,
-      "rating_count": 4594,
-      "isbns": [
-        "9781250214713",
-        "1250214718",
-        "9780765397522",
-        "0765397528"
-      ],
-      "russian_edition_id": 31521127,
-      "russian_isbns": [
-        "9785041052386",
-        "5041052387"
-      ],
-      "cover_url": "https://assets.hardcover.app/edition/31521127/e3f6808118fa360eeddc405c70e14ebe3b66c07f.jpeg",
-      "russian_cover": true,
-      "edition_status": "russian_found",
-      "translation_kind": null,
-      "translation_url": null,
-      "edition_source": "Hardcover",
-      "description_source": "Фантлаб",
-      "description": "В далёком будущем, где над всем властвуют корпорации, каждая экспедиция на другую планету должна получить разрешение и снаряжение от страховой Компании. Все команды исследователей сопровождают предоставленные Компанией андроиды, обеспечивающие безопасность.\r\nОднако в обществе, где контракт получает тот, кто предложил наименьшие расходы, безопасность ― не самое главное.\r\nНа далёкой планете команда исследователей проводит эксперименты под присмотром выданного Компанией робота ― обладающего сознанием охранного устройства, взломавшего программы своего модуля управления и мысленно именующего себя \"Киллерботом\". Людей робот презирает и всё, чего он действительно хочет ― это остаться одному на достаточно долгое время, чтобы решить, кто же он.\r\nОднако когда с соседней экспедицией случается нечто дурное, выяснять, что именно там произошло, приходится учёным и их Киллерботу.",
-      "description_language": "ru",
-      "rank": 25
     },
     {
       "id": 455735,
@@ -807,35 +774,7 @@
       "description_source": "Фантлаб",
       "description": "Тема - противоборство вторжению, ради чего и был создан специальный Фонд. Изучая аномалии, происходящие на планете , сотрудники Фонда натолкнулись на информационный негуманоидный Разум, питающийся информацией, носителем которой являлся каждый человек, при этом уничтожая личность, превращая человека в овощ.",
       "description_language": "ru",
-      "rank": 26
-    },
-    {
-      "id": 2189587,
-      "url": "https://hardcover.app/books/the-fires-of-december",
-      "title": "The Fires of December",
-      "original_title": "The Fires of December",
-      "authors": [
-        "Brandon Sanderson"
-      ],
-      "published": "2026-09-15",
-      "rating": 4.197080291970803,
-      "rating_count": 137,
-      "isbns": [
-        "9781938570728",
-        "1938570723"
-      ],
-      "russian_edition_id": null,
-      "russian_isbns": [],
-      "cover_url": "https://assets.hardcover.app/edition/32409522/5562a0b7-5a80-4b2e-b8a2-cc8f4780b904.png",
-      "russian_cover": false,
-      "edition_status": "no_russian_in_catalog",
-      "translation_kind": null,
-      "translation_url": null,
-      "edition_source": null,
-      "description_source": null,
-      "description": "In the next Cosmere standalone novel, Hoid has an epic tale to share: In a forgotten land sustained by colorful rivers of demon blood, a young woman named December learns a devastating plague is on its way. But who will believe her? Against impossible odds, she sets sail up the River Violet to warn the king's court, determination—and wisdom beyond her years—burning in her eyes. Along the way she’ll navigate incredulous royal officials, twisted court intrigue, and a roguish count with only her wits and her new friends: a talkative priestess and a fledgling fashion designer.",
-      "description_language": null,
-      "rank": 27
+      "rank": 25
     },
     {
       "id": 175780,
@@ -868,6 +807,67 @@
       "description_source": "Фантлаб",
       "description": " Своей победой на 74-х Голодных играх Китнисс и Пит не только заслужили себе жизнь, но и, как считает правящая верхушка в Капитолии, бросили вызов всей системе правления Панема. И теперь главная героиня из простого подростка, против собственной воли, превращается в живой символ неповиновения правящему режиму. Повсюду, почти во всех дистриктах, зреют мятежи и недовольства. А тут ещё поползли слухи, что Дистрикт-13 не был полностью уничтожен 75 лет назад, а сумел частично сохраниться и выйти из повиновения Капитолию.\r\n\r\n Во избежании бунта, администрация Панема, во главе с президентом, решает убрать Китнисс, но убрать необходимо законным способом. И они такой способ находят...",
       "description_language": "ru",
+      "rank": 26
+    },
+    {
+      "id": 427971,
+      "url": "https://hardcover.app/books/all-systems-red",
+      "title": "Отказ всех систем",
+      "original_title": "All Systems Red",
+      "authors": [
+        "Martha Wells"
+      ],
+      "published": "2017-01-01",
+      "rating": 4.072377013495864,
+      "rating_count": 4594,
+      "isbns": [
+        "9781250214713",
+        "1250214718",
+        "9780765397522",
+        "0765397528"
+      ],
+      "russian_edition_id": 31521127,
+      "russian_isbns": [
+        "9785041052386",
+        "5041052387"
+      ],
+      "cover_url": "https://assets.hardcover.app/edition/31521127/e3f6808118fa360eeddc405c70e14ebe3b66c07f.jpeg",
+      "russian_cover": true,
+      "edition_status": "russian_found",
+      "translation_kind": null,
+      "translation_url": null,
+      "edition_source": "Hardcover",
+      "description_source": "Фантлаб",
+      "description": "В далёком будущем, где над всем властвуют корпорации, каждая экспедиция на другую планету должна получить разрешение и снаряжение от страховой Компании. Все команды исследователей сопровождают предоставленные Компанией андроиды, обеспечивающие безопасность.\r\nОднако в обществе, где контракт получает тот, кто предложил наименьшие расходы, безопасность ― не самое главное.\r\nНа далёкой планете команда исследователей проводит эксперименты под присмотром выданного Компанией робота ― обладающего сознанием охранного устройства, взломавшего программы своего модуля управления и мысленно именующего себя \"Киллерботом\". Людей робот презирает и всё, чего он действительно хочет ― это остаться одному на достаточно долгое время, чтобы решить, кто же он.\r\nОднако когда с соседней экспедицией случается нечто дурное, выяснять, что именно там произошло, приходится учёным и их Киллерботу.",
+      "description_language": "ru",
+      "rank": 27
+    },
+    {
+      "id": 2189587,
+      "url": "https://hardcover.app/books/the-fires-of-december",
+      "title": "The Fires of December",
+      "original_title": "The Fires of December",
+      "authors": [
+        "Brandon Sanderson"
+      ],
+      "published": "2026-09-15",
+      "rating": 4.197080291970803,
+      "rating_count": 137,
+      "isbns": [
+        "9781938570728",
+        "1938570723"
+      ],
+      "russian_edition_id": null,
+      "russian_isbns": [],
+      "cover_url": "https://assets.hardcover.app/edition/32409522/5562a0b7-5a80-4b2e-b8a2-cc8f4780b904.png",
+      "russian_cover": false,
+      "edition_status": "no_russian_in_catalog",
+      "translation_kind": null,
+      "translation_url": null,
+      "edition_source": null,
+      "description_source": null,
+      "description": "In the next Cosmere standalone novel, Hoid has an epic tale to share: In a forgotten land sustained by colorful rivers of demon blood, a young woman named December learns a devastating plague is on its way. But who will believe her? Against impossible odds, she sets sail up the River Violet to warn the king's court, determination—and wisdom beyond her years—burning in her eyes. Along the way she’ll navigate incredulous royal officials, twisted court intrigue, and a roguish count with only her wits and her new friends: a talkative priestess and a fledgling fashion designer.",
+      "description_language": null,
       "rank": 28
     },
     {
@@ -904,35 +904,35 @@
       "rank": 29
     },
     {
-      "id": 428506,
-      "url": "https://hardcover.app/books/harry-potter-and-the-half-blood-prince",
-      "title": "Гарри Поттер и Принц-полукровка",
-      "original_title": "Harry Potter and the Half-Blood Prince",
+      "id": 714600,
+      "url": "https://hardcover.app/books/fourth-wing",
+      "title": "Четвертое крыло",
+      "original_title": "Fourth Wing",
       "authors": [
-        "J.K. Rowling"
+        "Rebecca Yarros"
       ],
-      "published": "2005-07-16",
-      "rating": 4.3886318062625325,
-      "rating_count": 6483,
+      "published": "2023-05-02",
+      "rating": 4.0245098039215685,
+      "rating_count": 4182,
       "isbns": [
-        "9780439784542",
-        "0439784549",
-        "9781781100394",
-        "178110039X"
+        "9781649374042",
+        "1649374046",
+        "9783423442206",
+        "3423442204"
       ],
-      "russian_edition_id": 23535934,
+      "russian_edition_id": 31425485,
       "russian_isbns": [
-        "9785353021872",
-        "5353021878"
+        "9785353104797",
+        "535310479X"
       ],
-      "cover_url": "https://assets.hardcover.app/edition/23535934/d204527bb19d07a5be5b7153bbbe4fae4b4f6bd9.jpeg",
+      "cover_url": "https://assets.hardcover.app/external_data/4195256/62905631ba55c3ffa57d74ab234febb908430bd3.jpeg",
       "russian_cover": true,
       "edition_status": "russian_found",
       "translation_kind": null,
       "translation_url": null,
       "edition_source": "Hardcover",
       "description_source": "Фантлаб",
-      "description": "Стать лучшим учеником в классе Гарри Поттеру может помочь Принц-Полукровка. Осуществить задуманное и узнать скрытое может помочь Удача. Поддержать в трудную минуту может любимый человек. Но может ли что-то уберечь от предательства, спасти от смерти близкого человека - это и многое другое предстоит узнать Гарри Поттеру и его друзьям на шестом году обучения.",
+      "description": "Из академии Басгиат есть только два выхода — выпуск или смерть. Представьте, вы мечтали окружить себя книгами и историей, а в итоге — окружены врагами и драконами. Непримиримыми, дерзкими и своенравными.\r\nХрупкое тело, смертельный отбор и сын предателя в роли командира крыла — всё, что нужно для скорой смерти.\r\nНужно постараться, чтобы встретить следующий восход солнца.",
       "description_language": "ru",
       "rank": 30
     }
